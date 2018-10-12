@@ -12,6 +12,24 @@ import { ContactComponent } from './components/contact/contact.component';
 import { SponsorComponent } from './components/sponsor/sponsor.component';
 import { ProjetComponent } from './components/projet/projet.component';
 import { EvenementComponent } from './components/evenement/evenement.component';
+import {ErrorComponent} from './components/error/error.component';
+import {Routes} from '@angular/router';
+import {RouterModule} from '@angular/router';
+
+const appRoutes: Routes = [
+  { path: 'actualite', component: ActualiteComponent},
+  { path: 'contact', component: ContactComponent },
+  { path: 'evenement', component: EvenementComponent },
+  { path: 'not-found', component: ErrorComponent },
+  { path: 'formation', component: FormationComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'projet', component: ProjetComponent },
+  { path: 'sponsor', component: SponsorComponent },
+  { path: 'stucture', component: StructureComponent },
+  { path: '', component: HomeComponent },
+
+  { path: '**', redirectTo: 'not-found' }
+];
 
 @NgModule({
   declarations: [
@@ -25,10 +43,12 @@ import { EvenementComponent } from './components/evenement/evenement.component';
     ContactComponent,
     SponsorComponent,
     ProjetComponent,
-    EvenementComponent
+    EvenementComponent,
+    ErrorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
