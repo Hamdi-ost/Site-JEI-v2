@@ -26,6 +26,7 @@ const appRoutes: Routes = [
   { path: 'projet', component: ProjetComponent },
   { path: 'sponsor', component: SponsorComponent },
   { path: 'stucture', component: StructureComponent },
+  { path: 'structure', component: StructureComponent },
   { path: '', component: HomeComponent },
 
   { path: '**', redirectTo: 'not-found' }
