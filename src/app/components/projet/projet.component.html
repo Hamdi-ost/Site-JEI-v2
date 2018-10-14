@@ -1,3 +1,35 @@
-<p>
-  projet works!
-</p>
+<div class="main-heading">
+    <div class="container">
+      <h3>Projets</h3>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="simplefilter">
+          <li class="active" data-filter="all">
+            <div>All</div>
+          </li>
+          <li *ngFor="let mandat of mandatList; let i=index" data-filter="i">
+            <div>{{mandat}}</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <ul class="row serviceList">
+      <li *ngFor="let projet of projets" class="col-md-4 col-sm-6">
+        <div class="sevices-box">
+          <div class="service-image"><img src="../../../assets/images/{{projet.img}}">
+            <div class="hoverlink"></div>
+          </div>
+          <div class="service-details">
+            <h3 style="color: #0c1434">{{projet.name}}</h3>
+            <p>{{projet.decription}}</p>
+            <a routerLink="/projets/{{projet.id}}" style="margin-left: 20px;" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
