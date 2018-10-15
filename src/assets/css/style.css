@@ -2646,8 +2646,7 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .footer-container {
-    /*background: url(../images/footer-bg.jpg) no-repeat;*/
-    background-color: rgb(12,20,52);
+    background: url(../images/footer-bg.jpg) no-repeat;
     background-size: cover;
     padding: 44px 0 15px 0;
 }
