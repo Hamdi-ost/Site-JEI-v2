@@ -17,6 +17,8 @@ import {Routes} from '@angular/router';
 import {RouterModule} from '@angular/router';
 import { EvenementDetailsComponent } from './components/evenement/evenement-details/evenement-details.component';
 import { ProjetDetailsComponent } from './components/projet/projet-details/projet-details.component';
+import { YearsNavbarService } from './services/years-navbar.service';
+import { YearsNavbarComponent } from './components/years-navbar/years-navbar.component';
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent},
@@ -51,13 +53,14 @@ const appRoutes: Routes = [
     EvenementComponent,
     ErrorComponent,
     EvenementDetailsComponent,
-    ProjetDetailsComponent
+    ProjetDetailsComponent,
+    YearsNavbarComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [YearsNavbarService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

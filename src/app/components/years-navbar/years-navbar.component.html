@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="simplefilter">
+        <li class="active" data-filter="all">
+          <div>All</div>
+        </li>
+        <li *ngFor="let mandat of mandatList; let i=index" data-filter="i">
+          <div>{{mandat}}</div>
+        </li>
+      </ul>
+    </div>
+  </div>

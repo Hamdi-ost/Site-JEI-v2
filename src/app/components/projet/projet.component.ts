@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjetComponent implements OnInit {
 
-  mandatList = ['2013', '2014', '2015', '2016', '2017'];
   projets = [
     { id: 1, name: 'Projet 1', img: 'services-1.jpg', decription: 'description 1'},
     { id: 2, name: 'Projet 2', img: 'services-2.jpg', decription: 'description 2'},

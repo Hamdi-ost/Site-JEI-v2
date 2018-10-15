@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-structure',
   templateUrl: './structure.component.html',
   styleUrls: ['./structure.component.css']
 })
-export class StructureComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class StructureComponent {
+  
+ 
+   
 }
