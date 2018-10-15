@@ -1,16 +1,11 @@
 <div class="page-wrapper">
-  <!-- header-container start -->
   <div class="header-container">
   </div>
 
-  <!-- main-container start -->
-  <!-- ================ -->
   <section class="main-container padding-ver-clear">
     <div class="container pv-40">
       <div class="row">
 
-        <!-- main start -->
-        <!-- ================ -->
         <div class="main col-lg-8">
           <h1 class="title">Project Title</h1>
           <div class="separator-2"></div>
@@ -28,25 +23,12 @@
           <section class="page-section">
             <div class="container" style="margin-top: -70px; margin-left: -35px">
               <ul class="row testimonials-page test">
-                <li class="col-md-6">
+                <li *ngFor="let client of clients" class="col-md-6">
                   <div class="testi-info">
-                    <div class="client-image"><img src="../../../../assets/images/profile-1.png"></div>
+                    <div class="client-image"><img src="../../../../assets/images/{{client.img}}"></div>
                     <div class="test-desc">
-                      <p>In placerat augue eu dui rhoncus aliquet. Nulla eget fringilla elit. In eu neque ex. Integer
-                        scelerisque velit id iaculis malesuada. Donec auctor mollis ornare. Duis vulputate sed velit
-                        sed tempus.</p>
-                      <div class="name">Rhoncus aliquet <span>Lorem Ispum</span></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="col-md-6">
-                  <div class="testi-info">
-                    <div class="client-image"><img src="../../../../assets/images/profile-2.png"></div>
-                    <div class="test-desc">
-                      <p>Quisque in est ut lacus sagittis semper id eget elit. Ut auctor vulputate massa vitae gravida.
-                        Aliquam id facilisis dui. Fusce iaculis, ex luctus vestibulum efficitur, eros urna rhoncus
-                        purus</p>
-                      <div class="name">Sagittis semper<span>Lorem Ispum</span></div>
+                      <p>{{client.testimonial}}</p>
+                      <div class="name">{{client.name}} <span>{{client.post}}</span></div>
                     </div>
                   </div>
                 </li>
@@ -56,107 +38,34 @@
 
           <div class="container">
             <h1>les membres <span> affectés</span></h1>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec
+            <p style="text-align: center;">Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet,
+              consec
               <br> tetuer adipis elit, aliquam eget nibh etlibura.</p>
             <div class="row margin-b-60">
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div *ngFor="let membre of membres" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="employe-container">
                   <div class="employe-thumbnail-classic">
-                    <a href="#"><img class="" src="../../../../assets/images/emp1.jpg"></a>
+                    <img class="" src="../../../../assets/images/{{membre.img}}">
                   </div>
                   <div class="employe-desc">
-                    <a href="#">
-                      <h3>Xavier Frank</h3>
-                    </a>
-                    <h5>Site Engineer</h5>
-                    <p>Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a
-                      viverra mi consequat in. Nunc in ligula risus.</p>
-                    <div class="employe-social-icons-classic">
-                      <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="employe-container">
-                  <div class="employe-thumbnail-classic">
-                    <a href="#"><img class="" src="../../../../assets/images/emp2.jpg"></a>
-                  </div>
-                  <div class="employe-desc">
-                    <a href="#">
-                      <h3>Martin Lusia</h3>
-                    </a>
-                    <h5>Site Engineer</h5>
-                    <p>Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a
-                      viverra mi consequat in. Nunc in ligula risus.</p>
-                    <div class="employe-social-icons-classic">
-                      <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="employe-container">
-                  <div class="employe-thumbnail-classic">
-                    <a href="#"><img class="" src="../../../../assets/images/emp3.jpg"></a>
-                  </div>
-                  <div class="employe-desc">
-                    <a href="#">
-                      <h3>Maria Jas</h3>
-                    </a>
-                    <h5>Site Engineer</h5>
-                    <p>Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a
-                      viverra mi consequat in. Nunc in ligula risus.</p>
-                    <div class="employe-social-icons-classic">
-                      <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="employe-container">
-                  <div class="employe-thumbnail-classic">
-                    <a href="#"><img class="" src="../../../../assets/images/emp4.jpg"></a>
-                  </div>
-                  <div class="employe-desc">
-                    <a href="#">
-                      <h3>Martin Shaa</h3>
-                    </a>
-                    <h5>Site Engineer</h5>
-                    <p>Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a
-                      viverra mi consequat in. Nunc in ligula risus.</p>
-                    <div class="employe-social-icons-classic">
-                      <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
+                    <h3>{{membre.name}}</h3>
+
+                    <h5>{{membre.post}}</h5>
+                    <p>{{membre.description}}</p>
+                    <div class="employe-social-icons-classic">
+                      <a href={{membre.socialMedia.facebook}} target="_blank"><i class="fa fa-facebook"></i></a>
+                      <a href={{membre.socialMedia.linkedin}} target="_blank"><i class="fa fa-linkedin"></i></a>
+                      <a href={{membre.socialMedia.github}} target="_blank"><i class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-           
+
           </div>
         </div>
 
-
-        <!-- main end -->
-
-        <!-- sidebar start -->
         <!-- ================ -->
         <aside class="col-lg-4 col-xl-3 ml-xl-auto">
           <div class="sidebar">
@@ -173,11 +82,11 @@
             </div>
           </div>
         </aside>
-        <!-- sidebar end -->
+
       </div>
     </div>
   </section>
-  <!-- main-container end -->
+
 
 
 

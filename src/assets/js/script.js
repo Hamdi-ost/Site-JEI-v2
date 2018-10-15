@@ -25,6 +25,47 @@
             $(this).css("background-image", "url(" + $(this).data("bg") + ")");
         }
     });
+    
+// Speaker carousel
+if($('.speaker-carousel').length){
+    $('.speaker-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav: true,
+        autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        navText: [
+          '<i class="fas fa-long-arrow-alt-left"></i>',
+          '<i class="fas fa-long-arrow-alt-right"></i>'
+        ],
+        responsive: {
+            0: {
+                items: 1,
+                center: false
+            },
+            480:{
+                items:1,
+                center: false
+            },
+            600: {
+                items: 2,
+                center: false
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            },
+            1200: {
+                items: 3
+            }
+        }
+    })
+}
 
 })(jQuery);
 
