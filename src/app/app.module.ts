@@ -29,13 +29,10 @@ const appRoutes: Routes = [
   { path: 'sponsor', component: SponsorComponent },
   { path: 'structure', component: StructureComponent },
   { path: '', component: HomeComponent },
-<<<<<<< HEAD
-=======
+
 
   { path: 'evenements/:id', component: EvenementDetailsComponent },
   { path: 'projets/:id', component: ProjetDetailsComponent },
-
->>>>>>> 21b89a1c65dc45f7dc442f10db7aaaf70acfc485
   { path: '**', redirectTo: 'not-found' }
 ];
 

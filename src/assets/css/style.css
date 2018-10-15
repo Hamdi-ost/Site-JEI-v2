@@ -8208,7 +8208,10 @@ tbody {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-
+#sticker
+{
+    box-shadow:0px 0px 26px 6px black
+}
 .fixed-header-on .header.fixed:not(.dark) {
   border-bottom: 1px solid #f1f1f1;
   background-color: rgba(255, 255, 255, 0.95);
