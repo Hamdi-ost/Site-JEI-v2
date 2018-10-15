@@ -27,7 +27,6 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'projet', component: ProjetComponent },
   { path: 'sponsor', component: SponsorComponent },
-  { path: 'stucture', component: StructureComponent },
   { path: 'structure', component: StructureComponent },
   { path: '', component: HomeComponent },
 
