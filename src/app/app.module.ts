@@ -15,6 +15,8 @@ import { EvenementComponent } from './components/evenement/evenement.component';
 import {ErrorComponent} from './components/error/error.component';
 import {Routes} from '@angular/router';
 import {RouterModule} from '@angular/router';
+import { EvenementDetailsComponent } from './components/evenement/evenement-details/evenement-details.component';
+import { ProjetDetailsComponent } from './components/projet/projet-details/projet-details.component';
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent},
@@ -27,6 +29,13 @@ const appRoutes: Routes = [
   { path: 'sponsor', component: SponsorComponent },
   { path: 'structure', component: StructureComponent },
   { path: '', component: HomeComponent },
+<<<<<<< HEAD
+=======
+
+  { path: 'evenements/:id', component: EvenementDetailsComponent },
+  { path: 'projets/:id', component: ProjetDetailsComponent },
+
+>>>>>>> 21b89a1c65dc45f7dc442f10db7aaaf70acfc485
   { path: '**', redirectTo: 'not-found' }
 ];
 
@@ -43,7 +52,9 @@ const appRoutes: Routes = [
     SponsorComponent,
     ProjetComponent,
     EvenementComponent,
-    ErrorComponent
+    ErrorComponent,
+    EvenementDetailsComponent,
+    ProjetDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+<div class="main-heading-events">
+    <div class="container">
+      <h3>Evenements</h3>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="simplefilter">
+          <li class="active" data-filter="all">
+            <div>All</div>
+          </li>
+          <li *ngFor="let mandat of mandatList; let i=index" data-filter="i">
+            <div>{{mandat}}</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-12">
+        <!-- This is the set up of a basic gallery, your items must have the big-categories they belong to in a data-category
+        attribute, which starts from the value 1 and goes up from there -->
+        <div class="row filtr-container" style="padding: 0px; position: relative; height: 500px;">
+          <div *ngFor="let evenement of evenements" class="col-xs-12 col-sm-4 col-md-4 filtr-item" attr.data-sort={{evenement.dataSort}}
+            data-category="1, 4">
+            <div class="product-container">
+              <a routerLink="/evenements/{{evenement.id}}" class="portfolio-img mfp-image">
+                <img src="../../../assets/images/projects/{{evenement.img}}" alt="">
+              </a>
+              <span class="item-desc">{{evenement.name}}</span>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+=======
 <p>
   evenement works!
 </p>
+>>>>>>> 62d420876bc24142d490454450265b1382b8c999
