@@ -2646,7 +2646,8 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .footer-container {
-    background: url(../images/footer-bg.jpg) no-repeat;
+    /*background: url(../images/footer-bg.jpg) no-repeat;*/
+    background-color: rgb(12,20,52);
     background-size: cover;
     padding: 44px 0 15px 0;
 }
@@ -2934,7 +2935,7 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .main-heading {
-    background: url(../images/home-bg.jpg) no-repeat;
+    background: url(../images/structure.jpg) no-repeat;
     background-size: cover;
     background-position-y: -45px; 
     padding: 120px 0;
@@ -2966,7 +2967,7 @@ a.btn-style-6.dark-skin:hover {
 .main-heading-events h3,
 .blank-heading h3 {
     font-size: 52px;
-    color: #fff;
+    color: rgb(139,37,44);
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
