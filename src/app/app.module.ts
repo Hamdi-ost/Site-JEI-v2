@@ -31,10 +31,17 @@ const appRoutes: Routes = [
   { path: 'sponsor', component: SponsorComponent },
   { path: 'structure', component: StructureComponent },
   { path: '', component: HomeComponent },
+<<<<<<< HEAD
 
 
   { path: 'evenements/:id', component: EvenementDetailsComponent },
   { path: 'projets/:id', component: ProjetDetailsComponent },
+=======
+
+  { path: 'evenements/:id', component: EvenementDetailsComponent },
+  { path: 'projets/:id', component: ProjetDetailsComponent },
+
+>>>>>>> b6a1811f4d7f7bf91184ff4a9006ddc16a5b4dca
   { path: '**', redirectTo: 'not-found' }
 ];
 

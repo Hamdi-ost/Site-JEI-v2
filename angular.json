@@ -30,10 +30,14 @@
               "src/assets/css/owl.carousel.css",
               "src/assets/css/animate.min.css",
               "src/assets/css/flexslider.css",
+              "src/assets/css/jarallax.css",
+              "src/assets/css/responsive.css",
               "src/assets/css/style.css",
+              
               "src/styles.css"
             ],
             "scripts": [
+           
               "src/assets/js/modernizr.min.js",
               "src/assets/js/angular.min.js",
               "src/assets/js/angular-animate.min.js",
@@ -49,6 +53,7 @@
               "src/assets/js/projects.js" ,
               "src/assets/js/bootstrap.min.js",
               "src/assets/js/jquery.sticky.js",
+              "src/assets/js/wow.min.js",
               "src/assets/js/jquery.scrollTo.min.js",
               "src/assets/js/jquery.localScroll.min.js",
               "src/assets/js/jquery.magnific-popup.min.js",

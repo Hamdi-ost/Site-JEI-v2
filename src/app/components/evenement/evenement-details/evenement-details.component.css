@@ -1,0 +1,542 @@
+/* Common CSS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d2d2d;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: capitalize;
+}
+p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+a { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.section-default {
+    padding: 120px 0 90px;
+    position: relative;
+}
+.col-default {
+    margin-bottom: 30px;
+}
+
+/* Btn CSS */
+.btn-style{
+    background: #111111;
+    color: #ffffff;
+    /*font-weight: 600;*/
+    border: none;
+    padding: 15px 25px;
+    border-radius: 0;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.6s ease 0s;
+}
+.btn-style:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0;
+    border-style: solid;
+    z-index: -1;
+    transition: all 0.6s ease 0s;
+}
+.btn-style:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-width: 0;
+    border-style: solid;
+    z-index: -1;
+    transition: all 0.6s ease 0s;
+}
+.btn-style:hover:before{
+    border-width: 130px 0 0 130px;
+}
+.btn-style:hover:after{
+    border-width: 0 0 130px 130px;
+}
+.btn-style:hover{
+    color:#ffffff;
+}
+.btn-color:before{
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #8b252c;
+}
+.btn-color:after{
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #8b252c;
+}
+
+
+/* Background Over Layer CSS */
+.over-layer-black {
+    position: relative;
+}
+.over-layer-black:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(192, 192, 192, 0.8);
+}
+.over-layer-white {
+    position: relative;
+}
+.over-layer-white:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(192, 192, 192, 0.85);
+}
+
+
+
+/* Section Title CSS */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    padding: 8px 18px;
+}
+.section-title h2 span {
+    color: #8b252c;
+}
+.section-title h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    border: 3px solid #8b252c;
+    border-bottom: none;
+    border-right: none;
+    width: 40px;
+    height: 40px;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    border: 3px solid #8b252c;
+    border-top: none;
+    border-left: none;
+    width: 40px;
+    height: 40px;
+}
+
+.shep-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    width: 350px;
+    height: auto;
+}
+.shep-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 350px;
+    height: auto;
+}
+
+
+/*****-----*****-----*****-----*****
+    . Schedule CSS
+*****-----*****-----*****-----*****/
+.schedule-area {
+    padding: 150px 0;
+    position: relative;
+}
+.tab-panels ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tab-panels .panel {
+  display: none;
+  background: #c0c0c0;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.schedule-box {
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 30px;
+    min-height: 100px;
+    background: #ffffff;
+}
+.schedule-box img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.schedule-box h4 {
+    font-size: 16px;
+    color: #8b252c;
+    padding-top: 10px;
+}
+.schedule-box h3 {
+    font-size: 18px;
+}
+
+/*****-----*****-----*****-----*****
+    07. Organizer CSS
+*****-----*****-----*****-----*****/
+.organizer-area {
+    padding: 150px 0;
+}
+.organizer-area.over-layer-black:before {
+    background: rgba(0,0,0,0.6);
+}
+.organizer-col {
+    text-align: center;
+}
+.organizer-col h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #f3f3f3;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.organizer-col h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: #0c1434;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+.organizer-col ul li {
+    display: inline-block;
+    color: #f3f3f3;
+    margin: 0 5px;
+    font-size: 18px;
+}
+.organizer-col ul li i {
+    margin-right: 5px;
+    color: #0c1434;
+}
+
+/*****-----*****-----*****-----*****
+    13. Gallery CSS
+*****-----*****-----*****-----*****/
+.gallery-area {
+    padding: 150px 0;
+    overflow-x: hidden;
+}
+.p-none {
+    padding: 0;
+}
+.box{
+    overflow: hidden;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: auto;
+}
+.box .box-content{
+    padding: 25% 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.box:hover .box-content{ opacity: 1; }
+.box:before,
+.box:after,
+.box .box-content:before,
+.box .box-content:after{
+    content: "";
+    width: 50%;
+    height: 50%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.box:after{ top: 50%; }
+.box .box-content:before,
+.box .box-content:after{
+    top: 0;
+    left: 50%;
+    z-index: -1;
+}
+.box .box-content:after{ top: 50%; }
+.box:hover:before{
+    left: 50%;
+    opacity: 1;
+}
+.box:hover:after{
+    top: 0;
+    opacity: 1;
+}
+.box:hover .box-content:before{
+    top: 50%;
+    opacity: 1;
+}
+.box:hover .box-content:after{
+    left: 0;
+    opacity: 1;
+}
+.box .title{
+    font-size: 24px;
+    color: #14BBF8;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+.box .post{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.box .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box .icon li{
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.box .icon a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15%;
+    background: #fff;
+    color: #2d2c2c;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.box .icon a:hover{
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+}
+/*****-----*****-----*****-----*****
+    14. Counter CSS
+*****-----*****-----*****-----*****/
+.counter-area {
+    padding: 150px 0 120px;
+    position: relative;
+}
+.counter-col {
+    margin-bottom: 30px;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+}
+.counter-col:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #14BBF8;
+    border-bottom: none;
+    border-right: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.counter-col:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #14BBF8;
+    border-top: none;
+    border-left: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.counter-col:hover:before, .counter-col:hover:after {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.counter-col .counter {
+    font-size: 40px;
+    color: #14BBF8;
+    margin-bottom: 20px;
+}
+.counter-col p {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+/*****-----*****-----*****-----*****
+    06. About CSS
+*****-----*****-----*****-----*****/
+.about-area {
+    padding: 100px 0 120px;
+    position: relative;
+}
+.shep-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    width: 350px;
+    height: auto;
+}
+.shep-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 350px;
+    height: auto;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.about-col h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+.about-col h2 span {
+    color: #8b252c;
+}
+.about-col h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about-col .cd-headline {
+    font-size: 24px;
+    font-weight: 500;
+    background: #14BBF8;
+    color: #f3f3f3;
+    padding: 5px 15px;
+    margin-top: 30px;
+    display: inline-block;
+    /*border-radius: 5px;*/
+}
+.about-col img {
+    
+}
+.history-carousel {
+    margin-top: 30px;
+    position: relative;
+}
+.about-col .owl-theme .owl-nav [class*=owl-] {
+    padding: 5px 15px;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 20px;
+    background: #14BBF8;
+}
+.about-col .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    margin-top: -20px;
+}
+.about-col .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+
+
