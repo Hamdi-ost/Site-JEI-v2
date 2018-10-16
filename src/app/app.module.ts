@@ -18,7 +18,8 @@ import { EvenementDetailsComponent } from './components/evenement/evenement-deta
 import { ProjetDetailsComponent } from './components/projet/projet-details/projet-details.component';
 import { YearsNavbarService } from './services/years-navbar.service';
 import { YearsNavbarComponent } from './components/years-navbar/years-navbar.component';
-import { Departement1Component } from './components/departement1/departement1.component';
+import { Departement1Component } from './components/structure/departement1/departement1.component';
+import { Departement2Component } from './components/structure/departement2/departement2.component';
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent},
@@ -31,12 +32,6 @@ const appRoutes: Routes = [
   { path: 'sponsor', component: SponsorComponent },
   { path: 'structure', component: StructureComponent },
   { path: '', component: HomeComponent },
-
-
-
-  { path: 'evenements/:id', component: EvenementDetailsComponent },
-  { path: 'projets/:id', component: ProjetDetailsComponent },
-
   { path: 'evenements/:id', component: EvenementDetailsComponent },
   { path: 'projets/:id', component: ProjetDetailsComponent },
 
@@ -60,7 +55,8 @@ const appRoutes: Routes = [
     EvenementDetailsComponent,
     ProjetDetailsComponent,
     YearsNavbarComponent,
-    Departement1Component
+    Departement1Component,
+    Departement2Component
   ],
   imports: [
     BrowserModule,
