@@ -26,157 +26,28 @@
       
     
     <!--About start-->
-    <div class="about-container">
-        <div class="container">
-            <div class="row  margin-t-60 margin-b-60">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h2>Vestibulum ven donec lorem dolor</h2>
-                    <p>Quisque quis felis metus. In felis augue, ornare id velit vitae, porta sodales diam. Etiam ut cursus nibh, id aliquet mauris. Sed dignissim urna id commodo vulputate. Donec lorem dolor, egestas sit amet neque ut, lacinia ornare sapien. Sed dapibus, nulla eget mattis fringilla, purus enim vehicula orci, eu iaculis enim purus eu justo. Aliquam vehicula lacus et ipsum congue pharetra. Quisque a tempus tortor. Sed vel sollicitudin leo. Proin aliquam pharetra nibh, eu faucibus felis suscipit tincidunt. Cras suscipit ex eu velit rutrum scelerisque. Pellentesque suscipit tempus hendrerit.purus enim vehicula orci, eu iaculis enim purus eu justo. Aliquam vehicula lacus et ipsum congue pharetra. Quisque a tempus tortor. Sed vel sollicitudin leo. Proin aliquam pharetra nibh, eu faucibus felis suscipit tincidunt. Cras suscipit ex eu velit rutrum scelerisque. Pellentesque suscipit tempus hendrerit.
-                    </p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p-t-60">
-                    <div class="big-progress progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                            Sed dignissim urna, % <span>90</span>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let departement of departementList; let i=index" (click)="onDepartement(i)">
+                <div  class="employe-container team">
+                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-1.jpg" >
+                        <div class="team-profile">
+                            <h5><a href="#">{{departement}}</a></h5>
+                            <span>Responsable:</span>
+                            <span style="color:rgb(12,20,52);">Foulen Fouleni</span>
                         </div>
                     </div>
-                    <div class="big-progress progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                            Quisque a tempus tortor, % <span>80</span>
-                        </div>
-                    </div>
-                    <div class="big-progress progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                            Cras suscipit, % <span>85</span>
-                        </div>
-                    </div>
-                    <div class="big-progress progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                            Cras suscipit ex eu velit, % <span>75</span>
-                        </div>
-                    </div>
-                    <div class="big-progress progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
-                            Aliquam vehicula lacus et ipsum, % <span>95</span>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
 
     <!--About end-->
 
     <!--team start-->
-    <div class="team-container expert-team m-t-90">
-        <div class="container">
-            <h1>OUR <span>TEAM</span></h1>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec
-                <br> tetuer adipis elit, aliquam eget nibh etlibura.</p>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div  class="employe-container team">
-                        <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-1.jpg">
-                            <div class="team-profile">
-                                <h5><a href="#">Quisque pharetra</a></h5>
-                                <span>Supervisor</span>
-                                <ul class="experts">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="employe-container team">
-                        <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-2.jpg">
-                            <div class="team-profile">
-                                <h5><a href="#">Morbi elementum</a></h5>
-                                <span>Supervisor</span>
-                                <ul class="experts">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="employe-container team">
-                        <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-3.jpg">
-                            <div class="team-profile">
-                                <h5><a href="#">Curabitur Eutempor</a></h5>
-                                <span>Supervisor</span>
-                                <ul class="experts">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="employe-container team">
-                        <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-4.jpg">
-                            <div class="team-profile">
-                                <h5><a href="#">Quisque pharetra</a></h5>
-                                <span>Supervisor</span>
-                                <ul class="experts">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="employe-container team">
-                        <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-5.jpg">
-                            <div class="team-profile">
-                                <h5><a href="#">Morbi elementum</a></h5>
-                                <span>Supervisor</span>
-                                <ul class="experts">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="employe-container team">
-                        <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-6.jpg">
-                            <div class="team-profile">
-                                <h5><a href="#">Curabitur Eutempor</a></h5>
-                                <span>Supervisor</span>
-                                <ul class="experts">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!--Team end-->
+        <app-departement1 *ngIf="verifDepartement1"></app-departement1>
+    <!--Team end-->
 
         
 </body>

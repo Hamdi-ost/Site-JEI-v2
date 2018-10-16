@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -19,6 +18,7 @@ import { EvenementDetailsComponent } from './components/evenement/evenement-deta
 import { ProjetDetailsComponent } from './components/projet/projet-details/projet-details.component';
 import { YearsNavbarService } from './services/years-navbar.service';
 import { YearsNavbarComponent } from './components/years-navbar/years-navbar.component';
+import { Departement1Component } from './components/departement1/departement1.component';
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent},
@@ -59,7 +59,8 @@ const appRoutes: Routes = [
     ErrorComponent,
     EvenementDetailsComponent,
     ProjetDetailsComponent,
-    YearsNavbarComponent
+    YearsNavbarComponent,
+    Departement1Component
   ],
   imports: [
     BrowserModule,
