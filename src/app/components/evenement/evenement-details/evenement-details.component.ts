@@ -10,33 +10,30 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class EvenementDetailsComponent {
 
+  name;
   speakers;
   schedule;
   gallery;
   sponsors;
+  description;
 
   getDetails(id) {
-    let i = 0;
-    const details = [];
-    while (data['events'].length > i && data['events'][i].id !== id) {
-      console.log(data['events'][i].id);
-      console.log(id);
-      if (data['events'][0].id === 1) {
-        details.push(data['events'][i]);
-      }
-      i++;
-    }
-    return details;
 
-    /* const details = data['events'].filter(detail => {
-       return detail.id === id;
-     });*/
-
+    const details = data['events'].filter(detail => {
+       if (detail.id === Number(id)) {
+        this.name = detail.name;
+        this.speakers = detail.speakers;
+        this.schedule = detail.schedule;
+        this.gallery = detail.gallery;
+        this.sponsors = detail.sponsors;
+        this.description = detail.description;
+       }
+     });
   }
 
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
-     console.log(this.getDetails(params['id']));
+     this.getDetails(params['id']);
     });
 
   }
