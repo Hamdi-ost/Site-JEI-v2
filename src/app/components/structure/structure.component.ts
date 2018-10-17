@@ -22,10 +22,16 @@ verifDepartement4=false;
   switch(i) { 
     case 0: { 
       this.verifDepartement1=!this.verifDepartement1; 
+      this.verifDepartement2=false; 
+      this.verifDepartement3=false; 
+      this.verifDepartement4=false; 
        break; 
     } 
     case 1: { 
       this.verifDepartement2=!this.verifDepartement2;
+      this.verifDepartement1=false;
+      this.verifDepartement3=false;
+      this.verifDepartement4=false;
        break; 
     } 
     case 2: { 
