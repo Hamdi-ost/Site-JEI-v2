@@ -19,6 +19,9 @@
     src: url('../fonts/Lato-Regular.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 body {
     font-family: 'Open Sans', sans-serif;
     height: auto;
@@ -43,6 +46,7 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
 
 ul,
 ol {
@@ -1966,6 +1970,12 @@ a.btn-style-6.dark-skin:hover {
     margin-bottom: 45px;
 }
 
+.section-container{padding:60px 0}
+
+.section-container.no-padding{padding-top:0}
+
+.section-container-spacer{margin-bottom:30px}
+
 .section-buttons h1 {
     margin: 60px auto !important;
 }
@@ -2556,7 +2566,7 @@ a.btn-style-6.dark-skin:hover {
     position: relative;
     width: 40px;
     height: 40px;
-    background: #8b252c;
+    background: #ed1c24;
     margin-right: 5px;
     border-radius: 50%;
     text-align: center;
@@ -2645,7 +2655,7 @@ a.btn-style-6.dark-skin:hover {
     color: #333;
 }
 
-.footer-container {
+/*.footer-container {
     background: url(../images/footer-bg.jpg) no-repeat;
     background-size: cover;
     padding: 44px 0 15px 0;
@@ -2676,7 +2686,13 @@ a.btn-style-6.dark-skin:hover {
     font-family: 'Roboto Condensed', sans-serif;
     position: relative
 }
+*/
 
+.border-section-container{border-top:1px solid #eee;border-bottom:1px solid #eee}
+
+.footer-container{padding:30px 0;border-top:1px solid #eee}
+
+.footer-container .email-container{padding:30px 0}
 .width-50 li {
     width: 50%;
     float: left;
