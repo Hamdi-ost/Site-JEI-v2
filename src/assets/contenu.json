@@ -2,53 +2,212 @@
     "events": [
         {
             "id": 1,
-            "name": "Event1",
+            "name": "Questions pour un entrepreneur",
             "img": "1.jpg",
-            "speakers" : [
-                {"name": "Speaker1", "img": "1.jpg", "post": "Manager, Envato"},
-                {"name": "Speaker2", "img": "2.jpg", "post": "Web design"},
-                {"name": "Speaker3", "img": "3.jpg", "post": "AI"}
-              ],
-              "schedule" : [
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker1", "img": "19.jpg"},
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker2", "img": "20.jpg"},
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "21.jpg"},
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "22.jpg"}
-              ],
-              "gallery" : [
-                {"img": "1.jpg", "title": "Photo One"},
-                {"img": "2.jpg", "title": "Photo Two"},
-                {"img": "3.jpg", "title": "Photo Three"},
-                {"img": "4.jpg", "title": "Photo Four"},
-                {"img": "5.jpg", "title": "Photo Five"},
-                {"img": "6.jpg", "title": "Photo Six"}
-              ],
-              "sponsors" : ["logo-1.png", "logo-2.png", "logo-3.png", "logo-4.png", "logo-5.png", "logo-6.png"]
+            "description": ["QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
+            "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
+            "challenges.",
+            "Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera",
+            "représentée par 4 participants. Un système d'élimination basé sur des questions bien",
+            "pensées pour apprendre à construire un business plan insubmersible.",
+            "QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et",
+            "éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais",
+            "aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de",
+            "l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer",
+            "le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes",
+            "les juniors et mettra le feu à l’auditorium.",
+            "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
+            "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"],
+            "speakers": [
+                {
+                    "name": "Speaker11",
+                    "img": "1.jpg",
+                    "post": "Manager, Envato"
+                },
+                {
+                    "name": "Speaker12",
+                    "img": "2.jpg",
+                    "post": "Web design"
+                },
+                {
+                    "name": "Speaker13",
+                    "img": "3.jpg",
+                    "post": "AI"
+                }
+            ],
+            "schedule": [
+                {
+                    "time": "2:00 PM - 2:30 PM",
+                    "content": "Ouverture",
+                    "by": "",
+                    "img": "21.jpg"
+                },
+                {
+                    "time": "2:30:00 PM - 3:00 PM",
+                    "content": "Quart de final (2*3 manches)",
+                    "by": "",
+                    "img": "quart.png"
+                },
+                {
+                    "time": "3:00 PM - 3:30 PM",
+                    "content": "1ère pause artistique",
+                    "by": "Band's name",
+                    "img": "pause1.jpg"
+                },
+                {
+                    "time": "3:30 PM - 4:00 PM",
+                    "content": "Quart de final (2*3 manches)",
+                    "by": "",
+                    "img": "quart.png"
+                },
+                {
+                    "time": "4:00 PM - 4:30 PM",
+                    "content": "2ème pause artistique",
+                    "by": "band's name",
+                    "img": "pause2.jpg"
+                },
+                {
+                    "time": "4:30 PM - 5:00 PM",
+                    "content": "demi final (2*3 manches)",
+                    "by": "",
+                    "img": "demi.png"
+                },
+                {
+                    "time": "5:00 PM - 5:15 PM",
+                    "content": "3ème pause artistique",
+                    "by": "band's name",
+                    "img": "pause3.png"
+                },
+                {
+                    "time": "5:15 PM - 5:30 PM",
+                    "content": "Final",
+                    "by": "",
+                    "img": "final.jpeg"
+                },
+                {
+                    "time": "5:30 PM",
+                    "content": "Cloture",
+                    "by": "",
+                    "img": "end.png"
+                }
+            ],
+            "gallery": [
+                {
+                    "img": "1.jpg",
+                    "title": "Photo One"
+                },
+                {
+                    "img": "2.jpg",
+                    "title": "Photo Two"
+                },
+                {
+                    "img": "3.jpg",
+                    "title": "Photo Three"
+                },
+                {
+                    "img": "4.jpg",
+                    "title": "Photo Four"
+                },
+                {
+                    "img": "5.jpg",
+                    "title": "Photo Five"
+                },
+                {
+                    "img": "6.jpg",
+                    "title": "Photo Six"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ]
         },
         {
             "id": 2,
             "name": "Event2",
             "img": "2.jpg",
-            "speakers" : [
-                {"name": "Speaker1", "img": "1.jpg", "post": "Manager, Envato"},
-                {"name": "Speaker2", "img": "2.jpg", "post": "Web design"},
-                {"name": "Speaker3", "img": "3.jpg", "post": "AI"}
-              ],
-              "schedule" : [
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker1", "img": "19.jpg"},
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker2", "img": "20.jpg"},
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "21.jpg"},
-                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "22.jpg"}
-              ],
-              "gallery" : [
-                {"img": "1.jpg", "title": "Photo One"},
-                {"img": "2.jpg", "title": "Photo Two"},
-                {"img": "3.jpg", "title": "Photo Three"},
-                {"img": "4.jpg", "title": "Photo Four"},
-                {"img": "5.jpg", "title": "Photo Five"},
-                {"img": "6.jpg", "title": "Photo Six"}
-              ],
-              "sponsors" : ["logo-1.png", "logo-2.png", "logo-3.png", "logo-4.png", "logo-5.png", "logo-6.png"]
+            "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrPMbled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, survived.",
+            "speakers": [
+                {
+                    "name": "Speaker21",
+                    "img": "1.jpg",
+                    "post": "Manager, Envato"
+                },
+                {
+                    "name": "Speaker22",
+                    "img": "2.jpg",
+                    "post": "Web design"
+                },
+                {
+                    "name": "Speaker23",
+                    "img": "3.jpg",
+                    "post": "AI"
+                }
+            ],
+            "schedule": [
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker1",
+                    "img": "19.jpg"
+                },
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker2",
+                    "img": "20.jpg"
+                },
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker3",
+                    "img": "21.jpg"
+                },
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker3",
+                    "img": "22.jpg"
+                }
+            ],
+            "gallery": [
+                {
+                    "img": "1.jpg",
+                    "title": "Photo One"
+                },
+                {
+                    "img": "2.jpg",
+                    "title": "Photo Two"
+                },
+                {
+                    "img": "3.jpg",
+                    "title": "Photo Three"
+                },
+                {
+                    "img": "4.jpg",
+                    "title": "Photo Four"
+                },
+                {
+                    "img": "5.jpg",
+                    "title": "Photo Five"
+                },
+                {
+                    "img": "6.jpg",
+                    "title": "Photo Six"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ]
         }
     ],
     "projets": [
