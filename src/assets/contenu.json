@@ -1,0 +1,80 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "name": "Event1",
+            "img": "1.jpg",
+            "speakers" : [
+                {"name": "Speaker1", "img": "1.jpg", "post": "Manager, Envato"},
+                {"name": "Speaker2", "img": "2.jpg", "post": "Web design"},
+                {"name": "Speaker3", "img": "3.jpg", "post": "AI"}
+              ],
+              "schedule" : [
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker1", "img": "19.jpg"},
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker2", "img": "20.jpg"},
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "21.jpg"},
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "22.jpg"}
+              ],
+              "gallery" : [
+                {"img": "1.jpg", "title": "Photo One"},
+                {"img": "2.jpg", "title": "Photo Two"},
+                {"img": "3.jpg", "title": "Photo Three"},
+                {"img": "4.jpg", "title": "Photo Four"},
+                {"img": "5.jpg", "title": "Photo Five"},
+                {"img": "6.jpg", "title": "Photo Six"}
+              ],
+              "sponsors" : ["logo-1.png", "logo-2.png", "logo-3.png", "logo-4.png", "logo-5.png", "logo-6.png"]
+        },
+        {
+            "id": 2,
+            "name": "Event2",
+            "img": "2.jpg",
+            "speakers" : [
+                {"name": "Speaker1", "img": "1.jpg", "post": "Manager, Envato"},
+                {"name": "Speaker2", "img": "2.jpg", "post": "Web design"},
+                {"name": "Speaker3", "img": "3.jpg", "post": "AI"}
+              ],
+              "schedule" : [
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker1", "img": "19.jpg"},
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker2", "img": "20.jpg"},
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "21.jpg"},
+                {"time": "09:00 Am - 10:30 AM", "content": "Speach On blalal" , "by": "speaker3", "img": "22.jpg"}
+              ],
+              "gallery" : [
+                {"img": "1.jpg", "title": "Photo One"},
+                {"img": "2.jpg", "title": "Photo Two"},
+                {"img": "3.jpg", "title": "Photo Three"},
+                {"img": "4.jpg", "title": "Photo Four"},
+                {"img": "5.jpg", "title": "Photo Five"},
+                {"img": "6.jpg", "title": "Photo Six"}
+              ],
+              "sponsors" : ["logo-1.png", "logo-2.png", "logo-3.png", "logo-4.png", "logo-5.png", "logo-6.png"]
+        }
+    ],
+    "projets": [
+        {
+            "id": 1,
+            "name": "Projet 1",
+            "img": "services-1.jpg",
+            "decription": "description 1"
+        },
+        {
+            "id": 2,
+            "name": "Projet 2",
+            "img": "services-2.jpg",
+            "decription": "description 2"
+        },
+        {
+            "id": 3,
+            "name": "Projet 3",
+            "img": "services-3.jpg",
+            "decription": "description 3"
+        },
+        {
+            "id": 4,
+            "name": "Projet 4",
+            "img": "services-4.jpg",
+            "decription": "description 4"
+        }
+    ]
+}

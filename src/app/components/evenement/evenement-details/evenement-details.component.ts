@@ -1,39 +1,44 @@
 import { Component, OnInit } from '@angular/core';
+import * as data from '../../../../assets/contenu.json';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-evenement-details',
   templateUrl: './evenement-details.component.html',
   styleUrls: ['./evenement-details.component.css']
 })
-export class EvenementDetailsComponent implements OnInit {
+export class EvenementDetailsComponent {
 
-  speakers = [
-    {name: 'Speaker1', img: '1.jpg', post: 'Manager, Envato'},
-    {name: 'Speaker2', img: '2.jpg', post: 'Web design'},
-    {name: 'Speaker3', img: '3.jpg', post: 'AI'}
-  ];
+  speakers;
+  schedule;
+  gallery;
+  sponsors;
 
-  schedule = [
-    {time: '09:00 Am - 10:30 AM', content: 'Speach On blalal' , by: 'speaker1', img: '19.jpg'},
-    {time: '09:00 Am - 10:30 AM', content: 'Speach On blalal' , by: 'speaker2', img: '20.jpg'},
-    {time: '09:00 Am - 10:30 AM', content: 'Speach On blalal' , by: 'speaker3', img: '21.jpg'},
-    {time: '09:00 Am - 10:30 AM', content: 'Speach On blalal' , by: 'speaker3', img: '22.jpg'}
-  ];
+  getDetails(id) {
+    let i = 0;
+    const details = [];
+    while (data['events'].length > i && data['events'][i].id !== id) {
+      console.log(data['events'][i].id);
+      console.log(id);
+      if (data['events'][0].id === 1) {
+        details.push(data['events'][i]);
+      }
+      i++;
+    }
+    return details;
 
-  gallery = [
-    {img: '1.jpg', title: 'Photo One'},
-    {img: '2.jpg', title: 'Photo Two'},
-    {img: '3.jpg', title: 'Photo Three'},
-    {img: '4.jpg', title: 'Photo Four'},
-    {img: '5.jpg', title: 'Photo Five'},
-    {img: '6.jpg', title: 'Photo Six'},
-  ];
+    /* const details = data['events'].filter(detail => {
+       return detail.id === id;
+     });*/
 
-  sponsors = ['logo-1.png', 'logo-2.png', 'logo-3.png', 'logo-4.png', 'logo-5.png', 'logo-6.png'];
-
-  constructor() { }
-
-  ngOnInit() {
   }
 
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+     console.log(this.getDetails(params['id']));
+    });
+
+  }
 }
+
