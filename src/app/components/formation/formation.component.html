@@ -1,3 +1,28 @@
-<p>
-  formation works!
-</p>
+<div class="main-heading-events">
+  <div class="container">
+    <h3>Formations</h3>
+  </div>
+</div>
+
+<div class="container">
+  <app-years-navbar></app-years-navbar>
+
+  <div class="row">
+    <div class="col-md-12">
+      <!-- This is the set up of a basic gallery, your items must have the big-categories they belong to in a data-category
+      attribute, which starts from the value 1 and goes up from there -->
+      <div class="row filtr-container" style="padding: 0px; position: relative; height: 500px;">
+        <div *ngFor="let formation of formations" class="col-xs-12 col-sm-4 col-md-4 filtr-item" attr.data-sort={{formation.dataSort}}
+          data-category="1, 4">
+          <div class="product-container">
+            <a routerLink="/formations/{{formation.id}}" class="portfolio-img mfp-image">
+              <img src="../../../assets/images/projects/{{formation.img}}" alt="">
+            </a>
+            <span class="item-desc">{{formation.name}}</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
