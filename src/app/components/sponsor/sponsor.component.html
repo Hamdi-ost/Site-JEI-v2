@@ -1,3 +1,41 @@
-<p>
-  sponsor works!
-</p>
+<div class="main-heading">
+  <div class="container">
+    <h3>Our Sponsors</h3>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <h4 class="sponsor-title">Sponsors</h4>
+
+  <ul class="row serviceList">
+    <li *ngFor="let sponsor of sponsors" class="col-md-4 col-sm-6">
+      <div class="services-box">
+        <div class="service-image"><img src="../../../assets/images/logos/{{sponsor.img}}">
+
+        </div>
+
+
+      </div>
+    </li>
+  </ul>
+
+
+  <h4 class="sponsor-title">Partners</h4>
+
+  <ul class="row serviceList">
+    <li *ngFor="let partner of partners" class="col-md-6 col-sm-4">
+      <div class="services-box">
+        <div class="service-image"><img src="../../../assets/images/logos/{{partner.img}}">
+
+        </div>
+
+
+      </div>
+    </li>
+  </ul>
+
+
+</div>
+

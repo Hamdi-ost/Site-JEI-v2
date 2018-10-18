@@ -76,5 +76,45 @@
             "img": "services-4.jpg",
             "decription": "description 4"
         }
-    ]
+    ],
+  "sponsors": [
+        {
+            "name": "Infor",
+            "img": "infor.png"
+        },
+        {
+          "name": "Incept",
+          "img": "incept.png"
+        },
+        {
+          "name": "Meraki Sushi",
+          "img": "meraki-sushi.jpg"
+        },
+        {
+          "name": "Studely",
+          "img": "studely.png"
+        },
+        {
+          "name": "Laser Ice Game",
+          "img": "laser-game-evolution.png"
+        },
+        {
+          "name": "Bouche B",
+          "img": "logo.png"
+        },
+        {
+          "name": "Arvea",
+          "img": "arvea.png"
+        }
+  ],
+  "partners": [
+    {
+      "name": "CFE Conseil",
+      "img": "logo.png"
+    },
+    {
+      "name": "PFI Consulting",
+      "img": "pfi-consulting.png"
+    }
+  ]
 }
