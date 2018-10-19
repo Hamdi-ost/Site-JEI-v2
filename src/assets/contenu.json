@@ -4,6 +4,7 @@
             "id": 1,
             "name": "Questions pour un entrepreneur",
             "img": "1.jpg",
+            "date": "",
             "description": ["QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
             "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
             "challenges.",
@@ -18,23 +19,8 @@
             "les juniors et mettra le feu à l’auditorium.",
             "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
             "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"],
-            "speakers": [
-                {
-                    "name": "Speaker11",
-                    "img": "1.jpg",
-                    "post": "Manager, Envato"
-                },
-                {
-                    "name": "Speaker12",
-                    "img": "2.jpg",
-                    "post": "Web design"
-                },
-                {
-                    "name": "Speaker13",
-                    "img": "3.jpg",
-                    "post": "AI"
-                }
-            ],
+            "organizators": ["Junior Entreprise INSAT"],
+            "speakers": [],
             "schedule": [
                 {
                     "time": "2:00 PM - 2:30 PM",
@@ -128,9 +114,96 @@
         },
         {
             "id": 2,
-            "name": "Event2",
+            "name": "Innovation Camp",
+            "date" :"08/11/2017",
             "img": "2.jpg",
-            "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrPMbled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, survived.",
+            "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
+            "organizators": ["Junior Entreprise INSAT", "La Direction Générale des Etudes Technologiques du Ministère de l'Enseignement Supérieur et de la Recherche Scientifique", "l'association « Injaz Tunisie »"],
+            "speakers": [
+                {
+                    "name": "Speaker21",
+                    "img": "1.jpg",
+                    "post": "Manager, Envato"
+                },
+                {
+                    "name": "Speaker22",
+                    "img": "2.jpg",
+                    "post": "Web design"
+                },
+                {
+                    "name": "Speaker23",
+                    "img": "3.jpg",
+                    "post": "AI"
+                }
+            ],
+            "schedule": [
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker1",
+                    "img": "19.jpg"
+                },
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker2",
+                    "img": "20.jpg"
+                },
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker3",
+                    "img": "21.jpg"
+                },
+                {
+                    "time": "09:00 PM - 10:30 PM",
+                    "content": "Speach On blalal",
+                    "by": "speaker3",
+                    "img": "22.jpg"
+                }
+            ],
+            "gallery": [
+                {
+                    "img": "1.jpg",
+                    "title": "Photo One"
+                },
+                {
+                    "img": "2.jpg",
+                    "title": "Photo Two"
+                },
+                {
+                    "img": "3.jpg",
+                    "title": "Photo Three"
+                },
+                {
+                    "img": "4.jpg",
+                    "title": "Photo Four"
+                },
+                {
+                    "img": "5.jpg",
+                    "title": "Photo Five"
+                },
+                {
+                    "img": "6.jpg",
+                    "title": "Photo Six"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Insatien en Entretien",
+            "date" :"15/11/2017",
+            "img": "3.jpg",
+            "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
+            "organizators": ["Junior Entreprise INSAT", "La Direction Générale des Etudes Technologiques du Ministère de l'Enseignement Supérieur et de la Recherche Scientifique", "l'association « Injaz Tunisie »"],
             "speakers": [
                 {
                     "name": "Speaker21",

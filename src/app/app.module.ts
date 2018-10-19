@@ -16,7 +16,7 @@ import { Routes } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { EvenementDetailsComponent } from './components/evenement/evenement-details/evenement-details.component';
 import { ProjetDetailsComponent } from './components/projet/projet-details/projet-details.component';
-import { YearsNavbarService } from './services/years-navbar.service';
+import { YearsNavbarService } from './services/yearsNavbar.service';
 import { YearsNavbarComponent } from './components/years-navbar/years-navbar.component';
 import { Departement1Component } from './components/structure/departement1/departement1.component';
 import { Departement2Component } from './components/structure/departement2/departement2.component';
