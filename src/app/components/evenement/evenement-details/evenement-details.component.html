@@ -61,7 +61,7 @@
       <div class="col-md-12">
         <div class="organizer-col">
           <h2>Organized By</h2>
-          <h1>Junior Entreprise INSAT</h1>
+          <h1 *ngFor="let organizator of organizators">{{organizator}}</h1>
           <ul>
             <li><i class="fa fa-phone"></i> +0123 321 207 223</li>
             <li><i class="fa fa-envelope"></i> Junior.entreprise.insat@gmail.com</li>

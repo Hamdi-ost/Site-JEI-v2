@@ -15,6 +15,7 @@ export class EvenementDetailsComponent {
   schedule;
   gallery;
   sponsors;
+  organizators;
   description;
 
   getDetails(id) {
@@ -27,13 +28,14 @@ export class EvenementDetailsComponent {
         this.gallery = detail.gallery;
         this.sponsors = detail.sponsors;
         this.description = detail.description;
-       }
+        this.organizators = detail.organizators;
+      }
      });
   }
 
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
-     this.getDetails(params['id']);
+      this.getDetails(params['id']);
     });
 
   }

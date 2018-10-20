@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { YearsNavbarService } from 'src/app/services/years-navbar.service';
+import { YearsNavbarService } from 'src/app/services/yearsNavbar.service';
 
 @Component({
   selector: 'app-years-navbar',
@@ -9,7 +9,7 @@ import { YearsNavbarService } from 'src/app/services/years-navbar.service';
 export class YearsNavbarComponent implements OnInit {
 
   mandatList: any;
-  constructor(private yearsNavbarService:YearsNavbarService) {
+  constructor(private yearsNavbarService: YearsNavbarService) {
     this.mandatList = this.yearsNavbarService.mandatList;
    }
   ngOnInit() {
