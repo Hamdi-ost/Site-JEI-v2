@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-/*import * as data from '../../../../assets/contenu.json';*/
+import * as data from '../../../../assets/contenu.json';
 import { ActivatedRoute } from '@angular/router';
 
 
