@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Questions pour un entrepreneur",
-            "img": "1.jpg",
+            "img": "questionPourUneEntrepreneur.jpg",
             "date": "",
             "description": ["QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
             "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
@@ -20,13 +20,13 @@
             "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
             "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"],
             "organizators": ["Junior Entreprise INSAT"],
-            "speakers": [],
+            "speakers" : null,
             "schedule": [
                 {
                     "time": "2:00 PM - 2:30 PM",
                     "content": "Ouverture",
                     "by": "",
-                    "img": "21.jpg"
+                    "img": "openning.jpg"
                 },
                 {
                     "time": "2:30:00 PM - 3:00 PM",
@@ -77,32 +77,7 @@
                     "img": "end.png"
                 }
             ],
-            "gallery": [
-                {
-                    "img": "1.jpg",
-                    "title": "Photo One"
-                },
-                {
-                    "img": "2.jpg",
-                    "title": "Photo Two"
-                },
-                {
-                    "img": "3.jpg",
-                    "title": "Photo Three"
-                },
-                {
-                    "img": "4.jpg",
-                    "title": "Photo Four"
-                },
-                {
-                    "img": "5.jpg",
-                    "title": "Photo Five"
-                },
-                {
-                    "img": "6.jpg",
-                    "title": "Photo Six"
-                }
-            ],
+            "gallery": null,
             "sponsors": [
                 "logo-1.png",
                 "logo-2.png",
@@ -110,32 +85,17 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ]
+            ],
+            "afterMovie" : null
         },
         {
             "id": 2,
             "name": "Innovation Camp",
             "date" :"08/11/2017",
-            "img": "2.jpg",
+            "img": "innovationCamp.png",
             "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
-            "organizators": ["Junior Entreprise INSAT", "La Direction Générale des Etudes Technologiques du Ministère de l'Enseignement Supérieur et de la Recherche Scientifique", "l'association « Injaz Tunisie »"],
-            "speakers": [
-                {
-                    "name": "Speaker21",
-                    "img": "1.jpg",
-                    "post": "Manager, Envato"
-                },
-                {
-                    "name": "Speaker22",
-                    "img": "2.jpg",
-                    "post": "Web design"
-                },
-                {
-                    "name": "Speaker23",
-                    "img": "3.jpg",
-                    "post": "AI"
-                }
-            ],
+            "organizators": ["Junior Entreprise INSAT", "MESRS", "l'association « Injaz Tunisie »"],
+            "speakers": null,
             "schedule": [
                 {
                     "time": "09:00 PM - 10:30 PM",
@@ -164,27 +124,39 @@
             ],
             "gallery": [
                 {
-                    "img": "1.jpg",
+                    "img": "innov1.jpg",
                     "title": "Photo One"
                 },
                 {
-                    "img": "2.jpg",
+                    "img": "innov2.jpg",
                     "title": "Photo Two"
                 },
                 {
-                    "img": "3.jpg",
+                    "img": "innov3.jpg",
                     "title": "Photo Three"
                 },
                 {
-                    "img": "4.jpg",
+                    "img": "innov4.jpg",
                     "title": "Photo Four"
                 },
                 {
-                    "img": "5.jpg",
+                    "img": "innov5.jpg",
                     "title": "Photo Five"
                 },
                 {
-                    "img": "6.jpg",
+                    "img": "innov6.jpg",
+                    "title": "Photo Six"
+                },
+                {
+                    "img": "innov7.jpg",
+                    "title": "Photo Six"
+                },
+                {
+                    "img": "innov8.jpg",
+                    "title": "Photo Six"
+                },
+                {
+                    "img": "innov9.jpg",
                     "title": "Photo Six"
                 }
             ],
@@ -195,82 +167,155 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ]
+            ],
+            "afterMovie" : null
         },
         {
             "id": 3,
             "name": "Insatien en Entretien",
             "date" :"15/11/2017",
-            "img": "3.jpg",
-            "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
-            "organizators": ["Junior Entreprise INSAT", "La Direction Générale des Etudes Technologiques du Ministère de l'Enseignement Supérieur et de la Recherche Scientifique", "l'association « Injaz Tunisie »"],
+            "img": "insatienEnEntretien.jpg",
+            "description": ["Insatien en Entretien 15/11/2017 est divisé en trois parties: ",
+            "WORKSHOPS :",
+            "-Correction des CV",
+            "-Correction des lettres de motivation",
+            "-Simulation d’entretien",
+            "SPEAKERS :",
+            "Où des directeurs en ressources",
+            "humaines sont invités pour citer les",
+            "problèmes majeurs qu’un étudiant",
+            "peut trouver dans un entretien et",
+            "proposer des solutions pour réussir son entretien. CONFERENCES:",
+            "On a invité des fondateurs des",
+            "entreprise et des entrepreneurs pour",
+            "présenter leurs parcours",
+            "professionnels et montrer les clés de",
+            "succès en tant qu’entrepreneur ."],
+            "organizators": ["Junior Entreprise INSAT"],
             "speakers": [
                 {
-                    "name": "Speaker21",
-                    "img": "1.jpg",
-                    "post": "Manager, Envato"
+                    "name": "Laribi Sadok",
+                    "img": "entretienSpeaker3.jpg",
+                    "post": "Fondateur & manager, ARVEA Nature",
+                    "facebook": "https://www.facebook.com/sadok.laribi"
                 },
                 {
-                    "name": "Speaker22",
-                    "img": "2.jpg",
-                    "post": "Web design"
+                    "name": "Aziz Ben Amor",
+                    "img": "entretienSpeaker2.jpg",
+                    "post": "Ex-conseiller, ministre des TIC",
+                    "facebook": "https://www.facebook.com/azizbenamor.int"
                 },
                 {
-                    "name": "Speaker23",
-                    "img": "3.jpg",
-                    "post": "AI"
+                    "name": "Atef Hamrouni",
+                    "img": "entretienSpeaker1.jpg",
+                    "post": "Directeur, ILA",
+                    "facebook": "https://www.facebook.com/coachatefhamrouni" 
                 }
             ],
             "schedule": [
                 {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker1",
-                    "img": "19.jpg"
+                    "time": "09:00 AM",
+                    "content": "Lancement des workshops",
+                    "by": "",
+                    "img": "workshop.jpg"
                 },
                 {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker2",
-                    "img": "20.jpg"
+                    "time": "09:30 AM - 10:00 AM",
+                    "content": "Mot d’ouverture",
+                    "by": "",
+                    "img": "openning.jpg"
                 },
                 {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker3",
-                    "img": "21.jpg"
+                    "time": "19:00 AM - 10:30 AM",
+                    "content": "Mot du DRH Business& Décision",
+                    "by": "Madame JRAD Manel",
+                    "img": "manel.jpeg"
                 },
                 {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker3",
-                    "img": "22.jpg"
+                    "time": "10:30 AM - 11:00 AM",
+                    "content": "Mot de de la directrice de plateforme de collection et des achats ARAMYS GROUP",
+                    "by": "Madame BADRI Imen",
+                    "img": "imen.jpg"
+                },
+                {
+                    "time": "11:00 AM - 11:20 AM",
+                    "content": "Mot de l’experte en RH",
+                    "by": "Madame BEN GAMRA Ilhem",
+                    "img": "ilhem.jpg"
+                },
+                {
+                    "time": "11:20 AM - 12:00 AM",
+                    "content": "Speech",
+                    "by": "YOUSSEF Nicolas",
+                    "img": "nicolas.jpg"
+                },
+                {
+                    "time": "12:00 AM",
+                    "content": "Clôture de la matinée et pause déjeuner",
+                    "by": "",
+                    "img": "pause.jpg"
+                },
+                {
+                    "time": "14:00 PM",
+                    "content": "Mot de la présidente de JE INSAT",
+                    "by": "",
+                    "img": "prez.png"
+                },
+                {
+                    "time": "14:15 PM - 15:35 PM",
+                    "content": "Mot des sponsors",
+                    "by": "",
+                    "img": "sponsors.png"
+                },
+                {
+                    "time": "15:35 PM",
+                    "content": "Des success story",
+                    "by": "",
+                    "img": "story.jpg"
+                },
+                {
+                    "time": "18:00 PM",
+                    "content": "Clôture de la journée",
+                    "by": "",
+                    "img": "end.png"
                 }
             ],
             "gallery": [
                 {
-                    "img": "1.jpg",
+                    "img": "entretien1.JPG",
                     "title": "Photo One"
                 },
                 {
-                    "img": "2.jpg",
+                    "img": "entretien2.JPG",
                     "title": "Photo Two"
                 },
                 {
-                    "img": "3.jpg",
+                    "img": "entretien3.JPG",
                     "title": "Photo Three"
                 },
                 {
-                    "img": "4.jpg",
+                    "img": "entretien4.JPG",
                     "title": "Photo Four"
                 },
                 {
-                    "img": "5.jpg",
+                    "img": "entretien5.JPG",
                     "title": "Photo Five"
                 },
                 {
-                    "img": "6.jpg",
+                    "img": "entretien6.JPG",
                     "title": "Photo Six"
+                },
+                {
+                    "img": "entretien7.JPG",
+                    "title": "Photo Seven"
+                },
+                {
+                    "img": "entretien8.JPG",
+                    "title": "Photo Eight"
+                },
+                {
+                    "img": "entretien9.JPG",
+                    "title": "Photo Nine"
                 }
             ],
             "sponsors": [
@@ -280,7 +325,8 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ]
+            ],
+            "afterMovie" : "insatien-en-entretien-aftermovie.mp4"
         }
     ],
     "projets": [

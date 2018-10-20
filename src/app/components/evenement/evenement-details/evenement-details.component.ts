@@ -17,6 +17,8 @@ export class EvenementDetailsComponent {
   sponsors;
   organizators;
   description;
+  img;
+  afterMovie;
 
   getDetails(id) {
 
@@ -29,6 +31,8 @@ export class EvenementDetailsComponent {
         this.sponsors = detail.sponsors;
         this.description = detail.description;
         this.organizators = detail.organizators;
+        this.img = detail.img;
+        this.afterMovie = detail.afterMovie;
       }
      });
   }

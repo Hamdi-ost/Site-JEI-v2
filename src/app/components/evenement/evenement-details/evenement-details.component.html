@@ -1,19 +1,25 @@
 <section class="about-area" id="about">
-
-  <div class="container">
+  <div class="container" style="margin-top: -30px">
     <div class="row">
       <div class="col-xl-6 col-lg-12">
         <div class="about-col">
           <h2>about our <span>Event</span></h2>
-          <h4>{{name}}</h4>
+          <p style="padding-bottom: 10px"> <img class="img" src="../../../../assets/images/evenements/affiche/{{img}}" > </p>
           <p class="mb20">{{description}}
+            <p *ngIf="afterMovie">
+              <video  width="1150" controls>
+                  <source src="../../../../assets/images/evenements/{{afterMovie}}" type="video/mp4">
+              </video>
+            </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 <!-- speakers section -->
-<section class="speakers-area" id="speakers">
+<section *ngIf="speakers" class="speakers-area" id="speakers">
   <div class="shep-right">
     <img src="../../../../assets/../../../../assets/images/shep-right.png" alt="">
   </div>
@@ -35,11 +41,11 @@
             <div class="owl-stage">
               <div *ngFor="let speaker of speakers" class="owl-item active" style="width: 350px; margin-right: 30px;">
                 <div class="our-speaker">
-                  <img src="../../../../assets/../../../../assets/images/speaker/{{speaker.img}}" alt="">
+                  <img src="../../../../assets/../../../../assets/images/evenements/speakers/{{speaker.img}}" alt="">
                   <ul class="social">
-                    <li><a href="#" class="fa fa-facebook-f"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                    <li><a href={{speaker.facebook}} target="_blank" class="fa fa-facebook-f"></a></li>
+                    <li><a routerLink="" class="fa fa-twitter"></a></li>
+                    <li><a routerLink="" class="fa fa-pinterest-p"></a></li>
                   </ul>
                   <div class="team-content">
                     <h3 class="title">{{speaker.name}}</h3>
@@ -95,7 +101,7 @@
               <div class="row">
                 <div *ngFor="let scheduleEvent of schedule" class="col-lg-6">
                   <div class="schedule-box">
-                    <img src="../../../../assets/images/schedule/{{scheduleEvent.img}}" alt="">
+                    <img src="../../../../assets/images/evenements/schedule/{{scheduleEvent.img}}" alt="">
                     <h4>{{scheduleEvent.time}}</h4>
                     <h3>{{scheduleEvent.content}}</h3>
                     <p>{{scheduleEvent.by}}</p>
@@ -110,7 +116,7 @@
   </div>
 </section>
 <!--Gallery-->
-<section class="gallery-area" id="gallery">
+<section *ngIf="gallery" class="gallery-area" id="gallery">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -122,7 +128,7 @@
     <div class="row">
       <div *ngFor="let image of gallery" class="col-md-4 col-sm-6 full-wd600 p-none">
         <div class="box">
-          <img src="../../../../assets/images/gellary/{{image.img}}" alt="">
+          <img src="../../../../assets/images/evenements/gallery/{{image.img}}" alt="">
           <div class="box-content">
             <h3 class="title">{{image.title}}</h3>
           </div>
