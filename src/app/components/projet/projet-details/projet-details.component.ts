@@ -1,33 +1,52 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import * as data from '../../../../assets/contenu.json';
 
 @Component({
   selector: 'app-projet-details',
   templateUrl: './projet-details.component.html',
   styleUrls: ['./projet-details.component.css']
 })
-export class ProjetDetailsComponent implements OnInit {
+export class ProjetDetailsComponent   {
 
-  membres = [
-    // tslint:disable-next-line:max-line-length
-    {post: 'Chef d\'equipe', name: 'Xavier Frank', description: 'Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a viverra mi consequat in. Nunc in ligula risus.', img: 'emp1.jpg', socialMedia: {facebook: '', linkedin: '', github: ''}},
-    // tslint:disable-next-line:max-line-length
-    {post: 'Site Engineer', name: 'Martin Lusia', description: 'Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a viverra mi consequat in. Nunc in ligula risus.', img: 'emp2.jpg', socialMedia: {facebook: '', linkedin: '', github: ''}},
-    // tslint:disable-next-line:max-line-length
-    {post: 'Site Engineer', name: 'Maria Jas', description: 'Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a viverra mi consequat in. Nunc in ligula risus.', img: 'emp3.jpg', socialMedia: {facebook: '', linkedin: '', github: ''}},
-    // tslint:disable-next-line:max-line-length
-    {post: 'Site Engineer', name: 'Martin Shaa', description: 'Nulla luctus tincidunt ex, commodo tincidunt est luctus at. Mauris fringilla dictum sem, a viverra mi consequat in. Nunc in ligula risus.', img: 'emp4.jpg', socialMedia: {facebook: '', linkedin: '', github: ''}}
-  ];
+  name ;
+  client;
+  date;
+  sujet;
+  url;
+  contact;
+  presentationEntreprise;
+  presentationProjet;
+  membreAffectees;
+  logo;
+  demo;
+  temoignageClient;
+  socialMedia;
 
-  clients = [
-    // tslint:disable-next-line:max-line-length
-    {testimonial: 'n placerat augue eu dui rhoncus aliquet. Nulla eget fringilla elit. In eu neque ex. Integer scelerisque velit id iaculis malesuada. Donec auctor mollis ornare. Duis vulputate sed velit sed tempus.', name: 'RHONCUS ALIQUET', post: 'Lorem Ispum', img: 'profile-1.png'},
-    // tslint:disable-next-line:max-line-length
-    {testimonial: 'Quisque in est ut lacus sagittis semper id eget elit. Ut auctor vulputate massa vitae gravida. Aliquam id facilisis dui. Fusce iaculis, ex luctus vestibulum efficitur, eros urna rhoncus purus', name: 'SAGITTIS SEMPER', post: 'Lorem Ispum', img: 'profile-2.png'},
-  ];
+  getDetails(id) {
+    const details = data['projets'].filter(detail => {
+      if (detail.id === Number(id)) {
+        this.name = detail.name;
+        this.date = detail.date;
+        this.client = detail.client;
+        this.sujet = detail.sujet;
+        this.url = detail.url;
+        this.contact = detail.contact;
+        this.presentationEntreprise = detail.presentationEntreprise;
+        this.presentationProjet = detail.presentationProjet;
+        this.membreAffectees = detail.membreAffectees;
+        this.logo = detail.logo;
+        this.demo = detail.demo;
+        this.temoignageClient = detail.temoignageClient;
+        this.socialMedia = detail.socialMedia;
+      }
+    });
+  }
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+    this.getDetails(params['id']);
+    });
 
-  constructor() { }
-
-  ngOnInit() {
   }
 
 }

@@ -5,22 +5,26 @@
             "name": "Questions pour un entrepreneur",
             "img": "questionPourUneEntrepreneur.jpg",
             "date": "",
-            "description": ["QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
-            "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
-            "challenges.",
-            "Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera",
-            "représentée par 4 participants. Un système d'élimination basé sur des questions bien",
-            "pensées pour apprendre à construire un business plan insubmersible.",
-            "QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et",
-            "éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais",
-            "aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de",
-            "l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer",
-            "le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes",
-            "les juniors et mettra le feu à l’auditorium.",
-            "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
-            "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"],
-            "organizators": ["Junior Entreprise INSAT"],
-            "speakers" : null,
+            "description": [
+                "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
+                "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
+                "challenges.",
+                "Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera",
+                "représentée par 4 participants. Un système d'élimination basé sur des questions bien",
+                "pensées pour apprendre à construire un business plan insubmersible.",
+                "QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et",
+                "éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais",
+                "aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de",
+                "l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer",
+                "le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes",
+                "les juniors et mettra le feu à l’auditorium.",
+                "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
+                "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "speakers": null,
             "schedule": [
                 {
                     "time": "2:00 PM - 2:30 PM",
@@ -86,15 +90,19 @@
                 "logo-5.png",
                 "logo-6.png"
             ],
-            "afterMovie" : null
+            "afterMovie": null
         },
         {
             "id": 2,
             "name": "Innovation Camp",
-            "date" :"08/11/2017",
+            "date": "08/11/2017",
             "img": "innovationCamp.png",
             "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
-            "organizators": ["Junior Entreprise INSAT", "MESRS", "l'association « Injaz Tunisie »"],
+            "organizators": [
+                "Junior Entreprise INSAT",
+                "MESRS",
+                "l'association « Injaz Tunisie »"
+            ],
             "speakers": null,
             "schedule": [
                 {
@@ -125,39 +133,39 @@
             "gallery": [
                 {
                     "img": "innov1.jpg",
-                    "title": "Photo One"
+                    "title": "Photo 1"
                 },
                 {
                     "img": "innov2.jpg",
-                    "title": "Photo Two"
+                    "title": "Photo 2"
                 },
                 {
                     "img": "innov3.jpg",
-                    "title": "Photo Three"
+                    "title": "Photo 3"
                 },
                 {
                     "img": "innov4.jpg",
-                    "title": "Photo Four"
+                    "title": "Photo 4"
                 },
                 {
                     "img": "innov5.jpg",
-                    "title": "Photo Five"
+                    "title": "Photo 5"
                 },
                 {
                     "img": "innov6.jpg",
-                    "title": "Photo Six"
+                    "title": "Photo 6"
                 },
                 {
                     "img": "innov7.jpg",
-                    "title": "Photo Six"
+                    "title": "Photo 7"
                 },
                 {
                     "img": "innov8.jpg",
-                    "title": "Photo Six"
+                    "title": "Photo 8"
                 },
                 {
                     "img": "innov9.jpg",
-                    "title": "Photo Six"
+                    "title": "Photo 9"
                 }
             ],
             "sponsors": [
@@ -168,30 +176,34 @@
                 "logo-5.png",
                 "logo-6.png"
             ],
-            "afterMovie" : null
+            "afterMovie": null
         },
         {
             "id": 3,
             "name": "Insatien en Entretien",
-            "date" :"15/11/2017",
+            "date": "15/11/2017",
             "img": "insatienEnEntretien.jpg",
-            "description": ["Insatien en Entretien 15/11/2017 est divisé en trois parties: ",
-            "WORKSHOPS :",
-            "-Correction des CV",
-            "-Correction des lettres de motivation",
-            "-Simulation d’entretien",
-            "SPEAKERS :",
-            "Où des directeurs en ressources",
-            "humaines sont invités pour citer les",
-            "problèmes majeurs qu’un étudiant",
-            "peut trouver dans un entretien et",
-            "proposer des solutions pour réussir son entretien. CONFERENCES:",
-            "On a invité des fondateurs des",
-            "entreprise et des entrepreneurs pour",
-            "présenter leurs parcours",
-            "professionnels et montrer les clés de",
-            "succès en tant qu’entrepreneur ."],
-            "organizators": ["Junior Entreprise INSAT"],
+            "description": [
+                "Insatien en Entretien 15/11/2017 est divisé en trois parties: ",
+                "WORKSHOPS :",
+                "-Correction des CV",
+                "-Correction des lettres de motivation",
+                "-Simulation d’entretien",
+                "SPEAKERS :",
+                "Où des directeurs en ressources",
+                "humaines sont invités pour citer les",
+                "problèmes majeurs qu’un étudiant",
+                "peut trouver dans un entretien et",
+                "proposer des solutions pour réussir son entretien. CONFERENCES:",
+                "On a invité des fondateurs des",
+                "entreprise et des entrepreneurs pour",
+                "présenter leurs parcours",
+                "professionnels et montrer les clés de",
+                "succès en tant qu’entrepreneur ."
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
             "speakers": [
                 {
                     "name": "Laribi Sadok",
@@ -209,7 +221,7 @@
                     "name": "Atef Hamrouni",
                     "img": "entretienSpeaker1.jpg",
                     "post": "Directeur, ILA",
-                    "facebook": "https://www.facebook.com/coachatefhamrouni" 
+                    "facebook": "https://www.facebook.com/coachatefhamrouni"
                 }
             ],
             "schedule": [
@@ -283,39 +295,39 @@
             "gallery": [
                 {
                     "img": "entretien1.JPG",
-                    "title": "Photo One"
+                    "title": "Photo 1"
                 },
                 {
                     "img": "entretien2.JPG",
-                    "title": "Photo Two"
+                    "title": "Photo 2"
                 },
                 {
                     "img": "entretien3.JPG",
-                    "title": "Photo Three"
+                    "title": "Photo 3"
                 },
                 {
                     "img": "entretien4.JPG",
-                    "title": "Photo Four"
+                    "title": "Photo 4"
                 },
                 {
                     "img": "entretien5.JPG",
-                    "title": "Photo Five"
+                    "title": "Photo 5"
                 },
                 {
                     "img": "entretien6.JPG",
-                    "title": "Photo Six"
+                    "title": "Photo 6"
                 },
                 {
                     "img": "entretien7.JPG",
-                    "title": "Photo Seven"
+                    "title": "Photo 7"
                 },
                 {
                     "img": "entretien8.JPG",
-                    "title": "Photo Eight"
+                    "title": "Photo 8"
                 },
                 {
                     "img": "entretien9.JPG",
-                    "title": "Photo Nine"
+                    "title": "Photo 9"
                 }
             ],
             "sponsors": [
@@ -326,33 +338,225 @@
                 "logo-5.png",
                 "logo-6.png"
             ],
-            "afterMovie" : "insatien-en-entretien-aftermovie.mp4"
+            "afterMovie": "insatien-en-entretien-aftermovie.mp4"
         }
     ],
     "projets": [
         {
             "id": 1,
-            "name": "Projet 1",
-            "img": "services-1.jpg",
-            "decription": "description 1"
+            "name": "Site Web pour l’association des techniques de robotique",
+            "img": "atrDemo1.jpg",
+            "decription": "La réalisation d’un site web pour définir les activités de l’association.",
+            "client": "Association des techniques de robotiques",
+            "date": "01/03/2018",
+            "sujet": "Site web",
+            "url": "www.atraircraft.com",
+            "contact": "Teissir Ben Sidhom",
+            "presentationEntreprise": [
+                "L'association des techniques de robotique ATR est une association à but non",
+                "lucratif qui a vu le jour au cours de l'année 2012. Cette association qui a été",
+                "créé par un groupe d'élèves ingénieurs est née de la volonté de promouvoir les",
+                "différents domaines scientifiques et plus précisément la robotique et",
+                "l'aéronautique, et de les faire connaitre de tous.",
+                "Le but de l'ATR est de rassembler étudiants et professionnels du domaine",
+                "afin d'échanger les connaissances et de s'enrichir."
+            ],
+            "presentationProjet": [
+                "Le projet consiste en la réalisation d’un site web pour définir les activités de",
+                "l’association.",
+                "Le site doit comprendre un espace pour les inscriptions à la qualification",
+                "tunisienne d’Eurobot 2018."
+            ],
+            "membreAffectees": [
+                {
+                    "name": "DHAOUADI Mouna",
+                    "img": "membreAtr.jpeg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/mouna.dhaouadi.3",
+                        "linkedin": "https://www.linkedin.com/in/mouna-dhaouadi/",
+                        "github": ""
+                    }
+                }
+            ],
+            "logo": "atr.jpg",
+            "demo": [
+                "atrDemo1.jpg",
+                "atrDemo2.jpg",
+                "atrDemo3.jpg",
+                "atrDemo4.jpg",
+                "atrDemo5.jpg",
+                "atrDemo6.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Teissir Ben Sidhom",
+                "poste": "",
+                "doc": "satisfactionATR.pdf",
+                "img": "atr.png"
+            }
         },
         {
             "id": 2,
-            "name": "Projet 2",
-            "img": "services-2.jpg",
-            "decription": "description 2"
+            "name": "Afficheur de gestion de file d’attente",
+            "img": "buvette1.jpg",
+            "decription": "La réalisation d’un afficheur de gestion de file d’attente afin de satisfaire ses clients",
+            "client": "Mr Oussema Brari",
+            "date": "23/01/2018",
+            "sujet": "Systèmes embarqués",
+            "url": "",
+            "contact": "Oussema Brari",
+            "presentationEntreprise": [
+                "La buvette de l’Institut National des Sciences Appliquées et de Technologie de",
+                "Tunis est ouverte à tous les visiteurs de l’institut, et principalement aux",
+                "étudiants, aux enseignants et aux administratifs.",
+                "Elle a pour objectif de les servir en vendant des différents produits",
+                "alimentaires, et en proposant un grand choix des sandwichs, des pâtisseries,",
+                "des boissons et des cafés."
+            ],
+            "presentationProjet": "Afin de satisfaire ses clients et éviter cet encombrement, la buvette envisage la réalisation d’un afficheur de gestion de file d’attente.",
+            "logo": "",
+            "membreAffectees": [
+                {
+                    "name": "KHALED Kacem",
+                    "img": "membreBuvette.jpg",
+                    "post": "Embedded Systems & Control Engineering Student",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/kacem.kh",
+                        "linkedin": "https://www.linkedin.com/in/kacemkhaled/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "buvette4.jpg",
+                "buvette2.jpg",
+                "buvette3.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Mr Oussema Brari",
+                "poste": "Gérant de la buvette de l’INSAT",
+                "doc": "sarisfactionBuvette.pdf",
+                "img": "buvette.jpg"
+            }
         },
         {
             "id": 3,
-            "name": "Projet 3",
-            "img": "services-3.jpg",
-            "decription": "description 3"
+            "name": "Développement des interfaces d’une application",
+            "img": "efret1.png",
+            "decription": "La réalisation des interfaces d’une application mobile",
+            "client": "Efret",
+            "date": "23/02/2018",
+            "sujet": "Développement mobile ",
+            "url": "www.efret.tn",
+            "contact": "Sofian Labidi",
+            "presentationEntreprise": [
+                "eFret est une bourse de transport et de fret en ligne en Tunisie.",
+                " 1eFret.tn est une plateforme interactive mettant en relations des expéditeurs,",
+                " qu’ils soient particuliers ou entreprises avec des prestataires dans le domaine",
+                " du transport, du déménagement et du transit."
+            ],
+            "presentationProjet": [
+                "Afin d’augmenter sa disponibilité envers les utilisateurs, efret envisage la",
+                "réalisation d’une version mobile de la plateforme.",
+                "Le projet consiste en la réalisation des interfaces de l’application mobile du site",
+                "web efret.tn."
+            ],
+            "logo": "efret.png",
+            "membreAffectees": [
+                {
+                    "name": "Oussama Ben Sghaier",
+                    "img": "efret2.jpeg",
+                    "post": "Software Engineering Student at INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/oussama.sghaier.7",
+                        "linkedin": "https://www.linkedin.com/in/oussama-ben-sghaier/",
+                        "github": ""
+                    }
+                },
+                {
+                    "name": "Trablesi Imen",
+                    "img": "efret.jpeg",
+                    "post": "Software Engineering Student at INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/imantra96",
+                        "linkedin": "https://www.linkedin.com/in/imen-trabelsi-0b3505127/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "efret1.png",
+                "efret3.png",
+                "efret6.png",
+                "efret4.png",
+                "efret5.png"
+                
+            ],
+            "temoignageClient": {
+                "img": "efret.jpg",
+                "name": "Mr Sofian Labidi",
+                "poste": "",
+                "doc": "satisfactionEfret.pdf"
+            }
         },
         {
             "id": 4,
-            "name": "Projet 4",
-            "img": "services-4.jpg",
-            "decription": "description 4"
+            "name": "Design d’un catalogue",
+            "img": "gain1.jpg",
+            "decription": "La réalisation d'un design d’un catalogue pour la société G.A.I.N.",
+            "client": "GAIN (Générale des Activités Industrielles)",
+            "date": "20/05/2018",
+            "sujet": "Design",
+            "url": "www.gain.tn",
+            "contact": "Maher KHALED",
+            "presentationEntreprise": [
+                "G.A.I.N est une SARL qui réalise des projets industriels conformément aux",
+                "normes en vigueur dans les spécialités suivantes :",
+                " -Dépoussiérage ",
+                " -Ventilations Industrielles",
+                " -Transport Pneumatique",
+                " -Ensilage",
+                " -Aspiration Industrielle",
+                " -Transport mécanique",
+                " -Charpente, chaudronnerie & tuyauterie",
+                " -Installation des équipements industriels."
+            ],
+            "presentationProjet": "Le projet consiste dans le design d’un catalogue pour promouvoir les activités de la société afin de promouvoir ses activités,",
+            "logo": "gain.jpg",
+            "membreAffectees": [
+                {
+                    "name": "Montassar Azzaiez",
+                    "img": "gain.png",
+                    "post": "",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/azaiezmontassar",
+                        "linkedin": "",
+                        "github": ""
+                    }
+                },
+                {
+                    "name": "DHAOUADI Mouna",
+                    "img": "membreAtr.jpeg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/mouna.dhaouadi.3",
+                        "linkedin": "https://www.linkedin.com/in/mouna-dhaouadi/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "gain1.jpg",
+                "gain2.jpg",
+                "gain3.jpg",
+                "gain4.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Mr Maher KHALED",
+                "poste": "",
+                "doc": "satisfactionGAIN.pdf",
+                "img": "gain.png"
+            }
         }
     ]
 }
