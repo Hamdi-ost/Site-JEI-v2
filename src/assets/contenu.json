@@ -98,7 +98,7 @@
         },
         {
             "id": 2,
-            "name": "Innovation Camp",
+            "name": "Innovation Camp INSAT",
             "date": "08/11/2017",
             "day": "08",
             "month": "Aout",
@@ -513,7 +513,7 @@
         },
         {
             "id": 4,
-            "name": "Design d’un catalogue",
+            "name": "Design d’un catalogue pour la société G.A.I.N.",
             "img": "gain1.jpg",
             "decription": "La réalisation d'un design d’un catalogue pour la société G.A.I.N.",
             "client": "GAIN (Générale des Activités Industrielles)",
@@ -572,7 +572,7 @@
         },
         {
             "id": 5,
-            "name": "Site web pour le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
+            "name": "Site web pour « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
             "img": "pizza1.png  ",
             "decription": "La réalisation d’un site web pour le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
             "client": "PIZZA NAPOLI GERLAND CHEZ LUIGI",
