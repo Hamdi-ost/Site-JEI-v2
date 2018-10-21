@@ -1,26 +1,32 @@
 <div class="main-heading-events">
-    <div class="container">
-      <h3>Evenements</h3>
-    </div>
-  </div>
-  
   <div class="container">
-    <app-years-navbar></app-years-navbar>
-  
-    <div class="row">
-      <div class="col-md-12" >
-        <div class="row filtr-container" style="padding: 0px; position: relative; height: 500px;">
-          <div *ngFor="let evenement of evenements" class="col-xs-12 col-sm-4 col-md-4 filtr-item" attr.data-sort={{evenement.dataSort}}
-            data-category="1, 4" >
-            <div class="product-container" style="height: 150px">
-              <a routerLink="/evenements/{{evenement.id}}" class="portfolio-img mfp-image">
-                <img src="../../../assets/images/evenements/affiche/{{evenement.img}}" alt="">
-              </a>
-              <span class="item-desc">{{evenement.name}}</span>
+    <h3>Evenements</h3>
+  </div>
+</div>
+
+<div class="container">
+  <app-years-navbar></app-years-navbar>
+
+  <div class="row" style="margin-top: -20px">
+    <div class="col-md-12">
+      <div class="row filtr-container" style="padding: 0px; position: relative; height: 250px;">
+        <div class="example-1 card" *ngFor="let evenement of evenements" style="padding: 10px">
+          <div class="wrapper"  [style.background]="'url(../../../assets/images/evenements/affiche/' + evenement.img + ')'">
+            <div class="date">
+              <span class="day">{{evenement.day}}</span>
+              <span class="month">{{evenement.month}}</span>
+              <span class="year">{{evenement.year}}</span>
+            </div>
+            <div class="data">
+              <div class="content">
+                <h1 class="title"><a >{{evenement.name}}</a></h1>
+                <p class="text"><a routerLink="/evenements/{{evenement.id}}" style="margin-left: 125px;" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Lire la suite</a></p>
             </div>
           </div>
-  
         </div>
+
       </div>
     </div>
   </div>
+</div>
+

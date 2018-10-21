@@ -4,7 +4,11 @@
             "id": 1,
             "name": "Questions pour un entrepreneur",
             "img": "questionPourUneEntrepreneur.jpg",
-            "date": "",
+            "img2": "questionPourUneEntrepreneur.jpg",
+            "date": "02/05/2018",
+            "day": "02",
+            "month": "Mai",
+            "year": "2018",
             "description": [
                 "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
                 "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
@@ -96,7 +100,11 @@
             "id": 2,
             "name": "Innovation Camp",
             "date": "08/11/2017",
-            "img": "innovationCamp.png",
+            "day": "08",
+            "month": "Aout",
+            "year": "2017",
+            "img": "in.jpg",
+            "img2": "inn.jpg",
             "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
             "organizators": [
                 "Junior Entreprise INSAT",
@@ -182,7 +190,11 @@
             "id": 3,
             "name": "Insatien en Entretien",
             "date": "15/11/2017",
+            "day": "15",
+            "month": "Novembre",
+            "year": "2017",
             "img": "insatienEnEntretien.jpg",
+            "img2": "insatienEnEntretien.jpg",
             "description": [
                 "Insatien en Entretien 15/11/2017 est divisé en trois parties: ",
                 "WORKSHOPS :",
@@ -349,7 +361,7 @@
             "decription": "La réalisation d’un site web pour définir les activités de l’association.",
             "client": "Association des techniques de robotiques",
             "date": "01/03/2018",
-            "sujet": "Site web",
+            "sujet": "Développement web",
             "url": "www.atraircraft.com",
             "contact": "Teissir Ben Sidhom",
             "presentationEntreprise": [
@@ -550,6 +562,58 @@
                 "gain2.jpg",
                 "gain3.jpg",
                 "gain4.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Mr Maher KHALED",
+                "poste": "",
+                "doc": "satisfactionGAIN.pdf",
+                "img": "gain.png"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Site web pour le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
+            "img": "pizza1.png  ",
+            "decription": "La réalisation d’un site web pour le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
+            "client": "PIZZA NAPOLI GERLAND CHEZ LUIGI",
+            "date": "23 / 09 / 2018",
+            "sujet": "Développement web",
+            "url": "https://pizzanapoli-gerland.com/",
+            "contact": "Maher KHALED",
+            "presentationEntreprise": [
+                "Le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI » est un restaurant italien situé en France, à Lyon. Sa mission est de faire vivre ses visiteurs une expérience italienne la plus authentique. Grâce à sa pizza cuite au feu de bois, ses produits frais, sa pâte fine et moelleuse, son pizzaiolo offre une pizza cuite dans les plus pures des traditions napolitaines et fait voyager grâce à son gout unique et époustouflant."
+            ],
+            "presentationProjet": "Le projet consiste en la réalisation d’un site web vitrine pour le restaurant dans le but de faire découvrir ses spécialités, de montrer son savoir-faire et d’attirer de nouveaux clients. Le site a ainsi la possibilité en temps réel, d’informer les habitués des nouveaux menus proposés sur la carte, de les prévenir en cas de changement d’adresse ou de modifications d’horaires d’ouvertures et de fermeture.",
+            "logo": "pizza1.png",
+            "membreAffectees": [
+                {
+                    "name": "FEKIH Aziz",
+                    "img": "pizza1.jpg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/azizfekih",
+                        "linkedin": "https://www.linkedin.com/in/aziz-fekih-816026155/",
+                        "github": ""
+                    }
+                },
+                {
+                    "name": "BIBI Mohamed Aziz",
+                    "img": "pizza2.jpg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/medaziiz",
+                        "linkedin": "https://www.linkedin.com/in/mohamed-aziz-bibi-6a719212a/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                
+                "pizza2.png",
+                "pizza3.png",
+                "pizza4.png",
+                "pizza5.png",
+                "pizza6.png"
             ],
             "temoignageClient": {
                 "name": "Mr Maher KHALED",

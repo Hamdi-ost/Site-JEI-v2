@@ -707,7 +707,7 @@ body.header-3 {
 
 .header-contact-blocks >li>a:focus,
 .header-contact-blocks >li>a:hover {
-    background: ;
+   
 }
 
 
@@ -1879,7 +1879,7 @@ a.btn-style-6.dark-skin:hover {
     text-align: center;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
-    ` border-radius: 2px;
+     border-radius: 2px;
 }
 
 .type-1 span:last-of-type {
@@ -4243,11 +4243,11 @@ select {
 }
 
 .white-box-shadow:hover hr {
-    background: #3396d6;
+    background: #c0c0c0;
 }
 
 .white-box-shadow:hover a {
-    color: #3396d6;
+    color: #c0c0c0;
 }
 
 .box-shadow-effect1 {
@@ -7753,10 +7753,6 @@ tbody {
     width: 1170px;
   }
 }
-
-
-
-
 
 
 

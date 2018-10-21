@@ -4,7 +4,7 @@
       <div class="col-xl-6 col-lg-12">
         <div class="about-col">
           <h2>A propos de notre <span>événement</span></h2>
-          <p style="padding-bottom: 10px"> <img class="img" src="../../../../assets/images/evenements/affiche/{{img}}" > </p>
+          <p style="padding-bottom: 10px"> <img class="img" src="../../../../assets/images/evenements/affiche/{{img2}}"  > </p>
           <p class="mb20">{{description}}
             <p *ngIf="afterMovie">
               <video  width="1150" controls>
@@ -19,13 +19,7 @@
 
 
 <!-- speakers section -->
-<section *ngIf="speakers" class="speakers-area" id="speakers">
-  <div class="shep-right">
-    <img src="../../../../assets/../../../../assets/images/shep-right.png" alt="">
-  </div>
-  <div class="shep-left">
-    <img src="../../../../assets/../../../../assets/images/shep-left.png" alt="">
-  </div>
+<section *ngIf="speakers" class="speakers-area" id="speakers" style="margin-top: -200px">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -79,12 +73,6 @@
 </section>
 <!-- Schedule section -->
 <section class="schedule-area" id="schedules">
-  <div class="shep-right">
-    <img src="../../../../assets/images/shep-right.png" alt="">
-  </div>
-  <div class="shep-left">
-    <img src="../../../../assets/images/shep-left.png" alt="">
-  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -116,7 +104,7 @@
   </div>
 </section>
 <!--Gallery-->
-<section *ngIf="gallery" class="gallery-area" id="gallery">
+<section *ngIf="gallery" class="gallery-area" id="gallery" style="margin-top: -200px">
   <div class="container">
     <div class="row">
       <div class="col-md-12">

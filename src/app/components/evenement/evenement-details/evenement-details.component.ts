@@ -19,6 +19,7 @@ export class EvenementDetailsComponent {
   description;
   img;
   afterMovie;
+  img2;
 
   getDetails(id) {
 
@@ -32,6 +33,7 @@ export class EvenementDetailsComponent {
         this.description = detail.description;
         this.organizators = detail.organizators;
         this.img = detail.img;
+        this.img2 = detail.img2;
         this.afterMovie = detail.afterMovie;
       }
      });
