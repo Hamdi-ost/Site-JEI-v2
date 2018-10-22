@@ -21,6 +21,7 @@ import { YearsNavbarComponent } from './components/years-navbar/years-navbar.com
 import { Departement1Component } from './components/structure/departement1/departement1.component';
 import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
+import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent },
@@ -59,7 +60,8 @@ const appRoutes: Routes = [
     YearsNavbarComponent,
     Departement1Component,
     Departement2Component,
-    FormationDetailsComponent
+    FormationDetailsComponent,
+    ActualiteDetailsComponent
   ],
   imports: [
     BrowserModule,

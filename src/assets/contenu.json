@@ -502,7 +502,6 @@
                 "efret6.png",
                 "efret4.png",
                 "efret5.png"
-                
             ],
             "temoignageClient": {
                 "img": "efret.jpg",
@@ -621,6 +620,370 @@
                 "doc": "satisfactionGAIN.pdf",
                 "img": "gain.png"
             }
+        }
+    ],
+    "formations": [
+        {
+            "id": 1,
+            "name": "Formation attitudes et leadership",
+            "img": "1.jpg",
+            "date": "29/11/2017",
+            "category": "soft skills",
+            "description": [
+                "ici la description de la formation attitudes et leadership"
+            ],
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma1-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma1-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma1-3.jpg",
+                    "title": "Photo 3"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg"
+            },
+            "afterMovie": null
+        },
+        {
+            "id": 2,
+            "name": "Formation gestion du temps et du stress",
+            "date": "04/10/2017",
+            "category": "soft skills",
+            "img": "2.png",
+            "description": "ici la description de la formation gestion du temps et du stress ",
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg"
+            },
+            "organizators": [
+                "Junior Entreprise INSAT",
+                "MESRS",
+                "l'association « Injaz Tunisie »"
+            ],
+            "gallery": [
+                {
+                    "img": "forma2-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma2-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "innov2-3.jpg",
+                    "title": "Photo 3"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 3,
+            "name": "Formation Laravel",
+            "date": "24/01/2017",
+            "category": "backend",
+            "img": "3.jpg",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg"
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "description": [
+                "ici description de la formation laravel"
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma3-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma3-2.jpg",
+                    "title": "Photo 2"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 4,
+            "name": "Formation photoshop 1ere session",
+            "date": "18/01/2018",
+            "category": "design",
+            "img": "4.png",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg"
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "description": "ici la description de la formation photoshop 1ere session",
+            "organizators": [
+                "Junior Entreprise INSAT",
+                "MESRS",
+                "l'association « Injaz Tunisie »"
+            ],
+            "gallery": [
+                {
+                    "img": "forma4-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma4-2.jpg",
+                    "title": "Photo 2"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 5,
+            "name": "Formation photoshop 2eme session",
+            "date": "24/01/2018",
+            "category": "design",
+            "img": "4.png",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg"
+            },
+            "description": "ici la description de la formation photoshop session 2 ",
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT",
+                "MESRS",
+                "l'association « Injaz Tunisie »"
+            ],
+            "gallery": [
+                {
+                    "img": "forma4-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma4-2.jpg",
+                    "title": "Photo 2"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 6,
+            "name": "Formation sponsoring",
+            "date": "14/02/2018",
+            "category": "soft skills",
+            "img": "6.png",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg"
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "description": "ici la description de la formation sponsoring ",
+            "organizators": [
+                "Junior Entreprise INSAT",
+                "MESRS",
+                "l'association « Injaz Tunisie »"
+            ],
+            "gallery": [
+                {
+                    "img": "forma6-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma6-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma6-3.jpg",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "forma6-4.jpg",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "forma6-5.jpg",
+                    "title": "Photo 5"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": null
         }
     ]
 }
