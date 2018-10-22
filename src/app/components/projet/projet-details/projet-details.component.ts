@@ -22,6 +22,7 @@ export class ProjetDetailsComponent   {
   demo;
   temoignageClient;
   socialMedia;
+  video;
 
   getDetails(id) {
     const details = data['projets'].filter(detail => {
@@ -39,6 +40,7 @@ export class ProjetDetailsComponent   {
         this.demo = detail.demo;
         this.temoignageClient = detail.temoignageClient;
         this.socialMedia = detail.socialMedia;
+        this.video = detail.video;
       }
     });
   }
