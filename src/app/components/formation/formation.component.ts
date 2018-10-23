@@ -14,7 +14,9 @@ export class FormationComponent implements OnInit {
     { id: 3, name: 'Formation laravel', img: '3.jpg' },
     { id: 4, name: 'Formation photoshop 1ere session', img: '4.jpg' },
     { id: 5, name: 'Formation photoshop 2eme session', img: '4.jpg' },
-    { id: 6, name: 'Formation sponsoring', img: '6.png' },
+    { id: 6, name: 'Formation en sponsoring et techniques de négociation ', img: '6.png' },
+    { id: 7, name: 'Formation en Prospection du client ', img: '7.jpg' },
+    { id: 8, name: 'Formation en Event Management ', img: '8.jpg' },
   ];
 
 

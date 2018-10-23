@@ -608,7 +608,6 @@
                 }
             ],
             "demo": [
-                
                 "pizza2.png",
                 "pizza3.png",
                 "pizza4.png",
@@ -631,7 +630,7 @@
             "date": "29/11/2017",
             "category": "soft skills",
             "description": [
-                "ici la description de la formation attitudes et leadership"
+                "La formation a comme but d’instaurer le style de gestion et de direction dans une équipe tout en ayant une attitude entrepreneuriale adéquate entre la vision et les actions. Après cette formation, les participants seront plus aptes de travailler en équipe, de diriger une équipe, et surtout d’être un « LEADER » . "
             ],
             "objectifs": [
                 "objectif1",
@@ -667,20 +666,20 @@
             "temoignages": [
                 {
                     "name": "Lina dridi",
-                    "authorDesc": "PDG INSAT",
+                    "authorDesc": "etudiante",
                     "review": "my review",
                     "picture": "1.jpg"
                 },
                 {
                     "name": "Ghazi dridi",
-                    "authorDesc": "PDG Esprit",
+                    "authorDesc": "etudiant",
                     "review": "my review",
                     "picture": "1.jpg"
                 }
             ],
             "trainer": {
-                "name": "Lina dridi",
-                "desc": "PDG INSAT",
+                "name": "Mme Ilhem ben Gamra ",
+                "desc": "consultante en GRH",
                 "picture": "1.jpg"
             },
             "afterMovie": null
@@ -691,7 +690,7 @@
             "date": "04/10/2017",
             "category": "soft skills",
             "img": "2.png",
-            "description": "ici la description de la formation gestion du temps et du stress ",
+            "description": "Un junior entrepreneur ne peut exceller dans son travail qu’en gérant son stress et son temps de la meilleure des manières. Dans ce cadre, la formation a eu lieu afin de mieux connaitre les facteurs de stress et d’en tenir compte de manière à aboutir à une gestion du temps plus efficace.Après la formation, les participants ont réussi à faire l’équilibre entre les attentes de la Junior Entreprise INSAT, leurs vies privées et les nécessités estudiantines. ",
             "objectifs": [
                 "objectif1",
                 "objectif2",
@@ -699,14 +698,12 @@
                 "objectif4"
             ],
             "trainer": {
-                "name": "Lina dridi",
-                "desc": "PDG INSAT",
+                "name": "Mme Ilhem Gamra",
+                "desc": "consultante en GRH",
                 "picture": "1.jpg"
             },
             "organizators": [
-                "Junior Entreprise INSAT",
-                "MESRS",
-                "l'association « Injaz Tunisie »"
+                "Junior Entreprise INSAT"
             ],
             "gallery": [
                 {
@@ -733,13 +730,13 @@
             "temoignages": [
                 {
                     "name": "Lina dridi",
-                    "authorDesc": "PDG INSAT",
+                    "authorDesc": "etudiante",
                     "review": "my review",
                     "picture": "1.jpg"
                 },
                 {
                     "name": "Ghazi dridi",
-                    "authorDesc": "PDG Esprit",
+                    "authorDesc": "etudiant",
                     "review": "my review",
                     "picture": "1.jpg"
                 }
@@ -749,7 +746,7 @@
         {
             "id": 3,
             "name": "Formation Laravel",
-            "date": "24/01/2017",
+            "date": "24/01/2018",
             "category": "backend",
             "img": "3.jpg",
             "trainer": {
@@ -764,7 +761,7 @@
                 "objectif4"
             ],
             "description": [
-                "ici description de la formation laravel"
+                "La formation avait comme but de former une équipe qui travaille sur un projet ayant fait l’objet d’une prospection chez un client. Par le biais de cette formation, les participants se sont initiés à ce Framework qui est considéré parmi les plus appréciés pour sa simplicité et ses fonctionnalités. "
             ],
             "organizators": [
                 "Junior Entreprise INSAT"
@@ -790,13 +787,13 @@
             "temoignages": [
                 {
                     "name": "Lina dridi",
-                    "authorDesc": "PDG INSAT",
+                    "authorDesc": "etudiante",
                     "review": "my review",
                     "picture": "1.jpg"
                 },
                 {
                     "name": "Ghazi dridi",
-                    "authorDesc": "PDG Esprit",
+                    "authorDesc": "etudiant",
                     "review": "my review",
                     "picture": "1.jpg"
                 }
@@ -820,11 +817,9 @@
                 "objectif3",
                 "objectif4"
             ],
-            "description": "ici la description de la formation photoshop 1ere session",
+            "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
             "organizators": [
-                "Junior Entreprise INSAT",
-                "MESRS",
-                "l'association « Injaz Tunisie »"
+                "Junior Entreprise INSAT"
             ],
             "gallery": [
                 {
@@ -847,13 +842,13 @@
             "temoignages": [
                 {
                     "name": "Lina dridi",
-                    "authorDesc": "PDG INSAT",
+                    "authorDesc": "etudianteINSAT",
                     "review": "my review",
                     "picture": "1.jpg"
                 },
                 {
                     "name": "Ghazi dridi",
-                    "authorDesc": "PDG Esprit",
+                    "authorDesc": "etudiant",
                     "review": "my review",
                     "picture": "1.jpg"
                 }
@@ -868,10 +863,10 @@
             "img": "4.png",
             "trainer": {
                 "name": "Lina dridi",
-                "desc": "PDG INSAT",
+                "desc": "formatrice",
                 "picture": "1.jpg"
             },
-            "description": "ici la description de la formation photoshop session 2 ",
+            "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
             "objectifs": [
                 "objectif1",
                 "objectif2",
@@ -879,9 +874,7 @@
                 "objectif4"
             ],
             "organizators": [
-                "Junior Entreprise INSAT",
-                "MESRS",
-                "l'association « Injaz Tunisie »"
+                "Junior Entreprise INSAT"
             ],
             "gallery": [
                 {
@@ -904,13 +897,13 @@
             "temoignages": [
                 {
                     "name": "Lina dridi",
-                    "authorDesc": "PDG INSAT",
+                    "authorDesc": "etudiante INSAT",
                     "review": "my review",
                     "picture": "1.jpg"
                 },
                 {
                     "name": "Ghazi dridi",
-                    "authorDesc": "PDG Esprit",
+                    "authorDesc": "etudiant",
                     "review": "my review",
                     "picture": "1.jpg"
                 }
@@ -919,12 +912,12 @@
         },
         {
             "id": 6,
-            "name": "Formation sponsoring",
+            "name": "Formation en sponsoring et techniques de négociation",
             "date": "14/02/2018",
             "category": "soft skills",
             "img": "6.png",
             "trainer": {
-                "name": "Lina dridi",
+                "name": "Lilia Zghal",
                 "desc": "PDG INSAT",
                 "picture": "1.jpg"
             },
@@ -948,11 +941,143 @@
                     "picture": "1.jpg"
                 }
             ],
-            "description": "ici la description de la formation sponsoring ",
+            "description": "La formation avait comme but d’expliquer la procédure de sponsoring en partant de la préparation du dossier de sponsoring et en arrivant à la fidélisation des sponsors tout en dévoilant les techniques pertinentes pour intervenir au financement de la Junior Entreprise. Au cours de la formation, des simulations de réunions avec des sponsors ont été effectuées. ",
             "organizators": [
-                "Junior Entreprise INSAT",
-                "MESRS",
-                "l'association « Injaz Tunisie »"
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma6-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma6-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma6-3.jpg",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "forma6-4.jpg",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "forma6-5.jpg",
+                    "title": "Photo 5"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 7,
+            "name": "Formation en en Prospection du client ",
+            "date": "10/10/2018",
+            "category": "soft skills",
+            "img": "7.jpg",
+            "trainer": {
+                "name": "Lotfi Cherif",
+                "desc": " Ex président de Junior Entreprise ENISO",
+                "picture": "1.jpg"
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "description": "La formation était dédiée à tous ceux qui sont intéressés par la prospection. Cela leurs a permis de connaitre ces différentes étapes, ces techniques et quelques astuces pour réussir sa prospection. Des exercices pratiques ont été effectués impliquant la totalité des membres.",
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma6-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma6-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma6-3.jpg",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "forma6-4.jpg",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "forma6-5.jpg",
+                    "title": "Photo 5"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 8,
+            "name": "Formation en Event Management",
+            "date": "13/10/2018",
+            "category": "soft skills",
+            "img": "8.jpg",
+            "trainer": {
+                "name": "Fourat Hammi ",
+                "desc": "allumni de la JET ",
+                "picture": "1.jpg"
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudiante",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "description": "Au cours de cette formation, les membres ont assisté à un partage de savoir, de connaissances et d’expérience dans le domaine de l’évènementiel, qui ne pouvait être que bénéfique.",
+            "organizators": [
+                "Junior Entreprise INSAT"
             ],
             "gallery": [
                 {
