@@ -427,7 +427,7 @@
             ],
             "presentationProjet": "Afin de satisfaire ses clients et éviter cet encombrement, la buvette envisage la réalisation d’un afficheur de gestion de file d’attente.",
             "logo": "",
-            "video" : "video.mp4",
+            "video": "video.mp4",
             "membreAffectees": [
                 {
                     "name": "KHALED Kacem",
@@ -680,7 +680,12 @@
             "trainer": {
                 "name": "Mme Ilhem ben Gamra ",
                 "desc": "consultante en GRH",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "afterMovie": null
         },
@@ -700,7 +705,12 @@
             "trainer": {
                 "name": "Mme Ilhem Gamra",
                 "desc": "consultante en GRH",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "organizators": [
                 "Junior Entreprise INSAT"
@@ -752,7 +762,12 @@
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "PDG INSAT",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "objectifs": [
                 "objectif1",
@@ -809,7 +824,12 @@
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "PDG INSAT",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "objectifs": [
                 "objectif1",
@@ -864,7 +884,12 @@
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "formatrice",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
             "objectifs": [
@@ -919,7 +944,12 @@
             "trainer": {
                 "name": "Lilia Zghal",
                 "desc": "PDG INSAT",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "objectifs": [
                 "objectif1",
@@ -986,7 +1016,12 @@
             "trainer": {
                 "name": "Lotfi Cherif",
                 "desc": " Ex président de Junior Entreprise ENISO",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "objectifs": [
                 "objectif1",
@@ -1053,7 +1088,12 @@
             "trainer": {
                 "name": "Fourat Hammi ",
                 "desc": "allumni de la JET ",
-                "picture": "1.jpg"
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
             },
             "objectifs": [
                 "objectif1",
