@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Our Team - BIG Construct</title>
+    <title>Structure</title>
 </head>
 
 <body>
@@ -21,40 +21,17 @@
     <!--About start-->
     
     <!--About start-->
-    <h1>Bureau <span>exécutif</span></h1>
+    <h1>Bureau <span>exécutif 2018-2019</span></h1>
+    
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6"></div>            
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="employe-container team">
-                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/Bureau/President.jpg">
-                        <div class="team-profile">
-                            <h5><a href="#">Aziz Fekih</a></h5>
-                            <span>President</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6"></div>
-        </div>
-    </div>        
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let Memeber of MemberList; let i=index" (click)="onDepartement(i)">
+            <div class="col-lg-4 col-md-4 col-sm-6" *ngFor="let Memeber of MemberList; let i=index" (click)="onDepartement(i)">
                 <div  class="employe-container team">
-                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/Bureau/{{Memeber}}.jpg" >
+                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/Bureau/{{Memeber.office}}.jpg" >
                         <div class="team-profile">
-                            <h5><a href="#">{{Memeber}}</a></h5>
+                            <h5><a href="#">{{Memeber.name}}</a></h5>
                             <span>Responsable:</span>
-                            <span style="color:rgb(12,20,52);">{{Memeber}}</span>
+                            <span style="color:rgb(12,20,52);">{{Memeber.office}}</span>
                             <ul class="experts">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
