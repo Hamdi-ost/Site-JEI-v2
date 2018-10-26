@@ -13,29 +13,54 @@
     <!--inner header start-->
     <div class="main-heading">
         <div class="container">
-            <h3>Our Team</h3>
+            
         </div>
     </div>
     <!--inner header end-->
 
-
-    <!--MandatList start-->
-    <app-years-navbar></app-years-navbar>
-    <!--MandatList end-->
-
     <!--About start-->
     
     <!--About start-->
-    
-        <div class="container">
+    <h1>Bureau <span>exécutif</span></h1>
+    <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let departement of departementList; let i=index" (click)="onDepartement(i)">
-                <div  class="employe-container team">
-                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/team-1.jpg" >
+            <div class="col-lg-4 col-md-4 col-sm-6"></div>            
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="employe-container team">
+                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/Bureau/President.jpg">
                         <div class="team-profile">
-                            <h5><a href="#">{{departement}}</a></h5>
+                            <h5><a href="#">Aziz Fekih</a></h5>
+                            <span>President</span>
+                            <ul class="experts">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6"></div>
+        </div>
+    </div>        
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let Memeber of MemberList; let i=index" (click)="onDepartement(i)">
+                <div  class="employe-container team">
+                    <div class="employe-thumbnail-classic profile-image"> <img src="src/assets/images/Bureau/{{Memeber}}.jpg" >
+                        <div class="team-profile">
+                            <h5><a href="#">{{Memeber}}</a></h5>
                             <span>Responsable:</span>
-                            <span style="color:rgb(12,20,52);">Foulen Fouleni</span>
+                            <span style="color:rgb(12,20,52);">{{Memeber}}</span>
+                            <ul class="experts">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

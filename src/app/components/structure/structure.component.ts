@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class StructureComponent {
   
-departementList = ["departement1","departement2","departement3","departement4"];
+MemberList = ["Vice-President","SecretaireGenerale","Tresoriere","ResponsableCom","ResponsableEvenementiel","ResponsableProjet_Pospection","ResponsableSponsoring","RH"];
 
 verifDepartement1=false;
 verifDepartement2=false;
@@ -18,7 +18,7 @@ verifDepartement4=false;
  constructor (){
  }
  
- onDepartement(i){
+/* onDepartement(i){
   switch(i) { 
     case 0: { 
       this.verifDepartement1=!this.verifDepartement1; 
@@ -43,5 +43,5 @@ verifDepartement4=false;
        break; 
     } 
   }   
- }
+ }*/
 }
