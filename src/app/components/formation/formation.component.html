@@ -13,10 +13,10 @@
       attribute, which starts from the value 1 and goes up from there -->
       <div class="row filtr-container" style="padding: 0px; position: relative; height: 500px;">
         <div *ngFor="let formation of formations" class="col-xs-12 col-sm-4 col-md-4 filtr-item" attr.data-sort={{formation.dataSort}}
-          data-category="1, 4">
-          <div class="product-container">
+          data-category="1, 6">
+          <div class="product-container" style="height: 150px">
             <a routerLink="/formations/{{formation.id}}" class="portfolio-img mfp-image">
-              <img src="../../../assets/images/projects/{{formation.img}}" alt="">
+              <img src="../../../assets/images/formations/affiche/{{formation.img}}" alt="">
             </a>
             <span class="item-desc">{{formation.name}}</span>
           </div>

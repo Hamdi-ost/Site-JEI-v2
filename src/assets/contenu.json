@@ -3,44 +3,38 @@
         {
             "id": 1,
             "name": "Questions pour un entrepreneur",
-            "img": "1.jpg",
-            "description": ["QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
-            "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
-            "challenges.",
-            "Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera",
-            "représentée par 4 participants. Un système d'élimination basé sur des questions bien",
-            "pensées pour apprendre à construire un business plan insubmersible.",
-            "QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et",
-            "éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais",
-            "aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de",
-            "l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer",
-            "le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes",
-            "les juniors et mettra le feu à l’auditorium.",
-            "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
-            "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"],
-            "speakers": [
-                {
-                    "name": "Speaker11",
-                    "img": "1.jpg",
-                    "post": "Manager, Envato"
-                },
-                {
-                    "name": "Speaker12",
-                    "img": "2.jpg",
-                    "post": "Web design"
-                },
-                {
-                    "name": "Speaker13",
-                    "img": "3.jpg",
-                    "post": "AI"
-                }
+            "img": "questionPourUneEntrepreneur.jpg",
+            "img2": "questionPourUneEntrepreneur.jpg",
+            "date": "02/05/2018",
+            "day": "02",
+            "month": "Mai",
+            "year": "2018",
+            "description": [
+                "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
+                "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
+                "challenges.",
+                "Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera",
+                "représentée par 4 participants. Un système d'élimination basé sur des questions bien",
+                "pensées pour apprendre à construire un business plan insubmersible.",
+                "QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et",
+                "éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais",
+                "aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de",
+                "l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer",
+                "le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes",
+                "les juniors et mettra le feu à l’auditorium.",
+                "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
+                "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"
             ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "speakers": null,
             "schedule": [
                 {
                     "time": "2:00 PM - 2:30 PM",
                     "content": "Ouverture",
                     "by": "",
-                    "img": "21.jpg"
+                    "img": "openning.jpg"
                 },
                 {
                     "time": "2:30:00 PM - 3:00 PM",
@@ -91,32 +85,7 @@
                     "img": "end.png"
                 }
             ],
-            "gallery": [
-                {
-                    "img": "1.jpg",
-                    "title": "Photo One"
-                },
-                {
-                    "img": "2.jpg",
-                    "title": "Photo Two"
-                },
-                {
-                    "img": "3.jpg",
-                    "title": "Photo Three"
-                },
-                {
-                    "img": "4.jpg",
-                    "title": "Photo Four"
-                },
-                {
-                    "img": "5.jpg",
-                    "title": "Photo Five"
-                },
-                {
-                    "img": "6.jpg",
-                    "title": "Photo Six"
-                }
-            ],
+            "gallery": null,
             "sponsors": [
                 "logo-1.png",
                 "logo-2.png",
@@ -124,30 +93,25 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ]
+            ],
+            "afterMovie": null
         },
         {
             "id": 2,
-            "name": "Event2",
-            "img": "2.jpg",
-            "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrPMbled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, survived.",
-            "speakers": [
-                {
-                    "name": "Speaker21",
-                    "img": "1.jpg",
-                    "post": "Manager, Envato"
-                },
-                {
-                    "name": "Speaker22",
-                    "img": "2.jpg",
-                    "post": "Web design"
-                },
-                {
-                    "name": "Speaker23",
-                    "img": "3.jpg",
-                    "post": "AI"
-                }
+            "name": "Innovation Camp INSAT",
+            "date": "08/11/2017",
+            "day": "08",
+            "month": "Aout",
+            "year": "2017",
+            "img": "in.jpg",
+            "img2": "inn.jpg",
+            "description": "L’innovation Camp est un atelier intensif de 04-05 heures destiné aux étudiants, dont le but est de leur apprendre à reconnaître les opportunités commerciales et trouver des solutions innovantes sous forme d’entreprise face au défi d’une entreprise ou d’un secteur d’activité économique. Sous forme de Workshop, l’atelier réunira une dizaine d’équipes composées de 8 à 10 étudiants. A la fin de l’atelier, les équipes présenteront leurs projets devant un jury, celui-ci sera désigné par l’établisseme",
+            "organizators": [
+                "Junior Entreprise INSAT",
+                "MESRS",
+                "l'association « Injaz Tunisie »"
             ],
+            "speakers": null,
             "schedule": [
                 {
                     "time": "09:00 PM - 10:30 PM",
@@ -176,28 +140,40 @@
             ],
             "gallery": [
                 {
-                    "img": "1.jpg",
-                    "title": "Photo One"
+                    "img": "innov1.jpg",
+                    "title": "Photo 1"
                 },
                 {
-                    "img": "2.jpg",
-                    "title": "Photo Two"
+                    "img": "innov2.jpg",
+                    "title": "Photo 2"
                 },
                 {
-                    "img": "3.jpg",
-                    "title": "Photo Three"
+                    "img": "innov3.jpg",
+                    "title": "Photo 3"
                 },
                 {
-                    "img": "4.jpg",
-                    "title": "Photo Four"
+                    "img": "innov4.jpg",
+                    "title": "Photo 4"
                 },
                 {
-                    "img": "5.jpg",
-                    "title": "Photo Five"
+                    "img": "innov5.jpg",
+                    "title": "Photo 5"
                 },
                 {
-                    "img": "6.jpg",
-                    "title": "Photo Six"
+                    "img": "innov6.jpg",
+                    "title": "Photo 6"
+                },
+                {
+                    "img": "innov7.jpg",
+                    "title": "Photo 7"
+                },
+                {
+                    "img": "innov8.jpg",
+                    "title": "Photo 8"
+                },
+                {
+                    "img": "innov9.jpg",
+                    "title": "Photo 9"
                 }
             ],
             "sponsors": [
@@ -207,33 +183,973 @@
                 "logo-4.png",
                 "logo-5.png",
                 "logo-6.png"
-            ]
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 3,
+            "name": "Insatien en Entretien",
+            "date": "15/11/2017",
+            "day": "15",
+            "month": "Novembre",
+            "year": "2017",
+            "img": "insatienEnEntretien.jpg",
+            "img2": "insatienEnEntretien.jpg",
+            "description": [
+                "Insatien en Entretien 15/11/2017 est divisé en trois parties: ",
+                "WORKSHOPS :",
+                "-Correction des CV",
+                "-Correction des lettres de motivation",
+                "-Simulation d’entretien",
+                "SPEAKERS :",
+                "Où des directeurs en ressources",
+                "humaines sont invités pour citer les",
+                "problèmes majeurs qu’un étudiant",
+                "peut trouver dans un entretien et",
+                "proposer des solutions pour réussir son entretien. CONFERENCES:",
+                "On a invité des fondateurs des",
+                "entreprise et des entrepreneurs pour",
+                "présenter leurs parcours",
+                "professionnels et montrer les clés de",
+                "succès en tant qu’entrepreneur ."
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "speakers": [
+                {
+                    "name": "Laribi Sadok",
+                    "img": "entretienSpeaker3.jpg",
+                    "post": "Fondateur & manager, ARVEA Nature",
+                    "facebook": "https://www.facebook.com/sadok.laribi"
+                },
+                {
+                    "name": "Aziz Ben Amor",
+                    "img": "entretienSpeaker2.jpg",
+                    "post": "Ex-conseiller, ministre des TIC",
+                    "facebook": "https://www.facebook.com/azizbenamor.int"
+                },
+                {
+                    "name": "Atef Hamrouni",
+                    "img": "entretienSpeaker1.jpg",
+                    "post": "Directeur, ILA",
+                    "facebook": "https://www.facebook.com/coachatefhamrouni"
+                }
+            ],
+            "schedule": [
+                {
+                    "time": "09:00 AM",
+                    "content": "Lancement des workshops",
+                    "by": "",
+                    "img": "workshop.jpg"
+                },
+                {
+                    "time": "09:30 AM - 10:00 AM",
+                    "content": "Mot d’ouverture",
+                    "by": "",
+                    "img": "openning.jpg"
+                },
+                {
+                    "time": "19:00 AM - 10:30 AM",
+                    "content": "Mot du DRH Business& Décision",
+                    "by": "Madame JRAD Manel",
+                    "img": "manel.jpeg"
+                },
+                {
+                    "time": "10:30 AM - 11:00 AM",
+                    "content": "Mot de de la directrice de plateforme de collection et des achats ARAMYS GROUP",
+                    "by": "Madame BADRI Imen",
+                    "img": "imen.jpg"
+                },
+                {
+                    "time": "11:00 AM - 11:20 AM",
+                    "content": "Mot de l’experte en RH",
+                    "by": "Madame BEN GAMRA Ilhem",
+                    "img": "ilhem.jpg"
+                },
+                {
+                    "time": "11:20 AM - 12:00 AM",
+                    "content": "Speech",
+                    "by": "YOUSSEF Nicolas",
+                    "img": "nicolas.jpg"
+                },
+                {
+                    "time": "12:00 AM",
+                    "content": "Clôture de la matinée et pause déjeuner",
+                    "by": "",
+                    "img": "pause.jpg"
+                },
+                {
+                    "time": "14:00 PM",
+                    "content": "Mot de la présidente de JE INSAT",
+                    "by": "",
+                    "img": "prez.png"
+                },
+                {
+                    "time": "14:15 PM - 15:35 PM",
+                    "content": "Mot des sponsors",
+                    "by": "",
+                    "img": "sponsors.png"
+                },
+                {
+                    "time": "15:35 PM",
+                    "content": "Des success story",
+                    "by": "",
+                    "img": "story.jpg"
+                },
+                {
+                    "time": "18:00 PM",
+                    "content": "Clôture de la journée",
+                    "by": "",
+                    "img": "end.png"
+                }
+            ],
+            "gallery": [
+                {
+                    "img": "entretien1.JPG",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "entretien2.JPG",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "entretien3.JPG",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "entretien4.JPG",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "entretien5.JPG",
+                    "title": "Photo 5"
+                },
+                {
+                    "img": "entretien6.JPG",
+                    "title": "Photo 6"
+                },
+                {
+                    "img": "entretien7.JPG",
+                    "title": "Photo 7"
+                },
+                {
+                    "img": "entretien8.JPG",
+                    "title": "Photo 8"
+                },
+                {
+                    "img": "entretien9.JPG",
+                    "title": "Photo 9"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": "insatien-en-entretien-aftermovie.mp4"
         }
     ],
     "projets": [
         {
             "id": 1,
-            "name": "Projet 1",
-            "img": "services-1.jpg",
-            "decription": "description 1"
+            "name": "Site Web pour l’association des techniques de robotique",
+            "img": "atrDemo1.jpg",
+            "decription": "La réalisation d’un site web pour définir les activités de l’association.",
+            "client": "Association des techniques de robotiques",
+            "date": "01/03/2018",
+            "sujet": "Développement web",
+            "url": "www.atraircraft.com",
+            "contact": "Teissir Ben Sidhom",
+            "presentationEntreprise": [
+                "L'association des techniques de robotique ATR est une association à but non",
+                "lucratif qui a vu le jour au cours de l'année 2012. Cette association qui a été",
+                "créé par un groupe d'élèves ingénieurs est née de la volonté de promouvoir les",
+                "différents domaines scientifiques et plus précisément la robotique et",
+                "l'aéronautique, et de les faire connaitre de tous.",
+                "Le but de l'ATR est de rassembler étudiants et professionnels du domaine",
+                "afin d'échanger les connaissances et de s'enrichir."
+            ],
+            "presentationProjet": [
+                "Le projet consiste en la réalisation d’un site web pour définir les activités de",
+                "l’association.",
+                "Le site doit comprendre un espace pour les inscriptions à la qualification",
+                "tunisienne d’Eurobot 2018."
+            ],
+            "membreAffectees": [
+                {
+                    "name": "DHAOUADI Mouna",
+                    "img": "membreAtr.jpeg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/mouna.dhaouadi.3",
+                        "linkedin": "https://www.linkedin.com/in/mouna-dhaouadi/",
+                        "github": ""
+                    }
+                }
+            ],
+            "logo": "atr.jpg",
+            "demo": [
+                "atrDemo1.jpg",
+                "atrDemo2.jpg",
+                "atrDemo3.jpg",
+                "atrDemo4.jpg",
+                "atrDemo5.jpg",
+                "atrDemo6.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Teissir Ben Sidhom",
+                "poste": "",
+                "doc": "satisfactionATR.pdf",
+                "img": "atr.png"
+            }
         },
         {
             "id": 2,
-            "name": "Projet 2",
-            "img": "services-2.jpg",
-            "decription": "description 2"
+            "name": "Afficheur de gestion de file d’attente",
+            "img": "buvette1.jpg",
+            "decription": "La réalisation d’un afficheur de gestion de file d’attente afin de satisfaire ses clients",
+            "client": "Mr Oussema Brari",
+            "date": "23/01/2018",
+            "sujet": "Systèmes embarqués",
+            "url": "",
+            "contact": "Oussema Brari",
+            "presentationEntreprise": [
+                "La buvette de l’Institut National des Sciences Appliquées et de Technologie de",
+                "Tunis est ouverte à tous les visiteurs de l’institut, et principalement aux",
+                "étudiants, aux enseignants et aux administratifs.",
+                "Elle a pour objectif de les servir en vendant des différents produits",
+                "alimentaires, et en proposant un grand choix des sandwichs, des pâtisseries,",
+                "des boissons et des cafés."
+            ],
+            "presentationProjet": "Afin de satisfaire ses clients et éviter cet encombrement, la buvette envisage la réalisation d’un afficheur de gestion de file d’attente.",
+            "logo": "",
+            "video": "video.mp4",
+            "membreAffectees": [
+                {
+                    "name": "KHALED Kacem",
+                    "img": "membreBuvette.jpg",
+                    "post": "Embedded Systems & Control Engineering Student",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/kacem.kh",
+                        "linkedin": "https://www.linkedin.com/in/kacemkhaled/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "buvette4.jpg",
+                "buvette2.jpg",
+                "buvette3.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Mr Oussema Brari",
+                "poste": "Gérant de la buvette de l’INSAT",
+                "doc": "sarisfactionBuvette.pdf",
+                "img": "buvette.jpg"
+            }
         },
         {
             "id": 3,
-            "name": "Projet 3",
-            "img": "services-3.jpg",
-            "decription": "description 3"
+            "name": "Développement des interfaces d’une application",
+            "img": "efret1.png",
+            "decription": "La réalisation des interfaces d’une application mobile",
+            "client": "Efret",
+            "date": "23/02/2018",
+            "sujet": "Développement mobile ",
+            "url": "www.efret.tn",
+            "contact": "Sofian Labidi",
+            "presentationEntreprise": [
+                "eFret est une bourse de transport et de fret en ligne en Tunisie.",
+                " 1eFret.tn est une plateforme interactive mettant en relations des expéditeurs,",
+                " qu’ils soient particuliers ou entreprises avec des prestataires dans le domaine",
+                " du transport, du déménagement et du transit."
+            ],
+            "presentationProjet": [
+                "Afin d’augmenter sa disponibilité envers les utilisateurs, efret envisage la",
+                "réalisation d’une version mobile de la plateforme.",
+                "Le projet consiste en la réalisation des interfaces de l’application mobile du site",
+                "web efret.tn."
+            ],
+            "logo": "efret.png",
+            "membreAffectees": [
+                {
+                    "name": "Oussama Ben Sghaier",
+                    "img": "efret2.jpeg",
+                    "post": "Software Engineering Student at INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/oussama.sghaier.7",
+                        "linkedin": "https://www.linkedin.com/in/oussama-ben-sghaier/",
+                        "github": ""
+                    }
+                },
+                {
+                    "name": "Trablesi Imen",
+                    "img": "efret.jpeg",
+                    "post": "Software Engineering Student at INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/imantra96",
+                        "linkedin": "https://www.linkedin.com/in/imen-trabelsi-0b3505127/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "efret1.png",
+                "efret3.png",
+                "efret6.png",
+                "efret4.png",
+                "efret5.png"
+            ],
+            "temoignageClient": {
+                "img": "efret.jpg",
+                "name": "Mr Sofian Labidi",
+                "poste": "",
+                "doc": "satisfactionEfret.pdf"
+            }
         },
         {
             "id": 4,
-            "name": "Projet 4",
-            "img": "services-4.jpg",
-            "decription": "description 4"
+            "name": "Design d’un catalogue pour la société G.A.I.N.",
+            "img": "gain1.jpg",
+            "decription": "La réalisation d'un design d’un catalogue pour la société G.A.I.N.",
+            "client": "GAIN (Générale des Activités Industrielles)",
+            "date": "20/05/2018",
+            "sujet": "Design",
+            "url": "www.gain.tn",
+            "contact": "Maher KHALED",
+            "presentationEntreprise": [
+                "G.A.I.N est une SARL qui réalise des projets industriels conformément aux",
+                "normes en vigueur dans les spécialités suivantes :",
+                " -Dépoussiérage ",
+                " -Ventilations Industrielles",
+                " -Transport Pneumatique",
+                " -Ensilage",
+                " -Aspiration Industrielle",
+                " -Transport mécanique",
+                " -Charpente, chaudronnerie & tuyauterie",
+                " -Installation des équipements industriels."
+            ],
+            "presentationProjet": "Le projet consiste dans le design d’un catalogue pour promouvoir les activités de la société afin de promouvoir ses activités,",
+            "logo": "gain.jpg",
+            "membreAffectees": [
+                {
+                    "name": "Montassar Azzaiez",
+                    "img": "gain.png",
+                    "post": "",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/azaiezmontassar",
+                        "linkedin": "",
+                        "github": ""
+                    }
+                },
+                {
+                    "name": "DHAOUADI Mouna",
+                    "img": "membreAtr.jpeg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/mouna.dhaouadi.3",
+                        "linkedin": "https://www.linkedin.com/in/mouna-dhaouadi/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "gain1.jpg",
+                "gain2.jpg",
+                "gain3.jpg",
+                "gain4.jpg"
+            ],
+            "temoignageClient": {
+                "name": "Mr Maher KHALED",
+                "poste": "",
+                "doc": "satisfactionGAIN.pdf",
+                "img": "gain.png"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Site web pour « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
+            "img": "pizza1.png  ",
+            "decription": "La réalisation d’un site web pour le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI »",
+            "client": "PIZZA NAPOLI GERLAND CHEZ LUIGI",
+            "date": "23 / 09 / 2018",
+            "sujet": "Développement web",
+            "url": "https://pizzanapoli-gerland.com/",
+            "contact": "Maher KHALED",
+            "presentationEntreprise": [
+                "Le restaurant « PIZZA NAPOLI GERLAND CHEZ LUIGI » est un restaurant italien situé en France, à Lyon. Sa mission est de faire vivre ses visiteurs une expérience italienne la plus authentique. Grâce à sa pizza cuite au feu de bois, ses produits frais, sa pâte fine et moelleuse, son pizzaiolo offre une pizza cuite dans les plus pures des traditions napolitaines et fait voyager grâce à son gout unique et époustouflant."
+            ],
+            "presentationProjet": "Le projet consiste en la réalisation d’un site web vitrine pour le restaurant dans le but de faire découvrir ses spécialités, de montrer son savoir-faire et d’attirer de nouveaux clients. Le site a ainsi la possibilité en temps réel, d’informer les habitués des nouveaux menus proposés sur la carte, de les prévenir en cas de changement d’adresse ou de modifications d’horaires d’ouvertures et de fermeture.",
+            "logo": "pizza1.png",
+            "membreAffectees": [
+                {
+                    "name": "FEKIH Aziz",
+                    "img": "pizza1.jpg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/azizfekih",
+                        "linkedin": "https://www.linkedin.com/in/aziz-fekih-816026155/",
+                        "github": ""
+                    }
+                },
+                {
+                    "name": "BIBI Mohamed Aziz",
+                    "img": "pizza2.jpg",
+                    "post": "Élève Ingénieur en Génie Logiciel, INSAT",
+                    "socialMedia": {
+                        "facebook": "https://www.facebook.com/medaziiz",
+                        "linkedin": "https://www.linkedin.com/in/mohamed-aziz-bibi-6a719212a/",
+                        "github": ""
+                    }
+                }
+            ],
+            "demo": [
+                "pizza2.png",
+                "pizza3.png",
+                "pizza4.png",
+                "pizza5.png",
+                "pizza6.png"
+            ],
+            "temoignageClient": {
+                "name": "Mr Maher KHALED",
+                "poste": "",
+                "doc": "satisfactionGAIN.pdf",
+                "img": "gain.png"
+            }
+        }
+    ],
+    "formations": [
+        {
+            "id": 1,
+            "name": "Formation attitudes et leadership",
+            "img": "1.jpg",
+            "date": "29/11/2017",
+            "category": "soft skills",
+            "description": [
+                "La formation a comme but d’instaurer le style de gestion et de direction dans une équipe tout en ayant une attitude entrepreneuriale adéquate entre la vision et les actions. Après cette formation, les participants seront plus aptes de travailler en équipe, de diriger une équipe, et surtout d’être un « LEADER » . "
+            ],
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma1-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma1-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma1-3.jpg",
+                    "title": "Photo 3"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudiante",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "trainer": {
+                "name": "Mme Ilhem ben Gamra ",
+                "desc": "consultante en GRH",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "afterMovie": null
+        },
+        {
+            "id": 2,
+            "name": "Formation gestion du temps et du stress",
+            "date": "04/10/2017",
+            "category": "soft skills",
+            "img": "2.png",
+            "description": "Un junior entrepreneur ne peut exceller dans son travail qu’en gérant son stress et son temps de la meilleure des manières. Dans ce cadre, la formation a eu lieu afin de mieux connaitre les facteurs de stress et d’en tenir compte de manière à aboutir à une gestion du temps plus efficace.Après la formation, les participants ont réussi à faire l’équilibre entre les attentes de la Junior Entreprise INSAT, leurs vies privées et les nécessités estudiantines. ",
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "trainer": {
+                "name": "Mme Ilhem Gamra",
+                "desc": "consultante en GRH",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma2-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma2-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "innov2-3.jpg",
+                    "title": "Photo 3"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudiante",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 3,
+            "name": "Formation Laravel",
+            "date": "24/01/2018",
+            "category": "backend",
+            "img": "3.jpg",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "description": [
+                "La formation avait comme but de former une équipe qui travaille sur un projet ayant fait l’objet d’une prospection chez un client. Par le biais de cette formation, les participants se sont initiés à ce Framework qui est considéré parmi les plus appréciés pour sa simplicité et ses fonctionnalités. "
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma3-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma3-2.jpg",
+                    "title": "Photo 2"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudiante",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 4,
+            "name": "Formation photoshop 1ere session",
+            "date": "18/01/2018",
+            "category": "design",
+            "img": "4.png",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma4-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma4-2.jpg",
+                    "title": "Photo 2"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudianteINSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 5,
+            "name": "Formation photoshop 2eme session",
+            "date": "24/01/2018",
+            "category": "design",
+            "img": "4.png",
+            "trainer": {
+                "name": "Lina dridi",
+                "desc": "formatrice",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "description": "La formation avait comme but d’initier les membres du comité communication à maîtriser les techniques de traitement et de création d’images. A l’issue de la formation, les membres sont devenus capables de manipuler les outils nécessaires de Photoshop.",
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma4-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma4-2.jpg",
+                    "title": "Photo 2"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudiante INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 6,
+            "name": "Formation en sponsoring et techniques de négociation",
+            "date": "14/02/2018",
+            "category": "soft skills",
+            "img": "6.png",
+            "trainer": {
+                "name": "Lilia Zghal",
+                "desc": "PDG INSAT",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "description": "La formation avait comme but d’expliquer la procédure de sponsoring en partant de la préparation du dossier de sponsoring et en arrivant à la fidélisation des sponsors tout en dévoilant les techniques pertinentes pour intervenir au financement de la Junior Entreprise. Au cours de la formation, des simulations de réunions avec des sponsors ont été effectuées. ",
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma6-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma6-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma6-3.jpg",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "forma6-4.jpg",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "forma6-5.jpg",
+                    "title": "Photo 5"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 7,
+            "name": "Formation en en Prospection du client ",
+            "date": "10/10/2018",
+            "category": "soft skills",
+            "img": "7.jpg",
+            "trainer": {
+                "name": "Lotfi Cherif",
+                "desc": " Ex président de Junior Entreprise ENISO",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "PDG INSAT",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "PDG Esprit",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "description": "La formation était dédiée à tous ceux qui sont intéressés par la prospection. Cela leurs a permis de connaitre ces différentes étapes, ces techniques et quelques astuces pour réussir sa prospection. Des exercices pratiques ont été effectués impliquant la totalité des membres.",
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma6-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma6-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma6-3.jpg",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "forma6-4.jpg",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "forma6-5.jpg",
+                    "title": "Photo 5"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": null
+        },
+        {
+            "id": 8,
+            "name": "Formation en Event Management",
+            "date": "13/10/2018",
+            "category": "soft skills",
+            "img": "8.jpg",
+            "trainer": {
+                "name": "Fourat Hammi ",
+                "desc": "allumni de la JET ",
+                "picture": "1.jpg",
+                "facebook": null,
+                "twitter": null,
+                "linkedin": null,
+                "instagram": null,
+                "google": null
+            },
+            "objectifs": [
+                "objectif1",
+                "objectif2",
+                "objectif3",
+                "objectif4"
+            ],
+            "temoignages": [
+                {
+                    "name": "Lina dridi",
+                    "authorDesc": "etudiante",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                },
+                {
+                    "name": "Ghazi dridi",
+                    "authorDesc": "etudiant",
+                    "review": "my review",
+                    "picture": "1.jpg"
+                }
+            ],
+            "description": "Au cours de cette formation, les membres ont assisté à un partage de savoir, de connaissances et d’expérience dans le domaine de l’évènementiel, qui ne pouvait être que bénéfique.",
+            "organizators": [
+                "Junior Entreprise INSAT"
+            ],
+            "gallery": [
+                {
+                    "img": "forma6-1.jpg",
+                    "title": "Photo 1"
+                },
+                {
+                    "img": "forma6-2.jpg",
+                    "title": "Photo 2"
+                },
+                {
+                    "img": "forma6-3.jpg",
+                    "title": "Photo 3"
+                },
+                {
+                    "img": "forma6-4.jpg",
+                    "title": "Photo 4"
+                },
+                {
+                    "img": "forma6-5.jpg",
+                    "title": "Photo 5"
+                }
+            ],
+            "sponsors": [
+                "logo-1.png",
+                "logo-2.png",
+                "logo-3.png",
+                "logo-4.png",
+                "logo-5.png",
+                "logo-6.png"
+            ],
+            "afterMovie": null
         }
     ],
   "sponsors": [

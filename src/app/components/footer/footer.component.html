@@ -1,65 +1,51 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="Big" ng-controller="AppCtrl">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Footer - JEI</title>
-</head>
-<body>
-  <div id="footer">
-      <div class="section-container footer-container" id="footer01">
-          <div class="container-fluid">
-              <div class="row">
-                <!-- JEI Logo -->
-                  <div class="col-md-3 col-sm-3" id="imagediv">
-                      <img src="/src/assets/images/fond_bleu.png" >
-                  </div>
-                <!-- The links to all the sections of the website -->
-                  <div class="col-md-2 col-sm-2 "></div>
-                  <div class="col-md-6 col-sm-6 justify-content-center">
-                     <ul>
-                       <div class="row">
-                         <li class="col-md-3 col-sm-3"><a routerLink='/'>Home</a></li>
-                         <li class="col-md-3 col-sm-3"><a routerLink='/actualite'>Actualités</a></li>
-                         <li class="col-md-3 col-sm-3"><a routerLink='/evenement'>Evenements</a></li>
-                         <li class="col-md-3 col-sm-3"><a routerLink='/projet'> Projets </a></li>
-                       </div>
-                       <div class="row">
-                         <li class="col-md-3 col-sm-3"><a routerLink='/structure'> Structure</a></li>
-                         <li class="col-md-3 col-sm-3"><a routerLink='/formation'> Formations </a></li>
-                         <li class="col-md-3 col-sm-3"><a routerLink='/contact'> Contact us</a></li>
-                         <li class="col-md-3 col-sm-3" ><a routerLink='/sponsor'> Sponsors</a></li>
-                       </div>
-                     </ul>
-
-                    <div class="row" id="footer-social-media">
-                      <div class="col-md-12 col-sm-12 col-xs-12 justify-content-right">
-                        <h4 class="col-md-3 col-sm-3 col-xs-3">Find us on : </h4>
-                        <a href="https://www.facebook.com/junior.entreprise.insat/" class="social-round-icon white-round-icon fa-icon col-md-3 col-sm-3 col-xs-3" title="">
-                          <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.instagram.com/insat_junior_entreprise/?hl=fr" class="social-round-icon white-round-icon fa-icon col-md-3 col-sm-3 col-xs-3" title="">
-                          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/junior-entreprise-insat-a097b9151/" class="social-round-icon white-round-icon fa-icon col-md-3 col-sm-3 col-xs-3" title="">
-                          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                    </div>
-
-
-                  </div>
-                <!-- Social Media section -->
-              </div>
-
-
-
-          </div>
-      </div>
-      <div class="row col-md-12 col-lg-12 col-xs-12" id="footer02">
-          © 2018 Junior Enterprise Insat. Tous droits réservés.<br>
-        </div>  
+<footer class="footer">
+  <div class="footer_item">
+    <img src="/src/assets/images/fond_bleu.png" id="imagediv">
   </div>
-</body>
-</html>
+  <div class="footer_item">
+    <h4 style="text-align: center;">Quick Links</h4>
+    <ul>
+      <li>Home</li>
+      <li>Actualités</li>
+      <li>Evénements</li>
+      <li>Projets</li>
+    </ul>
+    <ul>
+      <li>Structure</li>
+      <li>Formations</li>
+      <li>Contact us</li>
+    </ul>
+  </div>
+
+  <div class="footer_item">
+    <h4><span>Do you like ? Share this !</span></h4>
+    <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+    </a>
+    <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </a>
+    <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" class="link-like-text" title="Create website with free html template">Mashup Template</a>/<a href="http://www.unsplash.com/" class="link-like-text" title="Beautiful Free Images">Unsplash</a></small></p>
+  </div>
+
+  <div class="footer_item">
+    <h4>Subscribe to newsletter</h4>
+
+    <form>
+      <input type="text" class="form-control footer-input-text">
+      <a href="#" id="submit" class="input-group-addon">submit</a>
+    </form>
+
+
+
+
+  </div>
+
+  <div  id="footer02">
+    © 2018 Junior Entrerise Insat. Tous droits réservés.<br>
+    Terms of Use / Privacy Policy
+  </div>
+</footer>

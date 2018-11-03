@@ -11,6 +11,7 @@ export class EvenementComponent implements OnInit {
 
   mandatList = ['2013', '2014', '2015', '2016', '2017'];
   evenements ;
+
   constructor() {
     this.evenements = data['events'];
    }

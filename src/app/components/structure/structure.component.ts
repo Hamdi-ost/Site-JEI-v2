@@ -8,8 +8,44 @@ import { Component } from '@angular/core';
 })
 export class StructureComponent {
   
-departementList = ["departement1","departement2","departement3","departement4"];
-
+MemberList = [
+  {
+    name: 'Mohamed Aziz FEKIH',
+    office: 'Président'
+  },
+  {
+    name: 'Zeineb ATTIA',
+    office: 'Vice Présidente'
+  },
+  {
+    name: 'Yosr MERCHAOUI',
+    office: 'Secrétaire Générale'
+  },
+  {
+    name: 'Sarra DABBABI',
+    office: 'Trésorière'
+  },
+  {
+    name: 'Iheb KILANI',
+    office: 'Résponsable communication'
+  },
+  {
+    name: 'Yasmine BOUSSAID',
+    office: 'Résponsable événementiel'
+  },
+  {
+    name: 'Mohamed Aziz BIBI',
+    office: 'Résponsable projets et pospection'
+  },
+  {
+    name: 'Amani CHEBBI',
+    office: 'Résponsable Ressources Humaines'
+  },
+  {
+    name: 'Houyem AIDI',
+    office: 'Responsable sponsoring et partenariats'
+  }
+];
 verifDepartement1=false;
 verifDepartement2=false;
 verifDepartement3=false;
@@ -18,7 +54,7 @@ verifDepartement4=false;
  constructor (){
  }
  
- onDepartement(i){
+/* onDepartement(i){
   switch(i) { 
     case 0: { 
       this.verifDepartement1=!this.verifDepartement1; 
@@ -43,5 +79,5 @@ verifDepartement4=false;
        break; 
     } 
   }   
- }
+ }*/
 }
