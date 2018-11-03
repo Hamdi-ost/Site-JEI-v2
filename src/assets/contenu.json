@@ -239,37 +239,83 @@
   "sponsors": [
         {
             "name": "Infor",
-            "img": "infor.png"
+            "img": "infor.jpg"
         },
         {
           "name": "Incept",
-          "img": "incept.png"
-        },
-        {
-          "name": "Meraki Sushi",
-          "img": "meraki-sushi.jpg"
+          "img": "incept.jpg"
         },
         {
           "name": "Studely",
-          "img": "studely.png"
+          "img": "studely.jpg"
         },
         {
           "name": "Laser Ice Game",
-          "img": "laser-game-evolution.png"
+          "img": "laser-game-evolution.jpg"
         },
         {
           "name": "Bouche B",
-          "img": "logo.png"
+          "img": "logo-1.png"
         },
         {
           "name": "Arvea",
-          "img": "arvea.png"
+          "img": "arvea.jpg"
+        },
+        {
+          "name": "Five Points",
+          "img": "5-points.jpg"
+        },
+        {
+          "name": "Atct",
+          "img": "atct.jpg"
+        },
+        {
+          "name": "Digitys",
+          "img": "digitys.jpg"
+        },
+        {
+          "name": "Ennakel",
+          "img": "ennakel.jpg"
+        },
+        {
+          "name": "Express FM",
+          "img": "express.jpg"
+        },
+        {
+          "name": "Mehdi Tours",
+          "img": "mehdi-tours.jpg"
+        },
+        {
+          "name": "MIT",
+          "img": "mit.jpg"
+        },
+        {
+          "name": "Ooredoo",
+          "img": "ooredoo.jpg"
+        },
+        {
+          "name": "Perfect Vision",
+          "img": "perfect-vision.jpg"
+        },
+        {
+          "name": "The Corner",
+          "img": "the-corner.jpg"
+        },
+        {
+          "name": "Tunisie Telecom",
+          "img": "tunisie-telecom.jpg"
+        },
+        {
+          "name": "Vistaprint",
+          "img": "vistaprint.jpg"
         }
+
+
   ],
   "partners": [
     {
       "name": "CFE Conseil",
-      "img": "logo.png"
+      "img": "cef-conseil.jpg"
     },
     {
       "name": "PFI Consulting",
