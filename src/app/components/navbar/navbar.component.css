@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    ul{
+display: none;
+position: absolute;
+padding: 20px;
+background: gray;
+right: 10px;
+top: 65px;
+width: 35%;
+    }
+}

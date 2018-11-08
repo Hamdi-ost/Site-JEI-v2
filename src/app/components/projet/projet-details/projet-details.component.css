@@ -1,108 +1,81 @@
-/*****-----*****-----*****-----*****
-    13. Gallery CSS
-*****-----*****-----*****-----*****/
-.gallery-area {
-    padding: 150px 0;
-    overflow-x: hidden;
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-.p-none {
-    padding: 0;
-}
-.box{
-    overflow: hidden;
-    position: relative;
-}
-.box img{
-    width: 100%;
-    height: auto;
-}
-.box .box-content{
-    padding: 25% 5%;
-    position: absolute;
-    top: 0;
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
     left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    opacity: 0;
-    z-index: 1;
-    transition: all 0.3s ease 0s;
-}
-.box:hover .box-content{ opacity: 1; }
-.box:before,
-.box:after,
-.box .box-content:before,
-.box .box-content:after{
-    content: "";
-    width: 50%;
-    height: 50%;
-    background: rgba(0,0,0,0.6);
-    position: absolute;
     top: 0;
-    left: 0;
-    opacity: 0;
-    transition: all 0.5s ease 0s;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-.box:after{ top: 50%; }
-.box .box-content:before,
-.box .box-content:after{
-    top: 0;
-    left: 50%;
-    z-index: -1;
-}
-.box .box-content:after{ top: 50%; }
-.box:hover:before{
-    left: 50%;
-    opacity: 1;
-}
-.box:hover:after{
-    top: 0;
-    opacity: 1;
-}
-.box:hover .box-content:before{
-    top: 50%;
-    opacity: 1;
-}
-.box:hover .box-content:after{
-    left: 0;
-    opacity: 1;
-}
-.box .title{
-    font-size: 24px;
-    color: #14BBF8;
-    text-transform: capitalize;
-    margin: 0 0 20px 0;
-}
-.box .post{
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
     display: block;
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0 0 20px 0;
+    width: 80%;
+    max-width: 700px;
 }
-.box .icon{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.box .icon li{
-    display: inline-block;
-    margin: 0 5px 0 0;
-}
-.box .icon a{
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
     display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15%;
-    background: #fff;
-    color: #2d2c2c;
+    width: 80%;
+    max-width: 700px;
     text-align: center;
-    transition: all 0.3s ease 0s;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
-.box .icon a:hover{
-    background: transparent;
-    color: #fff;
-    border-radius: 50%;
-    box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }
