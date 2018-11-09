@@ -479,7 +479,7 @@ md-dialog {
     font-size: 16px;
 }
 
-.sevices-box {
+.services-box{
     box-shadow: 0px 2px 2px;
     text-align: center;
 }
@@ -2225,6 +2225,8 @@ a.btn-style-6.dark-skin:hover {
 }
 
 .service-image img {
+    position: center;
+    margin: auto;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -2952,6 +2954,7 @@ a.btn-style-6.dark-skin:hover {
     padding: 120px 0;
 
 }
+
 
 .main-heading-error {
 

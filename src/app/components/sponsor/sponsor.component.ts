@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+// @ts-ignore
+import * as data from '../../../assets/contenu.json';
+
+
 
 @Component({
   selector: 'app-sponsor',
@@ -7,7 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SponsorComponent implements OnInit {
 
-  constructor() { }
+  sponsors;
+  partners;
+
+  constructor() {
+    this.sponsors = data['sponsors'];
+    this.partners = data['partners'];
+  }
 
   ngOnInit() {
   }

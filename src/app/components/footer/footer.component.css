@@ -1,75 +1,75 @@
 .footer {
-    background-color: #04091e;
-    width: 100%;
-    text-align: center;
-    padding: 40px 0 0 0;
+  background-color: #04091e;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 0 0;
 }
 
 .footer_item {
-    display: inline-block;
-    width: 20%;
-    vertical-align: middle;
-    color: white;
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
+  color: white;
 }
 
 #imagediv{
-    width: 166px;
-    margin: 0 auto;
+  width: 166px;
+  margin: 0 auto;
 }
 
 .footer_item ul {
-    list-style: none;
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
+  list-style: none;
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
 }
 
 .footer_item form input {
-    width: 65%;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 5px 0 0 5px;
+  width: 65%;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 5px 0 0 5px;
 }
 
 .footer_item form a {
-    width: 35%;
-    display: inline-block;
-    padding: 13px 0;
-    vertical-align: middle;
-    background: red;
-    color: white;
-    border: none;
-    border-radius: 0 10px 10px 0;
+  width: 35%;
+  display: inline-block;
+  padding: 13px 0;
+  vertical-align: middle;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 0 10px 10px 0;
 }
 
 #footer02 {
-    background: #08123a;
-    padding: 20px 0;
-    color: white;
-    margin-top: 32px;
+  background: #08123a;
+  padding: 20px 0;
+  color: white;
+  margin-top: 32px;
 }
 
 @media (max-width : 990px) {
-    
-    .footer_item {
-        display: block;
-        width: 95%;
-        margin: 0 auto;
-    }
 
-    .footer_item ~.footer_item {
-        margin-top:32px;
-    }
+  .footer_item {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
 
-    .footer_item ul{
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-    }
+  .footer_item ~.footer_item {
+    margin-top:32px;
+  }
 
-    .footer_item form input, .footer_item form a {
-        display: block;
-        width: 100%;
-        border-radius: 10px; 
-    }
+  .footer_item ul{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer_item form input, .footer_item form a {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+  }
 }
