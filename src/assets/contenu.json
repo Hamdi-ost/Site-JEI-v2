@@ -725,7 +725,7 @@
                     "title": "Photo 2"
                 },
                 {
-                    "img": "innov2-3.jpg",
+                    "img": "forma2-3.jpg",
                     "title": "Photo 3"
                 }
             ],
@@ -820,7 +820,7 @@
             "name": "Formation photoshop 1ere session",
             "date": "18/01/2018",
             "category": "design",
-            "img": "4.png",
+            "img": "4.jpg",
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "PDG INSAT",
@@ -880,7 +880,7 @@
             "name": "Formation photoshop 2eme session",
             "date": "24/01/2018",
             "category": "design",
-            "img": "4.png",
+            "img": "4.jpg",
             "trainer": {
                 "name": "Lina dridi",
                 "desc": "formatrice",
@@ -1152,90 +1152,88 @@
             "afterMovie": null
         }
     ],
-  "sponsors": [
+    "sponsors": [
         {
             "name": "Infor",
             "img": "infor.jpg"
         },
         {
-          "name": "Incept",
-          "img": "incept.jpg"
+            "name": "Incept",
+            "img": "incept.jpg"
         },
         {
-          "name": "Studely",
-          "img": "studely.jpg"
+            "name": "Studely",
+            "img": "studely.jpg"
         },
         {
-          "name": "Laser Ice Game",
-          "img": "laser-game-evolution.jpg"
+            "name": "Laser Ice Game",
+            "img": "laser-game-evolution.jpg"
         },
         {
-          "name": "Bouche B",
-          "img": "logo-1.png"
+            "name": "Bouche B",
+            "img": "logo-1.png"
         },
         {
-          "name": "Arvea",
-          "img": "arvea.jpg"
+            "name": "Arvea",
+            "img": "arvea.jpg"
         },
         {
-          "name": "Five Points",
-          "img": "5-points.jpg"
+            "name": "Five Points",
+            "img": "5-points.jpg"
         },
         {
-          "name": "Atct",
-          "img": "atct.jpg"
+            "name": "Atct",
+            "img": "atct.jpg"
         },
         {
-          "name": "Digitys",
-          "img": "digitys.jpg"
+            "name": "Digitys",
+            "img": "digitys.jpg"
         },
         {
-          "name": "Ennakel",
-          "img": "ennakel.jpg"
+            "name": "Ennakel",
+            "img": "ennakel.jpg"
         },
         {
-          "name": "Express FM",
-          "img": "express.jpg"
+            "name": "Express FM",
+            "img": "express.jpg"
         },
         {
-          "name": "Mehdi Tours",
-          "img": "mehdi-tours.jpg"
+            "name": "Mehdi Tours",
+            "img": "mehdi-tours.jpg"
         },
         {
-          "name": "MIT",
-          "img": "mit.jpg"
+            "name": "MIT",
+            "img": "mit.jpg"
         },
         {
-          "name": "Ooredoo",
-          "img": "ooredoo.jpg"
+            "name": "Ooredoo",
+            "img": "ooredoo.jpg"
         },
         {
-          "name": "Perfect Vision",
-          "img": "perfect-vision.jpg"
+            "name": "Perfect Vision",
+            "img": "perfect-vision.jpg"
         },
         {
-          "name": "The Corner",
-          "img": "the-corner.jpg"
+            "name": "The Corner",
+            "img": "the-corner.jpg"
         },
         {
-          "name": "Tunisie Telecom",
-          "img": "tunisie-telecom.jpg"
+            "name": "Tunisie Telecom",
+            "img": "tunisie-telecom.jpg"
         },
         {
-          "name": "Vistaprint",
-          "img": "vistaprint.jpg"
+            "name": "Vistaprint",
+            "img": "vistaprint.jpg"
         }
-
-
-  ],
-  "partners": [
-    {
-      "name": "CFE Conseil",
-      "img": "cef-conseil.jpg"
-    },
-    {
-      "name": "PFI Consulting",
-      "img": "pfi-consulting.png"
-    }
-  ]
+    ],
+    "partners": [
+        {
+            "name": "CFE Conseil",
+            "img": "cef-conseil.jpg"
+        },
+        {
+            "name": "PFI Consulting",
+            "img": "pfi-consulting.png"
+        }
+    ]
 }

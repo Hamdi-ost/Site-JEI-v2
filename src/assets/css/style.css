@@ -2029,13 +2029,13 @@ a.btn-style-6.dark-skin:hover {
 
 .about-service li {
     float: left;
-    width: 50%;
-    font-size: 14px;
+    width: 100%;
+    font-size: 17px;
     font-weight: bold;
     color: #6b6b6b;
     line-height: 30px;
     position: relative;
-    padding-left: 25px;
+    padding-left: 100px;
 }
 
 .about-service li:before {
@@ -3237,7 +3237,7 @@ a.btn-style-6.dark-skin:hover {
 
 .post-info-meta span,
 .post-info-meta a {
-    color: #ffb300;
+    color: #8b252c ;
 }
 
 .blog-listing li p {
@@ -6124,7 +6124,7 @@ select {
 
 .employe-social-icons-classic i {
     padding: 0px 5px;
-    color: #ccc;
+    color: #8b252c;
     text-align: center;
     display: inline-block;
 }
