@@ -498,7 +498,7 @@
                 }
             ],
             "demo": [
-                "efret1.png",
+               
                 "efret3.png",
                 "efret6.png",
                 "efret4.png",
@@ -608,11 +608,11 @@
                 }
             ],
             "demo": [
-                "pizza2.png",
+               
                 "pizza3.png",
-                "pizza4.png",
                 "pizza5.png",
-                "pizza6.png"
+                "pizza6.png",
+                "pizza4.png"
             ],
             "temoignageClient": {
                 "name": "Mr Maher KHALED",

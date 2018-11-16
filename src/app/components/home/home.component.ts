@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import * as data from '../../../assets/contenu.json';
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+
+  projets = [];
+  evenements = [];
+  actualites = [];
+  sponsors = [];
+  formations = [];
+
+  constructor() {
+  }
 
   ngOnInit() {
+    this.projets.push(data ['projets'][0], data ['projets'][1], data ['projets'][2], data ['projets'][3]);
+    this.evenements = data ['events'];
+    this.sponsors = data ['sponsors'];
+    this.formations.push(data ['formations'][0], data ['formations'][1], data ['formations'][2]);
   }
 
 }

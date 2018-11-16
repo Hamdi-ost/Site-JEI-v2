@@ -77,29 +77,16 @@
                 </div>
               </div>
               <div class="row demo">
-                <div *ngFor="let demoImg of demo; let i=index" class="col-md-4 col-sm-6 full-wd600 p-none">
-                  <div class="box">
-                    <img data-toggle="modal" data-target="#exampleModal" src="../../../../assets/images/projects/demo/{{demoImg}}"
-                      alt="">
-                    <div class="box-content">
-                      <h3 class="title">Demo {{i+1}}</h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="home-portfolios p-t-60">
-                  <div class="row filtr-container">
-                    <div *ngFor="let demoImg of demo; let i=index" class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated"
-                      data-wew-delay="1s" data-category="1, 4" data-sort="City wonders" data-visibility="true"
-                      data-animated="true" style="visibility: visible; animation-delay: 1s;">
-                      <div class="product-container">
-                        <a href="../../../../assets/images/projects/demo/{{demoImg}}" class="portfolio-img mfp-image">
-                          <img src="../../../../assets/images/projects/demo/{{demoImg}}" alt="">
-                        </a>
-                        <span class="item-desc">Demo {{i+1}}</span>
+                <div class="main-content">
+                  <div class="container page-gallery" >
+                    <div class="row" >
+                      <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let demoImg of demo; let i=index" >
+                        <a href="../../../../assets/images/projects/demo/{{demoImg}}" target="_blank" class="portfolio-img mfp-image"><img src="../../../../assets/images/projects/demo/{{demoImg}}"
+                          style="border: 1px solid black; border-radius: 2rem;" ></a>
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
               </div>
               <br><br>
               <p *ngIf="video" class="video">
@@ -158,4 +145,3 @@
     </div>
   </section>
 </div>
-

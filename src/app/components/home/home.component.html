@@ -1,27 +1,199 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="flexslider">
+  <ul class="slides">
+
+    <li style="background-image: url(&quot;../../../assets/images/1.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"
+      class="flex-active-slide">
+      <div class="overlay"></div>
+
+      <div class="meta">
+        <h1><span>BIG Construct - html5 template</span></h1>
+        <h2><span>The Building Construction Company</span></h2>
+        <div class="local-scroll p-t-60">
+          <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">More Details</a>
+          <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Reach us</a>
+        </div>
+      </div>
+    </li>
+    <li style="background-image: url(&quot;../../../assets/images/1.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"
+      class="">
+
+      <div class="overlay"></div>
+      <div class="meta">
+        <h1><span>Cras volutpat mattis est sit amet ornare</span></h1>
+        <h2><span>Quisque pharetra.</span></h2>
+        <div class="local-scroll p-t-60">
+          <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">More Details</a>
+          <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Reach us</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <ul class="flex-direction-nav">
+    <li><a class="flex-prev" href="#">Previous</a></li>
+    <li><a class="flex-next" href="#">Next</a></li>
+  </ul>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="src/app/components/footer/footer.component.html">Check Footer</a></h2>
-  </li>
-</ul>
+<!--Formations section-->
+<section class="page-section header-2-intro">
+  <div class="container">
+    <ul class="row">
+      <li style="height: 80%" *ngFor="let formation of formations" class="col-md-4 col-sm-6">
+        <div class="icon-box-1">
+          <div class="icon-image"><img src="../../../assets/images/formations/affiche/{{formation.img}}">
+            <div class="hoverlink">
+              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div class="icon-details">
+            <div class="box-icon"><i class="fa fa-codepen"></i></div>
+            <h3><a href="#">{{formation.name}}</a></h3>
+            <div class="header-divider"></div>
+            <p>{{formation.description}}</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--About us section-->
+<section>
+  <div class="fullwidth-about">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <img src="../../../assets/images/1.jpg" alt="About">
+      </div>
+      <div class="col-md-6 description col-xs-12 p-t-70 p-b-50">
+        <h4 class="text-uppercase">Cras eget tellus sit amet tortor</h4>
+        <p>Phasellus eget felis interdum, luctus massa nec, Nunc aliquet est at erat semper, pulvinar scelerisque nisi
+          mattis. Sed facilisis pretium elit, in sollicitudin neque dignissim vitae. Cras eget tellus sit amet tortor
+          porta venenatis nec sed sapien.</p>
+        <ul class="about-service wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true" style="visibility: visible; animation-delay: 1s;"
+          data-animated="true">
+          <li>Sed aliquet leo ac enim ultrices.</li>
+          <li>Vivamus consectetur orci augue.</li>
+          <li>Nibh tristique in. Phasellus semper.</li>
+          <li>Vivamus consectetur orci augue.</li>
+          <li>Nibh tristique in. Phasellus semper.</li>
+          <li>Proin tempus sodales eros ut viverra.</li>
+          <div class="clearfix"></div>
+        </ul>
+        <div class="double-border uppercase wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true"
+          style="visibility: visible; animation-delay: 1s;" data-animated="true">
+          <a href="#">
+            <span class="mahi-button type-5">
+              <span class="size-large"> READ MORE</span>
+              <span class="size-large"> READ MORE</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Project section-->
+<div class="porfolio-container">
 
+  <h1 class="p-t-60">OUR <span>Project</span></h1>
 
-<div>
-  <p>pppppppp <span>bbbbbb</span></p>
+  <p class="heading-description text-center fff">Nunc aliquet est at erat semper, pulvinar scelerisque nisi mattis. Sed
+    facilisis pretium elit, in sollicitudin neque dignissim vitae. Cras eget tellus sit amet tortor porta venenatis nec
+    sed sapien. Phasellus eget felis interdum, luctus massa nec, rutrum urna. Orci varius natoque penatibus et magnis
+    dis parturient montes, nascetur ridiculus mus. Curabitur eu tempor risus. </p>
+  <div class="home-portfolios">
+
+    <!-- This is the set up of a basic gallery, your items must have the big-categories they belong to in a data-category
+        attribute, which starts from the value 1 and goes up from there -->
+    <div class="row filtr-container" >
+      <div *ngFor="let projet of projets"  class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated" data-wew-delay=".2s"
+        data-category="1, 4" data-sort="Busy streets" data-visibility="true" data-animated="true" style="visibility: visible; animation-delay: 0.2s;">
+        <div class="product-container">
+          <a href="../../../assets/images/projects/affiche/{{projet.img}}" class="portfolio-img mfp-image">
+            <img src="../../../assets/images/projects/affiche/{{projet.img}}" alt="">
+          </a>
+          <span class="item-desc">{{projet.name}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--actualites section-->
+<section class="service-container">
+  <div class="container">
+    <h1>Our <span>Service</span></h1>
+    <p class="heading-description">Proin laoreet orci ut arcu fringilla congue. In a orci commodo, sollicitudin velit
+      id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec
+      semper ultrices fermentum.</p>
+    <ul class="row serviceList">
+      <li class="col-md-4 col-sm-6">
+        <div class="sevices-box">
+          <div class="service-image"><img src="images/services-4.jpg">
+            <div class="hoverlink">
+              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div class="service-details">
+            <h3><a href="#">Vestibulum eleifend felis</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus magna. Fusce et odio nec
+              tellus egestas volutpat.</p>
+            <a href="#" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+          </div>
+        </div>
+      </li>
+      <li class="col-md-4 col-sm-6">
+        <div class="sevices-box">
+          <div class="service-image"><img src="images/services-5.jpg">
+            <div class="hoverlink">
+              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div class="service-details">
+            <h3><a href="#">Donec justo sapien</a></h3>
+            <p>Rrersor deasdf sit amet, consectetur adipiscing elit. Nam tristique leo tortor, in scelerisque mi dictum
+              eu. Nulla metus velit.</p>
+            <a href="#" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+          </div>
+        </div>
+      </li>
+      <li class="col-md-4 col-sm-6">
+        <div class="sevices-box">
+          <div class="service-image"><img src="images/services-6.jpg">
+            <div class="hoverlink">
+              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div class="service-details">
+            <h3><a href="#">Quisque quis felis</a></h3>
+            <p>Augue, ornare id velit vitae, porta sodales diam. Etiam ut cursus nibh, id aliquet mauris. Sed dignissim
+              urna id comvfdsmodo.</p>
+            <a href="#" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--Sponsor section-->
+<div class="brand-wrap">
+  <div class="container p-t-60 p-b-60">
+
+    <h1>OUR <span>SPONSORS</span></h1>
+    <p class="heading-description text-center">In placerat augue eu dui rhoncus aliquet. Nulla eget fringilla elit. In
+      eu neque ex. Integer scelerisque velit id iaculis malesuada. Donec auctor mollis ornare.</p>
+    <div class="row">
+      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
+      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
+    </div>
+  </div>
 </div>
