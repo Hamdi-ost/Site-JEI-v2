@@ -23,9 +23,9 @@ import { Departement1Component } from './components/structure/departement1/depar
 import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
-
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent },
+  { path: 'actualite/:year/:id', component: ActualiteDetailsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'evenement', component: EvenementComponent },
   { path: 'not-found', component: ErrorComponent },
