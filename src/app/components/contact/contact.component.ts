@@ -1,7 +1,5 @@
 import { NgModule, Component, OnInit } from '@angular/core';
 
-import { FormsModule, NgForm } from '@angular/forms';
-
 
 
 @Component({

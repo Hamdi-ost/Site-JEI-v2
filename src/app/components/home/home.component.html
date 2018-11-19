@@ -1,7 +1,6 @@
 <div class="flexslider">
   <ul class="slides">
-
-    <li style="background-image: url(&quot;../../../assets/images/1.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"
+    <li style="background-image: url(&quot;../../../assets/images/slider1.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"
       class="flex-active-slide">
       <div class="overlay"></div>
 
@@ -33,15 +32,17 @@
     <li><a class="flex-next" href="#">Next</a></li>
   </ul>
 </div>
+
+
 <!--Formations section-->
 <section class="page-section header-2-intro">
   <div class="container">
     <ul class="row">
-      <li style="height: 80%" *ngFor="let formation of formations" class="col-md-4 col-sm-6">
+      <li *ngFor="let formation of formations" class="col-md-4 col-sm-6">
         <div class="icon-box-1">
           <div class="icon-image"><img src="../../../assets/images/formations/affiche/{{formation.img}}">
             <div class="hoverlink">
-              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
+              <div class="icon"><a href="#"><i class="fab fa-laravel" aria-hidden="true"></i></a></div>
             </div>
           </div>
           <div class="icon-details">
@@ -54,7 +55,16 @@
       </li>
     </ul>
   </div>
+  <a routerLink="/actualite" style=" height:60px; 
+   width:100px; 
+   margin: -20px -50px; 
+   position:relative;
+   top:50%; 
+   left:50%;"
+    class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
 </section>
+
+
 <!--About us section-->
 <section>
   <div class="fullwidth-about">
@@ -63,23 +73,24 @@
         <img src="../../../assets/images/1.jpg" alt="About">
       </div>
       <div class="col-md-6 description col-xs-12 p-t-70 p-b-50">
-        <h4 class="text-uppercase">Cras eget tellus sit amet tortor</h4>
-        <p>Phasellus eget felis interdum, luctus massa nec, Nunc aliquet est at erat semper, pulvinar scelerisque nisi
-          mattis. Sed facilisis pretium elit, in sollicitudin neque dignissim vitae. Cras eget tellus sit amet tortor
-          porta venenatis nec sed sapien.</p>
+        <h4 style="color: #8b252c; font-weight: bold" class="text-uppercase">Qui sommes-nous ?</h4>
+        <p style="color: white">La Junior Entreprise INSAT est un club à but non lucratif fondé en 2005 et a rejoint la
+          Confédération
+          Nationale des Juniors Entreprises JET en 2012. La mission de la Junior Entreprise INSAT est de former les
+          différents étudiants dans le domaine de l'entreprenariat et leur faciliter de ce fait l'intégration dans la
+          vie professionnelle. Les principales compétences de la Junior Entreprise INSAT tournent principalement autour
+          du développement Web, du développement mobile, et du référencement.</p>
         <ul class="about-service wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true" style="visibility: visible; animation-delay: 1s;"
           data-animated="true">
-          <li>Sed aliquet leo ac enim ultrices.</li>
-          <li>Vivamus consectetur orci augue.</li>
-          <li>Nibh tristique in. Phasellus semper.</li>
-          <li>Vivamus consectetur orci augue.</li>
-          <li>Nibh tristique in. Phasellus semper.</li>
-          <li>Proin tempus sodales eros ut viverra.</li>
+          <li>Une Junior Entreprise (J.E.) est un bureau d’études implanté au sein d’une institution universitaire.</li>
+          <li>Géré par des étudiants.</li>
+          <li>La JET est la Confédération Tunisienne des Junior Entreprises.</li>
+          <li>Fondée en 2012 par quatre Junior Entreprises,.</li>
           <div class="clearfix"></div>
         </ul>
         <div class="double-border uppercase wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true"
           style="visibility: visible; animation-delay: 1s;" data-animated="true">
-          <a href="#">
+          <a routerLink="/structure">
             <span class="mahi-button type-5">
               <span class="size-large"> READ MORE</span>
               <span class="size-large"> READ MORE</span>
@@ -90,32 +101,46 @@
     </div>
   </div>
 </section>
+
+
 <!--Project section-->
-<div class="porfolio-container">
+<section class="page-section header-2-intro">
+  <div class="porfolio-container">
+    <h1 class="p-t-60">OUR <span>Project</span></h1>
+    <p class="heading-description text-center fff">Nunc aliquet est at erat semper, pulvinar scelerisque nisi mattis.
+      Sed
+      facilisis pretium elit, in sollicitudin neque dignissim vitae. Cras eget tellus sit amet tortor porta venenatis
+      nec
+      sed sapien. Phasellus eget felis interdum, luctus massa nec, rutrum urna. Orci varius natoque penatibus et magnis
+      dis parturient montes, nascetur ridiculus mus. Curabitur eu tempor risus. </p>
+    <div class="home-portfolios">
+      <div class="row filtr-container">
+        <div *ngFor="let projet of projets" class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated"
+          data-wew-delay=".2s" data-category="1, 4" data-sort="Busy streets" data-visibility="true" data-animated="true"
+          style="visibility: visible; animation-delay: 0.2s;">
+          <div class="product-container">
+            <a href="../../../assets/images/projects/affiche/{{projet.img}}" class="portfolio-img mfp-image">
+              <img src="../../../assets/images/projects/affiche/{{projet.img}}" alt="">
+            </a>
+            <span style="margin-top: 50px" class="item-desc">{{projet.name}}</span>
+          </div>
 
-  <h1 class="p-t-60">OUR <span>Project</span></h1>
-
-  <p class="heading-description text-center fff">Nunc aliquet est at erat semper, pulvinar scelerisque nisi mattis. Sed
-    facilisis pretium elit, in sollicitudin neque dignissim vitae. Cras eget tellus sit amet tortor porta venenatis nec
-    sed sapien. Phasellus eget felis interdum, luctus massa nec, rutrum urna. Orci varius natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus. Curabitur eu tempor risus. </p>
-  <div class="home-portfolios">
-
-    <!-- This is the set up of a basic gallery, your items must have the big-categories they belong to in a data-category
-        attribute, which starts from the value 1 and goes up from there -->
-    <div class="row filtr-container" >
-      <div *ngFor="let projet of projets"  class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated" data-wew-delay=".2s"
-        data-category="1, 4" data-sort="Busy streets" data-visibility="true" data-animated="true" style="visibility: visible; animation-delay: 0.2s;">
-        <div class="product-container">
-          <a href="../../../assets/images/projects/affiche/{{projet.img}}" class="portfolio-img mfp-image">
-            <img src="../../../assets/images/projects/affiche/{{projet.img}}" alt="">
-          </a>
-          <span class="item-desc">{{projet.name}}</span>
         </div>
+        
       </div>
+      
     </div>
+      <a routerLink="/projet" style=" height:60px; 
+   width:100px; 
+   margin: -20px -50px; 
+   position:relative;
+   top:50%; 
+   left:50%;"
+    class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
   </div>
-</div>
+  
+</section>
+
 <!--actualites section-->
 <section class="service-container">
   <div class="container">
@@ -124,76 +149,27 @@
       id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec
       semper ultrices fermentum.</p>
     <ul class="row serviceList">
-      <li class="col-md-4 col-sm-6">
+      <li *ngFor="let actualite of actualites" class="col-md-4 col-sm-6">
         <div class="sevices-box">
-          <div class="service-image"><img src="images/services-4.jpg">
+          <div class="service-image"><img src="../../../assets/images/{{actualite.actualites[0].img}}">
             <div class="hoverlink">
               <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
             </div>
           </div>
           <div class="service-details">
-            <h3><a href="#">Vestibulum eleifend felis</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus magna. Fusce et odio nec
-              tellus egestas volutpat.</p>
-            <a href="#" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
-          </div>
-        </div>
-      </li>
-      <li class="col-md-4 col-sm-6">
-        <div class="sevices-box">
-          <div class="service-image"><img src="images/services-5.jpg">
-            <div class="hoverlink">
-              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div class="service-details">
-            <h3><a href="#">Donec justo sapien</a></h3>
-            <p>Rrersor deasdf sit amet, consectetur adipiscing elit. Nam tristique leo tortor, in scelerisque mi dictum
-              eu. Nulla metus velit.</p>
-            <a href="#" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
-          </div>
-        </div>
-      </li>
-      <li class="col-md-4 col-sm-6">
-        <div class="sevices-box">
-          <div class="service-image"><img src="images/services-6.jpg">
-            <div class="hoverlink">
-              <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-            </div>
-          </div>
-          <div class="service-details">
-            <h3><a href="#">Quisque quis felis</a></h3>
-            <p>Augue, ornare id velit vitae, porta sodales diam. Etiam ut cursus nibh, id aliquet mauris. Sed dignissim
-              urna id comvfdsmodo.</p>
-            <a href="#" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+            <h3><a href="#">{{actualite.actualites[0].name}}</a></h3>
+            <p>{{actualite.actualites[0].description}}</p>
           </div>
         </div>
       </li>
     </ul>
+    <a routerLink="/actualite" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
   </div>
 </section>
-<!--Sponsor section-->
-<div class="brand-wrap">
-  <div class="container p-t-60 p-b-60">
 
-    <h1>OUR <span>SPONSORS</span></h1>
-    <p class="heading-description text-center">In placerat augue eu dui rhoncus aliquet. Nulla eget fringilla elit. In
-      eu neque ex. Integer scelerisque velit id iaculis malesuada. Donec auctor mollis ornare.</p>
-    <div class="row">
-      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/1.jpg"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
-      <div class="col-md-2"><img src="../../../assets/images/21.jpg"></div>
-    </div>
-  </div>
+<!--Sponsor section-->
+<div class="container" style="height: 100px; padding-top: 2rem">
+  <section class="customer-logos slider">
+    <div *ngFor="let sponsor of sponsors" class="slide"><img src="../../../assets/images/logos/{{sponsor.img}}"></div>
+  </section>
 </div>

@@ -12,24 +12,24 @@ export class ActualiteComponent {
   actualites;
 
   constructor(private route: ActivatedRoute) {
-    this.actualites = data['GlobalActualite']
-    var compteur = 0;
-    var compteurAnnee = 0;
+    this.actualites = data['GlobalActualite'];
+    let compteur = 0;
+    let compteurAnnee = 0;
     this.actualites.map(
       (a) => {
-        compteurAnnee++
-        a.buttonColorIndice = compteurAnnee % 2 ? 1 : 2
-        a.backgroundColor = compteurAnnee % 2 ? 'danger' : 'info'
-        a.color = compteurAnnee % 2 ? 'titlebrown' : 'titleblue'
+        compteurAnnee++;
+        a.buttonColorIndice = compteurAnnee % 2 ? 1 : 2;
+        a.backgroundColor = compteurAnnee % 2 ? 'danger' : 'info';
+        a.color = compteurAnnee % 2 ? 'titlebrown' : 'titleblue';
         a.actualites.map(
           (b) => {
             compteur++;
-            b.class = compteur % 2 ? "" : "timeline-inverted"
+            b.class = compteur % 2 ? '' : 'timeline-inverted';
             return b;
           }
-        )
+        );
         return a;
-      })
+      });
   }
 
 }
