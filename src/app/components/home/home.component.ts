@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import * as data from '../../../assets/contenu.json';
+
 
 
 @Component({
@@ -17,6 +18,7 @@ export class HomeComponent implements OnInit {
   formations = [];
 
   constructor() {
+
   }
 
   ngOnInit() {
@@ -26,5 +28,6 @@ export class HomeComponent implements OnInit {
     this.actualites.push(data ['GlobalActualite'][0], data ['GlobalActualite'][1], data ['GlobalActualite'][2]);
     this.formations.push(data ['formations'][0], data ['formations'][1], data ['formations'][2]);
   }
+
 
 }

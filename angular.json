@@ -36,31 +36,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/modernizr.min.js",
-              "src/assets/js/angular.min.js",
-              "src/assets/js/angular-animate.min.js",
-              "src/assets/js/angular-aria.min.js",
-              "src/assets/js/angular-messages.min.js",
-              "src/assets/js/angular-material.min.js",
-              "src/assets/js/assets-cache.js",
-              "src/assets/js/app.js",
-              "src/assets/js/jquery-2.1.4.min.js",
-              "src/assets/js/jquery.easing.js",
-              "src/assets/js/morphext.min.js",
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/jquery.sticky.js",
-              "src/assets/js/jquery.scrollTo.min.js",
-              "src/assets/js/jquery.localScroll.min.js",
-              "src/assets/js/jquery.magnific-popup.min.js",
-              "src/assets/js/owl.carousel.js",
-              "src/assets/js/jquery.flexslider-min.js",
-              "src/assets/js/wew.min.js",
-              "src/assets/js/scrolltopcontrol.js",
-              "src/assets/js/jquery.slicknav.js",
-              "src/assets/js/script.js",
-              "src/assets/js/jquery.filterizr.min.js",
-              "src/assets/js/projects.js" ,
-              "src/assets/js/wow.min.js"
+          
             ]
           },
           "configurations": {
