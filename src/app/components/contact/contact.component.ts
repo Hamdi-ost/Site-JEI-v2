@@ -1,4 +1,7 @@
 import { NgModule, Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { AngularFireDatabase } from 'angularfire2/database';
+
 
 
 
@@ -15,9 +18,21 @@ export class ContactComponent implements OnInit {
   university;
 
 
-  constructor() { }
+  constructor(private af: AngularFireDatabase) { }
 
   ngOnInit() {
+  }
+
+  onSubmit(form: NgForm) {
+    const value = form.value;
+    const name = value.name;
+    const email = value.email;
+    const message = value.content;
+    const subject = value.subject;
+
+    const formRequest = { name, email, subject, message};
+    this.af.list('/messages').push(formRequest);
+    form.reset();
   }
 
 

@@ -23,7 +23,10 @@ import { Departement1Component } from './components/structure/departement1/depar
 import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
-import { AgmCoreModule } from '@agm/core';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { environment } from '../environments/environment';
+
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent },
@@ -70,9 +73,8 @@ const appRoutes: Routes = [
     FormsModule,
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyA5wCOxJ9LuyNGbMN8qkH-k8H0CfKdcnSQ'
-    })
+    AngularFireDatabaseModule,
+    AngularFireModule.initializeApp(environment.firebase),
   ],
   providers: [YearsNavbarService],
   bootstrap: [AppComponent]
