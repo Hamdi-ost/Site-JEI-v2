@@ -1,7 +1,5 @@
 import { NgModule, Component, OnInit } from '@angular/core';
 
-import { FormsModule, NgForm } from '@angular/forms';
-
 
 
 @Component({
@@ -15,6 +13,7 @@ export class ContactComponent implements OnInit {
   email;
   subject;
   university;
+
 
   constructor() { }
 
