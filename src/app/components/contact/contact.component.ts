@@ -17,6 +17,8 @@ export class ContactComponent implements OnInit {
   subject;
   university;
 
+  lat = 36.843108;
+  lng = 10.196867;
 
   constructor(private af: AngularFireDatabase) { }
 
