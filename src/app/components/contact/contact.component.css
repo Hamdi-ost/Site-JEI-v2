@@ -45,3 +45,10 @@ text.ng-invalid.ng-touched {
 text.ng-valid.ng-touched {
     border-bottom: 1px solid green;
 }
+
+@media (max-width: 768px) {
+    .map iframe {
+      width: 50vh;
+    }
+  }
+  

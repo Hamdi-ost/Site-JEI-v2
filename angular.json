@@ -33,8 +33,8 @@
               "src/assets/css/jarallax.css",
               "src/assets/css/responsive.css",
               "src/assets/css/style.css",
-              "src/styles.css",
-              "./node_modules/lightbox2/src/css/lightbox.css"
+              "src/styles.css"
+         
             ],
             "scripts": [
               "src/assets/js/modernizr.min.js",
@@ -62,8 +62,8 @@
               "src/assets/js/scrolltopcontrol.js",
               "src/assets/js/jquery.slicknav.js",
               "src/assets/js/modal.js",
-              "src/assets/js/script.js",
-              "./node_modules/lightbox2/src/js/lightbox.js"
+              "src/assets/js/script.js"
+            
             ]
           },
           "configurations": {

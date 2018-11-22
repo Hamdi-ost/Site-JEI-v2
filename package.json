@@ -24,14 +24,10 @@
     "angularfire2": "^5.1.0",
     "bootstrap": "^4.1.3",
     "core-js": "^2.5.4",
-<<<<<<< HEAD
     "firebase": "^5.5.9",
     "firebase-admin": "^6.2.0",
     "jquery": "^3.3.1",
     "nodemailer": "^4.7.0",
-=======
-    "lightbox2": "^2.10.0",
->>>>>>> 4d08e4b92bd6fc2ac19a41054fd1657598a7ee0e
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },
