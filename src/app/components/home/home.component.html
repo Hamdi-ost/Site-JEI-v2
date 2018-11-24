@@ -55,13 +55,11 @@
       </li>
     </ul>
   </div>
-  <a routerLink="/actualite" style=" height:60px; 
-   width:100px; 
-   margin: -20px -50px; 
-   position:relative;
-   top:50%; 
-   left:50%;"
-    class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+  <div class="service-container2">
+    <div class="container">
+      <a routerLink="/formation" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+    </div>
+  </div>
 </section>
 
 
@@ -130,13 +128,11 @@
       </div>
 
     </div>
-    <a routerLink="/projet" style=" height:60px; 
-   width:100px; 
-   margin: -20px -50px; 
-   position:relative;
-   top:50%; 
-   left:50%;"
-      class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+    <div class="service-container2">
+      <div class="container">
+        <a routerLink="/projet" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Read More</a>
+      </div>
+    </div>
   </div>
 
 </section>
@@ -167,9 +163,11 @@
   </div>
 </section>
 
-<!--Sponsor section-->
-<div class="container" style="height: 100px; padding-top: 2rem">
-  <section class="customer-logos slider">
-    <div *ngFor="let sponsor of sponsors" class="slide"><img src="../../../assets/images/logos/{{sponsor.img}}"></div>
+
+<div style="height: 100px; padding-top: 2rem;">
+  <section class="customer-logos slider" >
+    <div *ngFor="let sponsor of sponsors" class="slide" ><img src="../../../assets/images/logos/{{sponsor.img}}"></div>
   </section>
 </div>
+
+    
