@@ -3021,36 +3021,71 @@ text-align: center;
 
 @media(max-width: 768px) {
     .main-heading-actualites {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;    
     }
     .main-heading-formations {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;   
     }
     .main-heading {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;    
     }
     .main-heading-structure {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;     
     }
     .main-heading-contact {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;    
     }
     .main-heading-sponsors {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;     
     }
     .main-heading-events {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;     
     }
     .main-heading-error {
-        background-position-y: -10px;  
-        background-position-x: -110px;     
+        background-position-y: 20px;  
+        background-position-x: -80px;    
+    }
+}
+
+@media(min-width: 1200px) {
+    .main-heading-actualites {
+        background-position-y: -300px;  
+        background-position-x: 0px;    
+    }
+    .main-heading-formations {
+        background-position-y: -300px;  
+        background-position-x: 0px;     
+    }
+    .main-heading {
+        background-position-y: -300px;  
+        background-position-x: 0px;     
+    }
+    .main-heading-structure {
+        background-position-y: -300px;  
+        background-position-x: 0px;       
+    }
+    .main-heading-contact {
+        background-position-y: -300px;  
+        background-position-x: 0px;       
+    }
+    .main-heading-sponsors {
+        background-position-y: -300px;  
+        background-position-x: 0px;      
+    }
+    .main-heading-events {
+        background-position-y: -300px;  
+        background-position-x: 0px;      
+    }
+    .main-heading-error {
+        background-position-y: -300px;  
+        background-position-x: 0px;     
     }
 }
 

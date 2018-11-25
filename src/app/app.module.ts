@@ -26,6 +26,7 @@ import { ActualiteDetailsComponent } from './components/actualite/actualite-deta
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 
 const appRoutes: Routes = [
@@ -36,6 +37,7 @@ const appRoutes: Routes = [
   { path: 'not-found', component: ErrorComponent },
   { path: 'formation', component: FormationComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'aboutus', component: AboutUsComponent},
   { path: 'projet', component: ProjetComponent },
   { path: 'sponsor', component: SponsorComponent },
   { path: 'structure', component: StructureComponent },
@@ -67,7 +69,8 @@ const appRoutes: Routes = [
     Departement1Component,
     Departement2Component,
     FormationDetailsComponent,
-    ActualiteDetailsComponent
+    ActualiteDetailsComponent,
+    AboutUsComponent
   ],
   imports: [
     FormsModule,

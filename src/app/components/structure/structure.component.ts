@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./structure.component.css']
 })
 export class StructureComponent {
-  
+
 MemberList = [
   {
     name: 'Mohamed Aziz FEKIH',
@@ -46,38 +46,38 @@ MemberList = [
     office: 'Responsable sponsoring et partenariats'
   }
 ];
-verifDepartement1=false;
-verifDepartement2=false;
-verifDepartement3=false;
-verifDepartement4=false;
+verifDepartement1 = false;
+verifDepartement2 = false;
+verifDepartement3 = false;
+verifDepartement4 = false;
 
- constructor (){
+ constructor () {
  }
- 
+
 /* onDepartement(i){
-  switch(i) { 
-    case 0: { 
-      this.verifDepartement1=!this.verifDepartement1; 
-      this.verifDepartement2=false; 
-      this.verifDepartement3=false; 
-      this.verifDepartement4=false; 
-       break; 
-    } 
-    case 1: { 
+  switch(i) {
+    case 0: {
+      this.verifDepartement1=!this.verifDepartement1;
+      this.verifDepartement2=false;
+      this.verifDepartement3=false;
+      this.verifDepartement4=false;
+       break;
+    }
+    case 1: {
       this.verifDepartement2=!this.verifDepartement2;
       this.verifDepartement1=false;
       this.verifDepartement3=false;
       this.verifDepartement4=false;
-       break; 
-    } 
-    case 2: { 
+       break;
+    }
+    case 2: {
       this.verifDepartement3=!this.verifDepartement3;
-       break; 
-    } 
-    default: { 
+       break;
+    }
+    default: {
       this.verifDepartement4=!this.verifDepartement4;
-       break; 
-    } 
-  }   
+       break;
+    }
+  }
  }*/
 }

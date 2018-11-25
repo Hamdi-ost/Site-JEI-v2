@@ -1,48 +1,48 @@
 <div class="main-heading-sponsors">
-  <div class="container">
-    <h3></h3>
+    <div class="container">
+      <h3></h3>
+    </div>
   </div>
-</div>
-
-
-<div class="container sponsors-container">
-
-  <!--<h4 class="sponsor-title">Sponsors</h4>-->
-
-  <ul class="row">
-
-      <li *ngFor="let sponsor of sponsors" class="col-md-3 col-sm-4 col-xs-6  justify-content-center">
-        <div>
-          <div class="sponsors-image center-block">
-            <a href="{{sponsor.link}}"><img src="../../../assets/images/logos/{{sponsor.img}}" data-toggle="popover" title="Some description of {{sponsor.name}} "></a>
+  
+  
+  <div class="container sponsors-container">
+  
+    <!--<h4 class="sponsor-title">Sponsors</h4>-->
+  
+    <ul class="row">
+  
+        <li *ngFor="let sponsor of sponsors" class="col-md-3 col-sm-4 col-xs-6  justify-content-center">
+          <div>
+            <div class="sponsors-image center-block">
+              <a href="{{sponsor.link}}"><img src="../../../assets/images/logos/{{sponsor.img}}" data-toggle="popover" title="Some description of {{sponsor.name}} "></a>
+            </div>
           </div>
+        </li>
+    </ul>
+  </div>
+  
+  <div class="blank-heading">
+    <div class="container">
+      <h3>Our Partners</h3>
+    </div>
+  </div>
+  
+  <div class="container">
+  
+    <ul class="row">
+      <li *ngFor="let partner of partners" class="col-md-6 col-sm-6 justify-content-center">
+        <div >
+          <div class="sponsors-image"><img src="../../../assets/images/logos/{{partner.img}}">
+  
+          </div>
+  
+  
         </div>
       </li>
-  </ul>
-</div>
-
-<div class="blank-heading">
-  <div class="container">
-    <h3>Our Partners</h3>
+    </ul>
+  
+  
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+  
+  
   </div>
-</div>
-
-<div class="container">
-
-  <ul class="row">
-    <li *ngFor="let partner of partners" class="col-md-6 col-sm-6 justify-content-center">
-      <div >
-        <div class="sponsors-image"><img src="../../../assets/images/logos/{{partner.img}}">
-
-        </div>
-
-
-      </div>
-    </li>
-  </ul>
-
-
-  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
-
-
-</div>
