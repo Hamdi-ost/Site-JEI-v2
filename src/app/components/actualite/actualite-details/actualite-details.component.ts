@@ -12,26 +12,31 @@ export class ActualiteDetailsComponent {
   name1;
   name2;
   date;
-  description;
+  description1;
+  description2;
+  afterPoint;
   img;
+  points;
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
-      this.id = params['id']
-      this.year = params['year']
-      var actualite = data['GlobalActualite'].filter((a) => { return a.date == this.year; })[0].actualites
+      this.id = params['id'];
+      this.year = params['year'];
+      const actualite = data['GlobalActualite'].filter((a) => a.date === this.year)[0].actualites
         .filter(
           (b) => {
-            return b.id == this.id;
+            return b.id === this.id;
           }
-        )[0]
-      var name = actualite.name.split(' ')
-      this.name2 = name[name.length - 1]
-      this.name1 = name.slice(0, name.length - 1).join(' ')
-      this.date = actualite.date
-      this.description = actualite.description
-      this.img = actualite.images
+        )[0];
+      const name = actualite.name.split(' ');
+      this.name2 = name[name.length - 1];
+      this.name1 = name.slice(0, name.length - 1).join(' ');
+      this.date = actualite.date;
+      this.description1 = actualite.description1;
+      this.description2 = actualite.description2;
+      this.img = actualite.images;
+      this.points = actualite.points;
+      this.afterPoint = actualite.afterPoint;
     });
 
   }
 }
-

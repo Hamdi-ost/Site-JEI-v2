@@ -1107,7 +1107,7 @@
         },
         {
             "name": "Bouche B",
-            "img": "boucheB.png"
+            "img": "logo-1.png"
         },
         {
             "name": "Arvea",
@@ -1179,9 +1179,49 @@
             "actualites": [
                 {
                     "id": "1",
-                    "date": "Le Mercredi 06/02/2018",
-                    "name": "Proin laoreet fringilla congue",
-                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "date": "Le Mercredi 06/02/2018 à regler",
+                    "name": "Les élections du nouveau bureau exécutif pour le mandat 2018-2019",
+                    "description1": "Des élections tenues au sein de la Junior Entreprise INSAT ont donnée naissance, aujourd'hui, *LA DATE*, à une nouvelle composition du bureau éxecutif de notre Junior Entrprise. Des étudiants jeunes et motivés éspèrenet donner un souffle nouveau pour faire, sans doute, briller l’image de la Junior Entreprise INSAT.",
+                    "description2": "Le nouveau bureau exécutif pour le mandat 2018-2019 est composé de : ",
+                    "afterPoint": "Que ce mandat soit exceptionnel, plein de succès et de réussite.",
+                    "points": [
+                        {
+                            "name": "point1",
+                            "desc": "Fekih Mohamed Aziz : Président"
+                        },
+                        {
+                            "name": "point2",
+                            "desc": "Attia Zeineb : Vice-présidente"
+                        },
+                        {
+                            "name": "point3",
+                            "desc": "Merchaoui Yosr : Secrétaire générale"
+                        },
+                        {
+                            "name": "point4",
+                            "desc": "Dabbabi Sarra : Trésorière "
+                        },
+                        {
+                            "name": "point5",
+                            "desc": "Bibi Mohamed Aziz : Responsable projet et prospection"
+                        },
+                        {
+                            "name": "point6",
+                            "desc": "Boussaid Yasmine : Responsable évenementiel"
+                        },
+                        {
+                            "name": "point7",
+                            "desc": "Kilani Iheb : Responsable communication"
+                        },
+                        {
+                            "name": "point8",
+                            "desc": "Aidi Houyem : Responsable sponsoring"
+                        },
+                        {
+                            "name": "point9",
+                            "desc": "Chebbi Amani : Responsable ressources humaines"
+                        }
+                    ],
                     "images": [
                         {
                             "name": "image1",
@@ -1203,9 +1243,12 @@
                 },
                 {
                     "id": "2",
-                    "date": "Le Mercredi 06/02/2018",
-                    "name": "Proin laoreet fringilla congue",
-                    "description": "In a orci commodo, sollicitudin velit id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec semper ultrices fermentum. Morbi justo diam, pulvinar et semper eu, pretium eget quam. Cras at elit a dolor facilisis congue eu ac sapien.Suspendisse bibendum pulvinar tempus. Cras volutpat mattis est sit amet ornare. Quisque pharetra pretium lectus eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi elementum dapibus risus a commodo. In non sagittis leo. Nulla efficitur, ipsum ac fringilla rhoncus, augue nisl lobortis tortor, in rhoncus elit lacus vitae sem.",
+                    "date": "Le Mercredi 06/02/2018 à verifier",
+                    "name": "Formation Event management",
+                    "description1": "Le mercredi (date), nous avons eu l’immense plaisir d’accueillir parmi nous le fameux Fourat hammi qui est ‘LE’ meilleur formateur en terme d’Event managment . Cet homme extraordinaire qui faisait partie des fondateurs de la JE Enet’com , l’un des premiers à promouvoir le mouvement en Tunisie , occupait pendant deux ans le poste de vice-président de la junior entreprise de Tunis. Etant un expert dans son domaine, il peut mieux que quiconque former des juniors entrepreneurs.",
+                    "description2": "Lors de cette formation, Monsieur Hammi a appris à nos membres comment préparer un évènement de A à Z , dont la manière d’aborder et de réagir face à certaines circonstances , les différents plans à établir afin d’éviter les imprévus , réagir face au stress ,comment être pragmatique , etc.. Toutes les bonnes pratiques afin de réussir un évènement.",
+                    "afterPoint": "Nous souhaitons le remercier pour sa coopération, pour son implication dans ce mouvement et pour sa merveilleuse présence lors de cette rencontre.",
+                    "points": null,
                     "images": [
                         {
                             "name": "image1",

@@ -145,16 +145,16 @@
       id, euismod arcu. Cras viverra varius cursus. Vestibulum sed risus urna. Donec lobortis venenatis feugiat. Donec
       semper ultrices fermentum.</p>
     <ul class="row serviceList">
-      <li *ngFor="let actualite of actualites" class="col-md-4 col-sm-6">
+      <li *ngFor="let actualite of actualites[0]" class="col-md-4 col-sm-6">
         <div class="sevices-box">
-          <div class="service-image"><img src="../../../assets/images/{{actualite.actualites[0].img}}">
+          <div class="service-image"><img src="../../../assets/images/{{actualite.img}}">
             <div class="hoverlink">
               <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
             </div>
           </div>
-          <div class="service-details">
-            <h3><a href="#">{{actualite.actualites[0].name}}</a></h3>
-            <p>{{actualite.actualites[0].description}}</p>
+          <div class="service-details" style="height: 350px">
+            <h3><a href="#">{{actualite.name}}</a></h3>
+            <p>{{actualite.description1}}</p>
           </div>
         </div>
       </li>
