@@ -20,6 +20,8 @@ export class HomeComponent implements OnInit {
 
   }
 
+
+
   ngOnInit() {
     this.projets.push(data['projets'][0], data['projets'][1], data['projets'][2], data['projets'][3]);
     this.evenements = data['events'];

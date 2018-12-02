@@ -27,16 +27,19 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { DelayResolverService } from './services/delay-resolver.service';
 
 
 const appRoutes: Routes = [
   { path: 'actualite', component: ActualiteComponent },
+  { path: 'about-us', component: AboutUsComponent },
   { path: 'actualite/:year/:id', component: ActualiteDetailsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'evenement', component: EvenementComponent },
   { path: 'not-found', component: ErrorComponent },
   { path: 'formation', component: FormationComponent },
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent},
   { path: 'aboutus', component: AboutUsComponent},
   { path: 'projet', component: ProjetComponent },
   { path: 'sponsor', component: SponsorComponent },
@@ -78,6 +81,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebase),
+    NgxSpinnerModule
   ],
   providers: [YearsNavbarService],
   bootstrap: [AppComponent]

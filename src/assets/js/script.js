@@ -1,5 +1,4 @@
 // Javascript by Sander Sats
-
 var keepAlive = $(".sblogos").data("keep-alive");
 var interval = $(".sblogos").data("interval");
 var random = $(".sblogos").data("random");
@@ -420,6 +419,18 @@ $.fn.random = function(){
          }
      );
  }
+
+ $('.countchiffre').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 2000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 
  
 

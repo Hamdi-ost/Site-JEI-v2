@@ -3054,7 +3054,7 @@ text-align: center;
     }
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 1400px) {
     .main-heading-actualites {
         background-position-y: -300px;  
         background-position-x: 0px;    
