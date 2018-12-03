@@ -1244,10 +1244,25 @@
                 {
                     "id": "2",
                     "date": "Le Mercredi 06/02/2018 à verifier",
-                    "name": "Formation Event management",
+                    "name": "Formation Event management (2018/2019)",
                     "description1": "Le mercredi (date), nous avons eu l’immense plaisir d’accueillir parmi nous le fameux Fourat hammi qui est ‘LE’ meilleur formateur en terme d’Event managment . Cet homme extraordinaire qui faisait partie des fondateurs de la JE Enet’com , l’un des premiers à promouvoir le mouvement en Tunisie , occupait pendant deux ans le poste de vice-président de la junior entreprise de Tunis. Etant un expert dans son domaine, il peut mieux que quiconque former des juniors entrepreneurs.",
                     "description2": "Lors de cette formation, Monsieur Hammi a appris à nos membres comment préparer un évènement de A à Z , dont la manière d’aborder et de réagir face à certaines circonstances , les différents plans à établir afin d’éviter les imprévus , réagir face au stress ,comment être pragmatique , etc.. Toutes les bonnes pratiques afin de réussir un évènement.",
                     "afterPoint": "Nous souhaitons le remercier pour sa coopération, pour son implication dans ce mouvement et pour sa merveilleuse présence lors de cette rencontre.",
+                    "points": null,
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "2.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "date": "Le Samedi 24/11/2018 à verifier",
+                    "name": "Participation de la JE INSAT au séminaire JOBS2k18",
+                    "description1": "La Junior Entreprise INSAT a eu l'immense plaisir de participer à la 5ème édition du séminaire national JOBS (Junior Official Business Seminar), qui s'est tenue les 23 et 24 novembre 2018, à l‘hôtel Mouradi Kantaoui à Sousse, rassemblant plus de 1350 Juniors Entrepreneurs.",
+                    "description2": "Chaque année, ce séminaire national vise à regrouper une multitude de Junior-Entreprises dans un même lieu pour initier le concept du mouvement chez les nouveaux membres recrutés , leur offrir une formation équilibrée en matière de soft et hard skills et favoriser les relations INTER JE. Pour la première fois, la JET (Junior Entreprises of Tunisia) a adopté une nouvelle formule offrant trois programmes différents pour les quartets, les responsables, et les membres des différentes Juniors Entreprises, comprenant des débats ainsi que des panels tant constructifs qu'enrichissants.",
+                    "afterPoint": "La Tunisie doit être fiere de ces Juniors Entrepreneurs qui redonnent espoir et qui représentent l'avenir de ce beau pays. #BeProud",
                     "points": null,
                     "images": [
                         {
