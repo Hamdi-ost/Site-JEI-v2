@@ -6,6 +6,7 @@
 
       <div class="meta">
         <h1><span>Junior Entreprise Insat</span></h1>
+        <h2><span>Trust tomorrow's engineers</span></h2>
         <div class="local-scroll p-t-60">
           <a href="/about-us" class="btn-style-6 size-small dark-skin corner-off-rounded">Nous découvrir</a>
           <a href="/contact" class="btn-style-6 size-small dark-skin corner-off-rounded">Nous contacter</a>
@@ -17,11 +18,10 @@
 
       <div class="overlay"></div>
       <div class="meta">
-        <h1><span>Cras volutpat mattis est sit amet ornare</span></h1>
-        <h2><span>Quisque pharetra.</span></h2>
+        <h1><span>Un service qui répond à vos attentes.</span></h1>
+        <h2><span>Tous les moyens sont mis en œuvre pour vous satisfaire.</span></h2>
         <div class="local-scroll p-t-60">
-          <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">More Details</a>
-          <a href="#" class="btn-style-6 size-small dark-skin corner-off-rounded">Reach us</a>
+          <a href="../../../assets/plaquette de prospection num.pdf" target="_blank" class="btn-style-6 size-small dark-skin corner-off-rounded">Plus de détails</a>
         </div>
       </div>
     </li>
@@ -33,9 +33,81 @@
 </div>
 
 
+<!--Project section-->
+<section class="page-section header-2-intro">
+  <div class="porfolio-container">
+    <h1 class="p-t-60">NOS <span>Projets</span></h1>
+    <p class="heading-description text-center fff">Nous réalisons votre projet en vous garantissant un service professionnel, centré sur la satisfaction du client. </p>
+    <div class="home-portfolios">
+      <div class="row filtr-container">
+        <div *ngFor="let projet of projets" class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated"
+          data-wew-delay=".2s" data-category="1, 4" data-sort="Busy streets" data-visibility="true" data-animated="true"
+          style="visibility: visible; animation-delay: 0.2s;">
+          <div class="product-container">
+            <a class="portfolio-img">
+              <img src="../../../assets/images/projects/affiche/{{projet.img}}" alt="">
+            </a>
+            <span style="margin-top: 50px" class="item-desc">{{projet.name}}</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="service-container2">
+      <div class="container">
+        <a routerLink="/projet" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Voir Plus</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!--About us section-->
+<section>
+  <div class="fullwidth-about">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <img src="../../../assets/images/1.jpg" alt="About">
+      </div>
+      <div class="col-md-6 description col-xs-12 p-t-70 p-b-50">
+        <h4 style="color: #8b252c; font-weight: bold" class="text-uppercase">Qui sommes-nous ?</h4>
+        <p style="color: white">La Junior Entreprise INSAT est un club à but non lucratif fondé en 2005 et a rejoint la
+          Confédération
+          Nationale des Juniors Entreprises JET en 2012. La mission de la Junior Entreprise INSAT est de former les
+          différents étudiants dans le domaine de l'entreprenariat et leur faciliter de ce fait l'intégration dans la
+          vie professionnelle. Les principales compétences de la Junior Entreprise INSAT tournent principalement autour
+          du développement Web, du développement mobile, et du référencement.</p>
+        <ul class="about-service wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true" style="visibility: visible; animation-delay: 1s;"
+          data-animated="true">
+          <li>RÉACTIVITÉ</li>
+          <li>ENGAGEMENT</li>
+          <li>OUVERTURE</li>
+          <li>FIABILITÉ</li>
+          <div class="clearfix"></div>
+        </ul>
+        <div class="double-border uppercase wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true"
+          style="visibility: visible; animation-delay: 1s;" data-animated="true">
+          <a routerLink="/about-us">
+            <span class="mahi-button type-5">
+              <span class="size-large"> Voir Plus</span>
+              <span class="size-large"> Voir Plus</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!--Formations section-->
 <section class="page-section header-2-intro">
   <div class="container">
+      <h1 class="p-t-60">NOS <span>Formations</span></h1>
+
     <ul class="row">
       <li *ngFor="let formation of formations" class="col-md-4 col-sm-6">
         <div class="icon-box-1">
@@ -59,81 +131,6 @@
       <a routerLink="/formation" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Voir Plus</a>
     </div>
   </div>
-</section>
-
-
-<!--About us section-->
-<section>
-  <div class="fullwidth-about">
-    <div class="row">
-      <div class="col-md-6 col-xs-12">
-        <img src="../../../assets/images/1.jpg" alt="About">
-      </div>
-      <div class="col-md-6 description col-xs-12 p-t-70 p-b-50">
-        <h4 style="color: #8b252c; font-weight: bold" class="text-uppercase">Qui sommes-nous ?</h4>
-        <p style="color: white">La Junior Entreprise INSAT est un club à but non lucratif fondé en 2005 et a rejoint la
-          Confédération
-          Nationale des Juniors Entreprises JET en 2012. La mission de la Junior Entreprise INSAT est de former les
-          différents étudiants dans le domaine de l'entreprenariat et leur faciliter de ce fait l'intégration dans la
-          vie professionnelle. Les principales compétences de la Junior Entreprise INSAT tournent principalement autour
-          du développement Web, du développement mobile, et du référencement.</p>
-        <ul class="about-service wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true" style="visibility: visible; animation-delay: 1s;"
-          data-animated="true">
-          <li>Une Junior Entreprise (J.E.) est un bureau d’études implanté au sein d’une institution universitaire.</li>
-          <li>Géré par des étudiants.</li>
-          <li>La JET est la Confédération Tunisienne des Junior Entreprises.</li>
-          <li>Fondée en 2012 par quatre Junior Entreprises,.</li>
-          <div class="clearfix"></div>
-        </ul>
-        <div class="double-border uppercase wew fadeInUp animated js-animated" data-wew-delay="1s" data-visibility="true"
-          style="visibility: visible; animation-delay: 1s;" data-animated="true">
-          <a routerLink="/about-us">
-            <span class="mahi-button type-5">
-              <span class="size-large"> Voir Plus</span>
-              <span class="size-large"> Voir Plus</span>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!--Project section-->
-<section class="page-section header-2-intro">
-  <div class="porfolio-container">
-    <h1 class="p-t-60">NOS <span>Projets</span></h1>
-    <p class="heading-description text-center fff">Nunc aliquet est at erat semper, pulvinar scelerisque nisi mattis.
-      Sed
-      facilisis pretium elit, in sollicitudin neque dignissim vitae. Cras eget tellus sit amet tortor porta venenatis
-      nec
-      sed sapien. Phasellus eget felis interdum, luctus massa nec, rutrum urna. Orci varius natoque penatibus et magnis
-      dis parturient montes, nascetur ridiculus mus. Curabitur eu tempor risus. </p>
-    <div class="home-portfolios">
-      <div class="row filtr-container">
-        <div *ngFor="let projet of projets" class="col-xs-12 col-sm-3 col-md-3 filtr-item wew rotateInDownLeft animated js-animated"
-          data-wew-delay=".2s" data-category="1, 4" data-sort="Busy streets" data-visibility="true" data-animated="true"
-          style="visibility: visible; animation-delay: 0.2s;">
-          <div class="product-container">
-            <a href="../../../assets/images/projects/affiche/{{projet.img}}" class="portfolio-img mfp-image">
-              <img src="../../../assets/images/projects/affiche/{{projet.img}}" alt="">
-            </a>
-            <span style="margin-top: 50px" class="item-desc">{{projet.name}}</span>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <div class="service-container2">
-      <div class="container">
-        <a routerLink="/projet" class="btn-style-1 size-medium light-skin uppercase corner-rounded">Voir Plus</a>
-      </div>
-    </div>
-  </div>
-
 </section>
 
 <!--actualites section-->

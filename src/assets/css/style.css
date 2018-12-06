@@ -2956,32 +2956,32 @@ text-align: center;
 .main-heading {
     background: url(../images/Projets.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -120px; 
-    padding: 120px 0;
+    background-position-y: -80px; 
+    padding: 170px 0;
 
 }
 
 .main-heading-structure {
     background: url(../images/Structure.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -150px; 
-    padding: 120px 0;
+    background-position-y: -80px; 
+    padding: 170px 0;
 }
 
 
 .main-heading-error {
 
     background-size: cover;
-    background-position-y: -200px; 
-    padding: 150px 0;
+    background-position-y: -80px; 
+    padding: 170px 0;
 }
 
 .main-heading-events {
     vertical-align: center;
     background: url(../images/Evénements.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -150px;     
-    padding: 120px 0;
+    background-position-y: -80px;     
+    padding: 170px 0;
 
 }
 
@@ -2989,8 +2989,8 @@ text-align: center;
     vertical-align: center;
     background: url(../images/Sposnoring.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -150px;     
-    padding: 120px 0;
+    background-position-y: -80px;     
+    padding: 170px 0;
 
 }
 
@@ -2998,24 +2998,24 @@ text-align: center;
     vertical-align: center;
     background: url(../images/Contacts.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -150px;     
-    padding: 120px 0;
+    background-position-y: -80px;     
+    padding: 170px 0;
 
 }
 
 .main-heading-formations {
     background: url(../images/Formations.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -150px;     
-    padding: 120px 0;
+    background-position-y: -80px;     
+    padding: 170px 0;
 
 }
 
 .main-heading-actualites {
     background: url(../images/Actualités.jpg) no-repeat;
     background-size: cover;
-    background-position-y: -150px;     
-    padding: 120px 0;
+    background-position-y: -80px;     
+    padding: 170px 0;
 
 }
 

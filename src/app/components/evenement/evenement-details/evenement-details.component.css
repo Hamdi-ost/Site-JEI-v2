@@ -255,7 +255,7 @@ img {
     padding: 150px 0;
 }
 .organizer-area.over-layer-black:before {
-    background: rgba(0,0,0,0.6);
+    background: rgba(192,192,192);
 }
 .organizer-col {
     text-align: center;

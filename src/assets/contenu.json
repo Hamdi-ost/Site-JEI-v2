@@ -112,32 +112,7 @@
                 "l'association « Injaz Tunisie »"
             ],
             "speakers": null,
-            "schedule": [
-                {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker1",
-                    "img": "19.jpg"
-                },
-                {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker2",
-                    "img": "20.jpg"
-                },
-                {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker3",
-                    "img": "21.jpg"
-                },
-                {
-                    "time": "09:00 PM - 10:30 PM",
-                    "content": "Speach On blalal",
-                    "by": "speaker3",
-                    "img": "22.jpg"
-                }
-            ],
+            "schedule": [],
             "gallery": [
                 {
                     "img": "innov1.jpg",
@@ -1114,10 +1089,6 @@
             "img": "arvea.jpg"
         },
         {
-            "name": "Five Points",
-            "img": "5-points.jpg"
-        },
-        {
             "name": "Atct",
             "img": "atct.jpg"
         },
@@ -1170,6 +1141,10 @@
         {
             "name": "PFI Consulting",
             "img": "pfi-consulting.png"
+        },
+        {
+            "name": "Five Points",
+            "img": "5-points.jpg"
         }
     ],
     "GlobalActualite": [
