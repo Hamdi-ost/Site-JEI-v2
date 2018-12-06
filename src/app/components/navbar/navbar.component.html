@@ -25,19 +25,18 @@
                     </div>
                   </li>
                   <li> <a (click)="loadScripts()" href='/home'> Accueil </a> </li>
+                  <li class="dropdown"> <a (click)="loadScripts()"> A propos </a>
+                    <ul class="dropdown-menu" style="display: none;">
+                      <li> <a href="/aboutus">QUI SOMMES-NOUS</a></li>
+                      <li> <a href="/structure">Structure</a></li>
+                      <li> <a href="/sponsor"> Sponsors </a></li>
+                    </ul>
+                  </li>
                   <li> <a (click)="loadScripts()" href='/actualite'>Actualités</a></li>
                   <li> <a (click)="loadScripts()" href='/evenement'>Evenements</a></li>
                   <li> <a (click)="loadScripts()" href='/projet'> Projets </a></li>
                   <li> <a (click)="loadScripts()" href='/formation'> Formations </a></li>
-                  <!-- <li> <a (click)="loadScripts()" href='/structure'> Structure</a></li> -->
-                  <li> <a (click)="loadScripts()" href='/contact'> Contactez nous</a></li>
-                  <!-- <li> <a (click)="loadScripts()" href='/sponsor'> Sponsors</a></li> -->
-                  <li class="dropdown"> <a (click)="loadScripts()" href="/aboutus"> About Us </a>
-                    <ul class="dropdown-menu" style="display: none;">
-                        <li> <a href="/structure">Structure</a></li>
-                        <li> <a href="/sponsor"> Sponsors </a></li>
-                    </ul>
-                </li>
+                  <li> <a (click)="loadScripts()" href='/contact'> Contactez nous</a></li>                 
                 </ul>
               </div>
               <div class="clearfix"></div>
