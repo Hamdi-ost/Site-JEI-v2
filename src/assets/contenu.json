@@ -1154,6 +1154,7 @@
             "actualites": [
                 {
                     "id": "1",
+                    "src": "18SEP.jpg",
                     "date": "Le Mercredi 06/02/2018 à regler",
                     "name": "Les élections du nouveau bureau exécutif pour le mandat 2018-2019",
                     "description1": "Des élections tenues au sein de la Junior Entreprise INSAT ont donnée naissance, aujourd'hui, *LA DATE*, à une nouvelle composition du bureau éxecutif de notre Junior Entrprise. Des étudiants jeunes et motivés éspèrenet donner un souffle nouveau pour faire, sans doute, briller l’image de la Junior Entreprise INSAT.",
@@ -1218,6 +1219,7 @@
                 },
                 {
                     "id": "2",
+                    "src": "14OCT.jpg",
                     "date": "Le Mercredi 06/02/2018 à verifier",
                     "name": "Formation Event management (2018/2019)",
                     "description1": "Le mercredi (date), nous avons eu l’immense plaisir d’accueillir parmi nous le fameux Fourat hammi qui est ‘LE’ meilleur formateur en terme d’Event managment . Cet homme extraordinaire qui faisait partie des fondateurs de la JE Enet’com , l’un des premiers à promouvoir le mouvement en Tunisie , occupait pendant deux ans le poste de vice-président de la junior entreprise de Tunis. Etant un expert dans son domaine, il peut mieux que quiconque former des juniors entrepreneurs.",
@@ -1233,6 +1235,7 @@
                 },
                 {
                     "id": "3",
+                    "src": "28NOV.jpg",
                     "date": "Le Samedi 24/11/2018 à verifier",
                     "name": "Participation de la JE INSAT au séminaire JOBS2k18",
                     "description1": "La Junior Entreprise INSAT a eu l'immense plaisir de participer à la 5ème édition du séminaire national JOBS (Junior Official Business Seminar), qui s'est tenue les 23 et 24 novembre 2018, à l‘hôtel Mouradi Kantaoui à Sousse, rassemblant plus de 1350 Juniors Entrepreneurs.",

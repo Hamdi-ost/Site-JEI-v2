@@ -78,7 +78,7 @@ const appRoutes: Routes = [
   imports: [
     FormsModule,
     BrowserModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebase),
     NgxSpinnerModule
