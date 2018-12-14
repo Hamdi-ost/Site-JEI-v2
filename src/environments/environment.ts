@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: 'AIzaSyAW6uf22xmYg1veF9-CAb-RbYQAY42QMUE',
-    authDomain: 'jei-contactpage.firebaseapp.com',
-    databaseURL: 'https://jei-contactpage.firebaseio.com',
-    projectId: 'jei-contactpage',
-    storageBucket: 'jei-contactpage.appspot.com',
-    messagingSenderId: '728481630909'
+    apiKey: 'AIzaSyAChoIVJxI-YimfjUZX6TrxZbKWMzoKakU',
+    authDomain: 'site-officiel-je-insat.firebaseapp.com',
+    databaseURL: 'https://site-officiel-je-insat.firebaseio.com',
+    projectId: 'site-officiel-je-insat',
+    storageBucket: 'site-officiel-je-insat.appspot.com',
+    messagingSenderId: '149836589885'
   }
 };
 
