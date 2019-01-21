@@ -5,12 +5,12 @@
 </div>
 
 <!--Section: Contact v.1-->
-<section class="section pb-5 container">
+<section style="margin-top: 5rem" class="section pb-5 container">
   <br><br>
   <!--Section heading-->
-  <h2 class="section-heading h1 pt-4">Contact us</h2>
+  <h2 class="section-heading h1 pt-4">Contactez nous</h2>
   <!--Section description-->
-  <h4 class="section-heading h5 pt-4">Please feel free to reach out to us</h4>
+  <h4 class="section-heading h5 pt-4">S'il vous plaît, n'hésitez pas à nous contacter</h4>
 
   <div class="row">
 
@@ -23,26 +23,26 @@
         <div class="card-body">
           <!--Header-->
           <div class="form-header blue accent-1">
-            <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+            <h3><i class="fa fa-envelope"></i> Ecrivez nous:</h3>
           </div>
 
           <form (ngSubmit)="onSubmit(f)" #f="ngForm">
             <!--Body-->
             <div class="md-form">
-              <i style="padding-right: 12px" class="fa fa-user prefix grey-text"></i> <label for="form3" >Your name</label>
+              <i style="padding-right: 2px" class="fa fa-user prefix grey-text"></i> <label for="form3" >Votre nom</label>
               <input mdbActive type="text" id="form3" ngModel name="name" required class="form-control">
 
             </div>
 
             <div class="md-form">
-              <i style="padding-right: 2px" class="fa fa-envelope prefix grey-text"></i> <label for="form2">Your email</label>
+              <i style="padding-right: 2px" class="fa fa-envelope prefix grey-text"></i> <label for="form2">Votre email</label>
               <input mdbActive type="text" id="form2" required class="form-control" ngModel #email="ngModel" name="email"
                 email>
 
             </div>
 
             <div class="md-form">
-              <i style="padding-right: 2px" class="fa fa-tag prefix grey-text"></i><label for="form34">Subject</label>
+              <i style="padding-right: 2px" class="fa fa-tag prefix grey-text"></i><label for="form34">Sujet</label>
               <input mdbActive type="text" id="form32" required class="form-control" ngModel name="subject">
 
             </div>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="text-center">
-              <button type="submit" [disabled]="!f.valid" class="btn btn-elegant waves-light" mdbRippleRadius>Submit</button>
+              <button type="submit" [disabled]="!f.valid" class="btn btn-elegant waves-light" mdbRippleRadius>Soumettre</button>
             </div>
           </form>
         </div>

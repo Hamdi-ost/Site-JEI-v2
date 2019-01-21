@@ -9,7 +9,6 @@ import * as data from '../../../assets/contenu.json';
 })
 export class HomeComponent implements OnInit {
 
-
   projets = [];
   evenements = [];
   actualites = [];

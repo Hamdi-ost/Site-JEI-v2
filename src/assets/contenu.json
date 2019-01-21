@@ -171,7 +171,8 @@
             "img": "insatienEnEntretien.jpg",
             "img2": "insatienEnEntretien.jpg",
             "description": [
-                "Insatien en Entretien 15/11/2017 est divisé en trois parties: ",
+                "Insatien en Entretien 15/11/2017 est divisé en trois parties: <br\/>",
+                "<h3>&quot;Hot&quot; Items <\/h3>",
                 "WORKSHOPS :",
                 "-Correction des CV",
                 "-Correction des lettres de motivation",
@@ -416,7 +417,7 @@
                 }
             ],
             "demo": [
-                "buvette4.jpg",
+                "buvette1.jpg",
                 "buvette2.jpg",
                 "buvette3.jpg"
             ],
@@ -532,10 +533,11 @@
                 }
             ],
             "demo": [
-                "gain1.jpg",
+                
                 "gain2.jpg",
                 "gain3.jpg",
-                "gain4.jpg"
+                "gain4.jpg",
+                "gain1.jpg"
             ],
             "temoignageClient": {
                 "name": "Mr Maher KHALED",
@@ -597,6 +599,7 @@
     ],
     "formations": [
         {
+            "icon": "fa-users",
             "id": 1,
             "name": "Formation attitudes et leadership",
             "img": "1.jpg",
@@ -658,6 +661,7 @@
         },
         {
             "id": 2,
+            "icon": "fa-clock-o",
             "name": "Formation gestion du temps et du stress",
             "date": "04/10/2017",
             "category": "soft skills",
@@ -716,6 +720,7 @@
         },
         {
             "id": 3,
+            "icon": "fa-code",
             "name": "Formation Laravel",
             "date": "24/01/2018",
             "category": "backend",
