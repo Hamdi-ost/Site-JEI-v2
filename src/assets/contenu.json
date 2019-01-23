@@ -9,21 +9,7 @@
             "day": "02",
             "month": "Mai",
             "year": "2018",
-            "description": [
-                "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le",
-                "02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des",
-                "challenges.",
-                "Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera",
-                "représentée par 4 participants. Un système d'élimination basé sur des questions bien",
-                "pensées pour apprendre à construire un business plan insubmersible.",
-                "QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et",
-                "éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais",
-                "aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de",
-                "l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer",
-                "le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes",
-                "les juniors et mettra le feu à l’auditorium.",
-                "Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de",
-                "l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"
+            "description": [ "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le 02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des challenges. Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera représentée par 4 participants. Un système d'élimination basé sur des questions bien pensées pour apprendre à construire un business plan insubmersible. QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes les juniors et mettra le feu à l’auditorium. Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"
             ],
             "organizators": [
                 "Junior Entreprise INSAT"
@@ -170,25 +156,8 @@
             "year": "2017",
             "img": "insatienEnEntretien.jpg",
             "img2": "insatienEnEntretien.jpg",
-            "description": [
-                "Insatien en Entretien 15/11/2017 est divisé en trois parties: <br\/>",
-                "<h3>&quot;Hot&quot; Items <\/h3>",
-                "WORKSHOPS :",
-                "-Correction des CV",
-                "-Correction des lettres de motivation",
-                "-Simulation d’entretien",
-                "SPEAKERS :",
-                "Où des directeurs en ressources",
-                "humaines sont invités pour citer les",
-                "problèmes majeurs qu’un étudiant",
-                "peut trouver dans un entretien et",
-                "proposer des solutions pour réussir son entretien. CONFERENCES:",
-                "On a invité des fondateurs des",
-                "entreprise et des entrepreneurs pour",
-                "présenter leurs parcours",
-                "professionnels et montrer les clés de",
-                "succès en tant qu’entrepreneur ."
-            ],
+            "description":  " Insatien en Entretien 15/11/2017 est divisé en trois parties: WORKSHOPS: Correction des CV / Correction des lettres de motivation / Simulation d’entretien. SPEAKERS : Où des directeurs en ressources humaines sont invités pour citer les problèmes majeurs qu’un étudiant peut trouver dans un entretien et proposer des solutions pour réussir son entretien. CONFERENCES: On a invité des fondateurs des entreprise et des entrepreneurs pour présenter leurs parcours professionnels et montrer les clés de succès en tant qu’entrepreneur ."
+            ,
             "organizators": [
                 "Junior Entreprise INSAT"
             ],
@@ -1070,85 +1039,105 @@
     "sponsors": [
         {
             "name": "Infor",
-            "img": "infor.jpg"
+            "img": "infor.jpg",
+            "description": "Infor est un éditeur international qui propose des solutions logicielles pour gérer chaque aspect d'une entreprise. Dédié à des secteurs d'activité spécifiques, Infor offre des suites complètes dans le cloud et déploie une technologie efficace qui privilégie l'expérience utilisateur, exploite la science des données et s'intègre aisément aux systèmes existants."
         },
         {
             "name": "Incept",
-            "img": "incept.jpg"
+            "img": "incept.jpg",
+            "description": "Incept est une startup tech tunisienne qui offre des technologies digitales et des solutions dans le domaine de la réalité augmentée, de la projection holographique et de l’IOT."
         },
         {
             "name": "Studely",
-            "img": "studely.jpg"
+            "img": "studely.jpg",
+            "description": "Studely est la première plateforme en ligne qui offre un accompagnement personnalisé aux étudiants internationaux."
         },
         {
             "name": "Laser Ice Game",
-            "img": "laser-game-evolution.jpg"
+            "img": "laser-game-evolution.jpg",
+            "description": "Laser Game Evolution, nouveau et unique en Tunisie, de 7 à 77 ans, en famille, entre ami(e)s, entre collègues pour profiter d'un environnement à la fois ludique et sportif."
         },
         {
             "name": "Arvea",
-            "img": "arvea.jpg"
+            "img": "arvea.jpg",
+            "description": "ARVEA exerce correctement le métier de la vente directe en s’appuyant sur le sens de l’écoute et la fiabilité des produits et en offrant un bon rapport qualité prix. Arvea est tout un univers qui est caractérisé par la haute qualité de ses produits et la fierté de consommer tunisien."
         },
         {
             "name": "Atct",
-            "img": "atct.jpg"
+            "img": "atct.jpg",
+            "description": "Tunisie Compétences est le site des compétences individuelles et institutionnelles, publiques et privées, que la Tunisie mobilise pour la promotion et le renforcement de ses relations avec les pays frères et amis ainsi qu’avec les institutions régionales et internationales."
         },
         {
             "name": "Digitys",
-            "img": "digitys.jpg"
+            "img": "digitys.jpg",
+            "description": "Fondée en 2008, la société Digisys est spécialisée dans le développement et l’édition de solutions d’identification largement déployées dans un grand nombre d’institutions. Leurs solutions  trouvent aujourd’hui application dans la quasi- totalité des domaines d’activités tels  l’éducation, la santé, le contrôle d’accès, la sécurité gouvernementale (passeport et carte d’identité), la télécommunication et le transport."
         },
         {
             "name": "Ennakel",
-            "img": "ennakel.jpg"
+            "img": "ennakel.jpg",
+            "description": "Ennakl Automobiles est l'importateur officiel et le concessionnaire en Tunisie des marques Volkswagen, Volkswagen Utilitaires, Audi, Porsche, SEAT et Skoda."
         },
         {
             "name": "Express FM",
-            "img": "express.jpg"
+            "img": "express.jpg",
+            "description": "Express FM est la cinquième station de radio privée de Tunisie. Radio généraliste à vocation économique, dont les studios sont installés à Tunis, elle est fondée par Mourad Gueddiche et Naoufel Ben Rayana le 21 octobre 2010. Elle émet principalement dans les régions du Grand Tunis et de Sfax"
         },
         {
             "name": "Mehdi Tours",
-            "img": "mehdi-tours.jpg"
+            "img": "mehdi-tours.jpg",
+            "description": "Mehdi Tours est une agence de voyage tunisienne dont la mission est L’organisation des voyages pour l’étranger ,la réception des touristes en Tunisie et l’organisation des événements."
         },
         {
             "name": "MIT",
-            "img": "mit.jpg"
+            "img": "mit.jpg",
+            "description": "Fondée en 2008, MIT est une agence événementielle spécialisée dans le marketing expérientiel à travers lequel elle offre une expérience de marque unique durant chaque événement. Elle dispose aussi d’une grande expérience dans des activités de Merchandising ciblées et de Trade."
         },
         {
             "name": "Ooredoo",
-            "img": "ooredoo.jpg"
+            "img": "ooredoo.jpg",
+            "description": "Ooredoo, anciennement Tunisiana, est un opérateur de télécommunications privé en Tunisie"
         },
         {
             "name": "Perfect Vision",
-            "img": "perfect-vision.jpg"
+            "img": "perfect-vision.jpg",
+            "description": ""
         },
         {
             "name": "The Corner",
-            "img": "the-corner.jpg"
+            "img": "the-corner.jpg",
+            "description": "Autour d'un décor rustique éclectique, THE CORNER est plus qu'une devise: boire, manger, parler, se détendre. C’est un petit coin au centre ville."
         },
         {
             "name": "Tunisie Telecom",
-            "img": "tunisie-telecom.jpg"
+            "img": "tunisie-telecom.jpg",
+            "description": "Tunisie Télécom est le nom commercial de l'opérateur historique de télécommunications en Tunisie"
         },
         {
             "name": "Vistaprint",
-            "img": "vistaprint.jpg"
+            "img": "vistaprint.jpg",
+            "description": "Vitaprint est une société néerlandaise qui investit dans une vaste gamme d’entreprises qui utilisent la personnalisation de masse pour configurer et produire de petites quantités de produits personnalisés"
         },
         {
             "name": "Bouche B",
-            "img": "boucheB.png"
+            "img": "boucheB.png",
+            "description": "Bouche B est un fast-food qui transmet à ses visiteurs au quotidien sa passion pour les burgers et les sandwichs les plus exquis."
         }
     ],
     "partners": [
         {
             "name": "CFE Conseil",
-            "img": "cef-conseil.jpg"
+            "img": "cef-conseil.jpg",
+            "description": ""
         },
         {
             "name": "PFI Consulting",
-            "img": "pfi-consulting.png"
+            "img": "pfi-consulting.png",
+            "description": ""
         },
         {
             "name": "Five Points",
-            "img": "5-points.jpg"
+            "img": "5-points.jpg",
+            "description": "FivePoints est le premier talent pool qui propose des cycles d'immersion en entreprise pour les jeunes talents cherchant à intégrer le monde des entreprises IT."
         }
     ],
     "GlobalActualite": [

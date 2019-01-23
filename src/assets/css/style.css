@@ -3089,9 +3089,10 @@ text-align: center;
 }
 
 .blank-heading {
-    background: #333;
+    background: url(../images/partenariats-01.jpg) no-repeat;
     background-size: cover;
-    padding: 120px 0;
+    background-position-y: -80px;
+    padding: 170px 0;
 }
 
 .main-heading h3,

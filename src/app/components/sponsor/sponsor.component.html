@@ -15,7 +15,7 @@
       <div>
         <div class="sponsors-image center-block">
           <a href="{{sponsor.link}}"><img src="../../../assets/images/logos/{{sponsor.img}}" data-toggle="popover"
-              title="Some description of {{sponsor.name}} "></a>
+              title="{{sponsor.description}} "></a>
         </div>
       </div>
     </li>
@@ -24,7 +24,6 @@
 
 <div class="blank-heading">
   <div class="container">
-    <h3>Nos Partenaires</h3>
   </div>
 </div>
 
@@ -35,7 +34,7 @@
     <li  *ngFor="let partner of partners"  class="col-md-3 col-sm-4 col-xs-6  justify-content-center">
       <div>
         <div class="center-block partenaire" style="margin-top: 70px; justify-content:center">
-          <a><img style="height: 100px; width:auto" src="../../../assets/images/logos/{{partner.img}}"  data-toggle="popover"></a>
+          <a><img style="height: 100px; width:auto" src="../../../assets/images/logos/{{partner.img}}"  data-toggle="popover"  title="{{partner.description}}"></a>
         </div>
       </div>
     </li>
