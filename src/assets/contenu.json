@@ -1194,19 +1194,7 @@
                     "images": [
                         {
                             "name": "image1",
-                            "img": "1.jpg"
-                        },
-                        {
-                            "name": "image2",
-                            "img": "2.jpg"
-                        },
-                        {
-                            "name": "image3",
-                            "img": "1.jpg"
-                        },
-                        {
-                            "name": "image4",
-                            "img": "2.jpg"
+                            "img": "18SEP.jpg"
                         }
                     ]
                 },
@@ -1222,7 +1210,7 @@
                     "images": [
                         {
                             "name": "image1",
-                            "img": "2.jpg"
+                            "img": "14OCT.jpg"
                         }
                     ]
                 },
@@ -1238,7 +1226,7 @@
                     "images": [
                         {
                             "name": "image1",
-                            "img": "2.jpg"
+                            "img": "28NOV.jpg"
                         }
                     ]
                 }

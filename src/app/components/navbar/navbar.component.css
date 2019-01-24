@@ -111,3 +111,15 @@
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+  .dropdown-menu li a:hover {
+    color: rgba(139, 37, 44, 1);
+  }
+
+  .dropdown-menu li a {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+
+
