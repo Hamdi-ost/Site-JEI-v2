@@ -19,8 +19,6 @@ import { EvenementDetailsComponent } from './components/evenement/evenement-deta
 import { ProjetDetailsComponent } from './components/projet/projet-details/projet-details.component';
 import { YearsNavbarService } from './services/yearsNavbar.service';
 import { YearsNavbarComponent } from './components/years-navbar/years-navbar.component';
-import { Departement1Component } from './components/structure/departement1/departement1.component';
-import { Departement2Component } from './components/structure/departement2/departement2.component';
 import { FormationDetailsComponent } from './components/formation/formation-details/formation-details.component';
 import { ActualiteDetailsComponent } from './components/actualite/actualite-details/actualite-details.component';
 import { AngularFireModule } from 'angularfire2';
@@ -69,8 +67,6 @@ const appRoutes: Routes = [
     EvenementDetailsComponent,
     ProjetDetailsComponent,
     YearsNavbarComponent,
-    Departement1Component,
-    Departement2Component,
     FormationDetailsComponent,
     ActualiteDetailsComponent,
     AboutUsComponent
