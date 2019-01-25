@@ -8,76 +8,74 @@ import { Component } from '@angular/core';
 })
 export class StructureComponent {
 
-MemberList = [
+  memberList = [
   {
     name: 'Mohamed Aziz FEKIH',
-    office: 'Président'
+    office: 'Président',
+    email: 'aziizfekih@gmail.com',
+    facebook: 'https://www.facebook.com/azizfekih',
+    linkedIn: 'https://www.linkedin.com/in/aziz-fekih-816026155/'
   },
   {
     name: 'Zeineb ATTIA',
-    office: 'Vice Présidente'
+    office: 'Vice Présidente',
+    email: 'zeinebattia3@gmail.com',
+    facebook: 'https://www.facebook.com/zeineb.attiaa',
+    linkedIn: 'https://www.linkedin.com/in/zeineb-attia-229365170'
   },
   {
     name: 'Yosr MERCHAOUI',
-    office: 'Secrétaire Générale'
+    office: 'Secrétaire Générale',
+    email: 'yosrmerchaoui@gmail.com',
+    facebook: 'https://www.facebook.com/yossr.merchaoui.5',
+    linkedIn: 'https://www.linkedin.com/in/yosr-merchaoui-78a407140/'
   },
   {
     name: 'Sarra DABBABI',
-    office: 'Trésorière'
+    office: 'Trésorière',
+    email: '',
+    facebook: '',
+    linkedIn: ''
   },
   {
     name: 'Iheb KILANI',
-    office: 'Résponsable communication'
+    office: 'Résponsable communication',
+    email: 'kilaniiheb7@gmail.com',
+    facebook: 'https://www.facebook.com/iheb.kilani.7',
+    linkedIn: 'https://www.linkedin.com/in/iheb-kilani-18a70b140/'
   },
   {
     name: 'Yasmine BOUSSAID',
-    office: 'Résponsable événementiel'
+    office: 'Résponsable événementiel',
+    email: 'yasmineboussaid1109@gmail.com',
+    facebook: 'https://www.facebook.com/yasmine.bsd.5',
+    linkedIn: 'https://www.linkedin.com/in/yasmine-boussaid-7397ba71/'
   },
   {
     name: 'Mohamed Aziz BIBI',
-    office: 'Résponsable projets et pospection'
+    office: 'Résponsable projets et pospection',
+    email: 'bibi.mohamedaziz@gmail.com',
+    facebook: '',
+    linkedIn: ''
   },
   {
     name: 'Amani CHEBBI',
-    office: 'Résponsable Ressources Humaines'
+    office: 'Résponsable Ressources Humaines',
+    email: 'amani.chebbi.insat@gmail.com',
+    facebook: 'https://www.facebook.com/amanichebbi97',
+    linkedIn: 'https://www.linkedin.com/in/chebbi-amani-30845b154/'
   },
   {
     name: 'Houyem AIDI',
-    office: 'Responsable sponsoring et partenariats'
+    office: 'Responsable sponsoring et partenariats',
+    email: '',
+    facebook: '',
+    linkedIn: ''
   }
 ];
-verifDepartement1 = false;
-verifDepartement2 = false;
-verifDepartement3 = false;
-verifDepartement4 = false;
+
 
  constructor () {
  }
 
-/* onDepartement(i){
-  switch(i) {
-    case 0: {
-      this.verifDepartement1=!this.verifDepartement1;
-      this.verifDepartement2=false;
-      this.verifDepartement3=false;
-      this.verifDepartement4=false;
-       break;
-    }
-    case 1: {
-      this.verifDepartement2=!this.verifDepartement2;
-      this.verifDepartement1=false;
-      this.verifDepartement3=false;
-      this.verifDepartement4=false;
-       break;
-    }
-    case 2: {
-      this.verifDepartement3=!this.verifDepartement3;
-       break;
-    }
-    default: {
-      this.verifDepartement4=!this.verifDepartement4;
-       break;
-    }
-  }
- }*/
 }

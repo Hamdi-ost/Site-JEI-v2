@@ -1,84 +1,74 @@
-
 <!--inner header end-->
 <section class="about-container">
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-        <h1 class="wew fadeInUp" data-wew-delay="1s">{{name1}}
-          <span>{{name2}}</span>
+        <h1 class="wew fadeInUp" data-wew-delay="1s">
+          {{ name1 }} <span>{{ name2 }}</span>
         </h1>
         <!-->
         <h4>{{id}}</h4>
         <-->
-          <div class="about-section wew fadeInUp" data-wew-delay="1s">{{date}}</div>
+        <div class="about-section wew fadeInUp" data-wew-delay="1s">
+          {{ date }}
+        </div>
 
-          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{description1}} </p>
-          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{description2}} </p>
+        <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">
+          {{ description1 }}
+        </p>
+        <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">
+          {{ description2 }}
+        </p>
 
+        <ul class="m-t-30 about-service wew fadeInUp" data-wew-delay="1s">
+          <ng-container *ngFor="let point of points">
+            <li>{{ point.desc }}</li>
+            <div class="clearfix"></div>
+          </ng-container>
+        </ul>
 
-          <ul class="m-t-30 about-service wew fadeInUp" data-wew-delay="1s">
-            <ng-container *ngFor="let point of points">
-              <li>{{point.desc}}</li>
-              <div class="clearfix"></div>
-            </ng-container>
+        <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{ afterPoint }}</p>
+
+        <div *ngIf="url == 3" class="about-me-social">
+          <h3 class="m-b-50">Social Media</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/media/set/?set=a.2063044157062091&type=1&l=d4435038be"
+                target="_blank"
+              >
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/p/Bn15_QFB5hb/"
+                target="_blank"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
           </ul>
-
-          <p class="m-t-30 wew fadeInUp" data-wew-delay="1s">{{afterPoint}} </p>
-
-
-
-
-          <div class="about-me-social">
-            <h3 class="m-b-50">Social Media</h3>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-google-plus"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-youtube"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-reddit"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+        </div>
       </div>
       <div class="col-md-5">
         <h3 class="m-b-50">Gallerie</h3>
         <div class="row about-me-works">
-
-          <div *ngFor="let image of img " class="col-md-4 col-sm-6 col-xs-12">
-            <a class="portfolio-img mfp-image" href="../../../../assets/images/actualite/gallery/{{image.img}}"
-              data-lightbox="image-1" data-title="img-act">
-              <img src="../../../../assets/images/actualite/gallery/{{image.img}}" alt="" style="width:300px;height:auto" />
+          <div *ngFor="let image of img" class="col-md-4 col-sm-6 col-xs-12">
+            <a
+              class="portfolio-img mfp-image"
+              href="../../../../assets/images/actualite/gallery/{{ image.img }}"
+              data-lightbox="image-1"
+              data-title="img-act"
+            >
+              <img
+                src="../../../../assets/images/actualite/gallery/{{
+                  image.img
+                }}"
+                alt=""
+                style="width:300px;height:auto"
+              />
             </a>
-
           </div>
         </div>
       </div>

@@ -17,6 +17,8 @@ export class ActualiteDetailsComponent {
   afterPoint;
   img;
   points;
+  url;
+
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
       this.id = params['id'];
@@ -37,6 +39,6 @@ export class ActualiteDetailsComponent {
       this.points = actualite.points;
       this.afterPoint = actualite.afterPoint;
     });
-
+  this.url = document.URL.substr(-1);
   }
 }

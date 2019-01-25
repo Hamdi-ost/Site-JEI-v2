@@ -9,7 +9,7 @@
             "day": "02",
             "month": "Mai",
             "year": "2018",
-            "description": [ "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le 02/05/2018 aux talents de la conception et aux PMoureux de l’entreprenariat et des challenges. Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera représentée par 4 participants. Un système d'élimination basé sur des questions bien pensées pour apprendre à construire un business plan insubmersible. QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes les juniors et mettra le feu à l’auditorium. Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de l'univers JUNIOR et nous unir au sein d'une PMbiance 100% garantie !"
+            "description": [ "QUESTIONS POUR UN ENTREPRENEUR (QPE) en sa 5ème édition sera présentée le 02/05/2018 aux talents de la conception et auxoureux de l’entreprenariat et des challenges. Cette année notre compétition sera spécifiée inter-JUNIOR où chaque équipe sera représentée par 4 participants. Un système d'élimination basé sur des questions bien pensées pour apprendre à construire un business plan insubmersible. QPE ne manquera pas de vous séduire non seulement grâce à son fond intellectuel et éducatif au sein duquel vous vous approfondirez dans le monde de l’entreprenariat mais aussi grâce aux diverses pauses artistiques et cadeaux : de la musique, des jeux, de l'animation et plein de surprises seront au rendez-vous rien que pour vous pour assurer le show avec le publique de l'INSAT qui réunira et accueillera avec grand plaisir toutes les juniors et mettra le feu à l’auditorium. Ceci est bien sûr une occasion à ne pas rater pour se rapprocher encore plus de l'univers JUNIOR et nous unir au sein d'unebiance 100% garantie !"
             ],
             "organizators": [
                 "Junior Entreprise INSAT"
@@ -17,69 +17,61 @@
             "speakers": null,
             "schedule": [
                 {
-                    "time": "2:00 PM - 2:30 PM",
+                    "time": "14:00 - 14:30",
                     "content": "Ouverture",
                     "by": "",
                     "img": "openning.jpg"
                 },
                 {
-                    "time": "2:30:00 PM - 3:00 PM",
+                    "time": "14:30 - 15:00",
                     "content": "Quart de final (2*3 manches)",
                     "by": "",
                     "img": "quart.png"
                 },
                 {
-                    "time": "3:00 PM - 3:30 PM",
+                    "time": "15:00 - 15:30",
                     "content": "1ère pause artistique",
                     "by": "Band's name",
                     "img": "pause1.jpg"
                 },
                 {
-                    "time": "3:30 PM - 4:00 PM",
+                    "time": "15:30 - 16:00",
                     "content": "Quart de final (2*3 manches)",
                     "by": "",
                     "img": "quart.png"
                 },
                 {
-                    "time": "4:00 PM - 4:30 PM",
+                    "time": "16:00 - 16:30",
                     "content": "2ème pause artistique",
                     "by": "band's name",
                     "img": "pause2.jpg"
                 },
                 {
-                    "time": "4:30 PM - 5:00 PM",
+                    "time": "16:30 - 17:00",
                     "content": "demi final (2*3 manches)",
                     "by": "",
                     "img": "demi.png"
                 },
                 {
-                    "time": "5:00 PM - 5:15 PM",
+                    "time": "17:00 - 17:15",
                     "content": "3ème pause artistique",
                     "by": "band's name",
                     "img": "pause3.png"
                 },
                 {
-                    "time": "5:15 PM - 5:30 PM",
+                    "time": "17:15 - 17:30",
                     "content": "Final",
                     "by": "",
                     "img": "final.jpeg"
                 },
                 {
-                    "time": "5:30 PM",
+                    "time": "17:30",
                     "content": "Cloture",
                     "by": "",
                     "img": "end.png"
                 }
             ],
             "gallery": null,
-            "sponsors": [
-                "logo-1.png",
-                "logo-2.png",
-                "logo-3.png",
-                "logo-4.png",
-                "logo-5.png",
-                "logo-6.png"
-            ],
             "afterMovie": null
         },
         {
@@ -98,7 +90,7 @@
                 "l'association « Injaz Tunisie »"
             ],
             "speakers": null,
-            "schedule": [],
+            "schedule": null,
             "gallery": [
                 {
                     "img": "innov1.jpg",
@@ -136,14 +128,6 @@
                     "img": "innov9.jpg",
                     "title": "Photo 9"
                 }
-            ],
-            "sponsors": [
-                "logo-1.png",
-                "logo-2.png",
-                "logo-3.png",
-                "logo-4.png",
-                "logo-5.png",
-                "logo-6.png"
             ],
             "afterMovie": null
         },
@@ -183,67 +167,67 @@
             ],
             "schedule": [
                 {
-                    "time": "09:00 AM",
+                    "time": "09:00",
                     "content": "Lancement des workshops",
                     "by": "",
                     "img": "workshop.jpg"
                 },
                 {
-                    "time": "09:30 AM - 10:00 AM",
+                    "time": "09:30 - 10:00",
                     "content": "Mot d’ouverture",
                     "by": "",
                     "img": "openning.jpg"
                 },
                 {
-                    "time": "19:00 AM - 10:30 AM",
+                    "time": "19:00 - 10:30",
                     "content": "Mot du DRH Business& Décision",
                     "by": "Madame JRAD Manel",
                     "img": "manel.jpeg"
                 },
                 {
-                    "time": "10:30 AM - 11:00 AM",
+                    "time": "10:30 - 11:00",
                     "content": "Mot de de la directrice de plateforme de collection et des achats ARAMYS GROUP",
                     "by": "Madame BADRI Imen",
                     "img": "imen.jpg"
                 },
                 {
-                    "time": "11:00 AM - 11:20 AM",
+                    "time": "11:00 - 11:20",
                     "content": "Mot de l’experte en RH",
                     "by": "Madame BEN GAMRA Ilhem",
                     "img": "ilhem.jpg"
                 },
                 {
-                    "time": "11:20 AM - 12:00 AM",
+                    "time": "11:20 - 12:00",
                     "content": "Speech",
                     "by": "YOUSSEF Nicolas",
                     "img": "nicolas.jpg"
                 },
                 {
-                    "time": "12:00 AM",
+                    "time": "12:00",
                     "content": "Clôture de la matinée et pause déjeuner",
                     "by": "",
                     "img": "pause.jpg"
                 },
                 {
-                    "time": "14:00 PM",
+                    "time": "14:00",
                     "content": "Mot de la présidente de JE INSAT",
                     "by": "",
                     "img": "prez.png"
                 },
                 {
-                    "time": "14:15 PM - 15:35 PM",
+                    "time": "14:15 - 15:35",
                     "content": "Mot des sponsors",
                     "by": "",
                     "img": "sponsors.png"
                 },
                 {
-                    "time": "15:35 PM",
+                    "time": "15:35",
                     "content": "Des success story",
                     "by": "",
                     "img": "story.jpg"
                 },
                 {
-                    "time": "18:00 PM",
+                    "time": "18:00",
                     "content": "Clôture de la journée",
                     "by": "",
                     "img": "end.png"
@@ -255,7 +239,7 @@
                     "title": "Photo 1"
                 },
                 {
-                    "img": "entretien2.JPG",
+                    "img": "entretien9.JPG",
                     "title": "Photo 2"
                 },
                 {
@@ -283,17 +267,9 @@
                     "title": "Photo 8"
                 },
                 {
-                    "img": "entretien9.JPG",
+                    "img": "entretien2.JPG",
                     "title": "Photo 9"
                 }
-            ],
-            "sponsors": [
-                "logo-1.png",
-                "logo-2.png",
-                "logo-3.png",
-                "logo-4.png",
-                "logo-5.png",
-                "logo-6.png"
             ],
             "afterMovie": "insatien-en-entretien-aftermovie.mp4"
         }
@@ -1147,10 +1123,42 @@
             "actualites": [
                 {
                     "id": "1",
+                    "src": "28NOV.jpg",
+                    "date": "Le 28 octobre 2018",
+                    "name": "Participation de la JE INSAT au séminaire JOBS2k18",
+                    "description1": "La Junior Entreprise INSAT a eu l'immense plaisir de participer à la 5ème édition du séminaire national JOBS (Junior Official Business Seminar), qui s'est tenue les 23 et 24 novembre 2018, à l‘hôtel Mouradi Kantaoui à Sousse, rassemblant plus de 1350 Juniors Entrepreneurs.",
+                    "description2": "Chaque année, ce séminaire national vise à regrouper une multitude de Junior-Entreprises dans un même lieu pour initier le concept du mouvement chez les nouveaux membres recrutés , leur offrir une formation équilibrée en matière de soft et hard skills et favoriser les relations INTER JE. Pour la première fois, la JET (Junior Entreprises of Tunisia) a adopté une nouvelle formule offrant trois programmes différents pour les quartets, les responsables, et les membres des différentes Juniors Entreprises, comprenant des débats ainsi que des panels tant constructifs qu'enrichissants.",
+                    "afterPoint": "La Tunisie doit être fiere de ces Juniors Entrepreneurs qui redonnent espoir et qui représentent l'avenir de ce beau pays. #BeProud",
+                    "points": null,
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "28NOV.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "src": "14OCT.jpg",
+                    "date": "Le 14 octobre 2018",
+                    "name": "Formation Event management (2018/2019)",
+                    "description1": "Le mercredi 10 octobre 2018 nous avons eu l’immense plaisir d’accueillir parmi nous le fameux Fourat hammi qui est ‘LE’ meilleur formateur en terme d’Event managment . Cet homme extraordinaire qui faisait partie des fondateurs de la JE Enet’com , l’un des premiers à promouvoir le mouvement en Tunisie , occupait pendant deux ans le poste de vice-président de la junior entreprise de Tunis. Etant un expert dans son domaine, il peut mieux que quiconque former des juniors entrepreneurs.",
+                    "description2": "Lors de cette formation, Monsieur Hammi a appris à nos membres comment préparer un évènement de A à Z , dont la manière d’aborder et de réagir face à certaines circonstances , les différents plans à établir afin d’éviter les imprévus , réagir face au stress ,comment être pragmatique , etc.. Toutes les bonnes pratiques afin de réussir un évènement.",
+                    "afterPoint": "Nous souhaitons le remercier pour sa coopération, pour son implication dans ce mouvement et pour sa merveilleuse présence lors de cette rencontre.",
+                    "points": null,
+                    "images": [
+                        {
+                            "name": "image1",
+                            "img": "14OCT.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
                     "src": "18SEP.jpg",
-                    "date": "Le Mercredi 06/02/2018 à regler",
+                    "date": "Le 18 septembre 2018",
                     "name": "Les élections du nouveau bureau exécutif pour le mandat 2018-2019",
-                    "description1": "Des élections tenues au sein de la Junior Entreprise INSAT ont donnée naissance, aujourd'hui, *LA DATE*, à une nouvelle composition du bureau éxecutif de notre Junior Entrprise. Des étudiants jeunes et motivés éspèrenet donner un souffle nouveau pour faire, sans doute, briller l’image de la Junior Entreprise INSAT.",
+                    "description1": "Des élections tenues au sein de la Junior Entreprise INSAT ont donnée naissance, le 05 Juin 2018, à une nouvelle composition du bureau éxecutif de notre Junior Entrprise. Des étudiants jeunes et motivés éspèrenet donner un souffle nouveau pour faire, sans doute, briller l’image de la Junior Entreprise INSAT.",
                     "description2": "Le nouveau bureau exécutif pour le mandat 2018-2019 est composé de : ",
                     "afterPoint": "Que ce mandat soit exceptionnel, plein de succès et de réussite.",
                     "points": [
@@ -1197,39 +1205,8 @@
                             "img": "18SEP.jpg"
                         }
                     ]
-                },
-                {
-                    "id": "2",
-                    "src": "14OCT.jpg",
-                    "date": "Le Mercredi 06/02/2018 à verifier",
-                    "name": "Formation Event management (2018/2019)",
-                    "description1": "Le mercredi (date), nous avons eu l’immense plaisir d’accueillir parmi nous le fameux Fourat hammi qui est ‘LE’ meilleur formateur en terme d’Event managment . Cet homme extraordinaire qui faisait partie des fondateurs de la JE Enet’com , l’un des premiers à promouvoir le mouvement en Tunisie , occupait pendant deux ans le poste de vice-président de la junior entreprise de Tunis. Etant un expert dans son domaine, il peut mieux que quiconque former des juniors entrepreneurs.",
-                    "description2": "Lors de cette formation, Monsieur Hammi a appris à nos membres comment préparer un évènement de A à Z , dont la manière d’aborder et de réagir face à certaines circonstances , les différents plans à établir afin d’éviter les imprévus , réagir face au stress ,comment être pragmatique , etc.. Toutes les bonnes pratiques afin de réussir un évènement.",
-                    "afterPoint": "Nous souhaitons le remercier pour sa coopération, pour son implication dans ce mouvement et pour sa merveilleuse présence lors de cette rencontre.",
-                    "points": null,
-                    "images": [
-                        {
-                            "name": "image1",
-                            "img": "14OCT.jpg"
-                        }
-                    ]
-                },
-                {
-                    "id": "3",
-                    "src": "28NOV.jpg",
-                    "date": "Le Samedi 24/11/2018 à verifier",
-                    "name": "Participation de la JE INSAT au séminaire JOBS2k18",
-                    "description1": "La Junior Entreprise INSAT a eu l'immense plaisir de participer à la 5ème édition du séminaire national JOBS (Junior Official Business Seminar), qui s'est tenue les 23 et 24 novembre 2018, à l‘hôtel Mouradi Kantaoui à Sousse, rassemblant plus de 1350 Juniors Entrepreneurs.",
-                    "description2": "Chaque année, ce séminaire national vise à regrouper une multitude de Junior-Entreprises dans un même lieu pour initier le concept du mouvement chez les nouveaux membres recrutés , leur offrir une formation équilibrée en matière de soft et hard skills et favoriser les relations INTER JE. Pour la première fois, la JET (Junior Entreprises of Tunisia) a adopté une nouvelle formule offrant trois programmes différents pour les quartets, les responsables, et les membres des différentes Juniors Entreprises, comprenant des débats ainsi que des panels tant constructifs qu'enrichissants.",
-                    "afterPoint": "La Tunisie doit être fiere de ces Juniors Entrepreneurs qui redonnent espoir et qui représentent l'avenir de ce beau pays. #BeProud",
-                    "points": null,
-                    "images": [
-                        {
-                            "name": "image1",
-                            "img": "28NOV.jpg"
-                        }
-                    ]
                 }
+               
             ]
         }
     ],
