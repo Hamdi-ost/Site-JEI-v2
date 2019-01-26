@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebase : {
+  firebase :  {
     apiKey: 'AIzaSyAChoIVJxI-YimfjUZX6TrxZbKWMzoKakU',
     authDomain: 'site-officiel-je-insat.firebaseapp.com',
     databaseURL: 'https://site-officiel-je-insat.firebaseio.com',
